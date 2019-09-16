@@ -29,7 +29,7 @@ Installer:
 
 |                                   |
 | --------------------------------- |
-| <https://i.imgur.com/ASeeUAo.png> |
+| !(https://i.imgur.com/ASeeUAo.png) |
 
 ## Using SSH
 
@@ -83,13 +83,7 @@ into your Xbox One console.
   - Run the following:
       ```
       net1.exe user <username> <password>
-      ```
-
-      ```
       net1.exe accounts /MaxPWAge:unlimited
-      ```
-
-      ```
       net1.exe localgroup administrators <username> /add
       ```
 
