@@ -1,2 +1,2 @@
-# Backing store for gollum wiki
-Send a pull request to contribute info
+# Xbox One Research Wiki
+See https://github.com/xboxoneresearch/wiki/wiki
