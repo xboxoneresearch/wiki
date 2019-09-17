@@ -60,9 +60,9 @@ into your Xbox One console.
   - Using PuTTy (or your SSH client of choice) connect to the console
     unless you're already connected
   - Navigate to your USB
-      ```
-			cd E:\\
-			```
+    ```
+    cd E:\\
+    ```
   - Execute superfun.exe
   - Voila\!
   - An elevated telnet session has been created.
