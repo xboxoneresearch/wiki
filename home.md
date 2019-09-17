@@ -7,6 +7,8 @@ Welcome to the Xbox One Research wiki\!
 This is a place where information about the Xbox One console can be
 shared. Things are currently slow but will be adding when we can.
 
+See [FAQ](faq) for frequently asked questions.
+
 ## Getting started
 
   - [Setting up your console](setup-dev-mode)
