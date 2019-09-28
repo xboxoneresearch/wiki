@@ -1,7 +1,11 @@
 # Xbox One Research Wiki
 See https://github.com/xboxoneresearch/wiki/wiki
 
-## Contributing / sending a pull request
+## Contributing via issues
+1. Write some info for the wiki in markdown
+2. Open an issue on this repo and post your changes
+
+## Contributing by forking
 
 1. Create a new repository on your github account. Call it "xboxoneresearch-wiki".
 2. Clone the wiki sub-repository to your local machine somewhere:
@@ -32,4 +36,4 @@ git checkout -b my_special_additions
 git push -u origin my_special_additions
 ```
 
-8. Send a pull request
+8. Open an issue on this repo and link us to your edited fork. Please also briefly describe the changes you made
