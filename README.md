@@ -1,5 +1,13 @@
 # Xbox One Research Wiki
-See https://github.com/xboxoneresearch/wiki/wiki
+
+## Access the wiki
+Github wiki: https://github.com/xboxoneresearch/wiki/wiki
+Selfhosted: https://wiki.xosft.dev
+
+## Fetching a local wiki copy
+```
+git clone https://github.com/xboxoneresearch/wiki.wiki.git
+```
 
 ## Contributing via issues
 1. Write some info for the wiki in markdown
