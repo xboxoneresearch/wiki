@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+._.DS_Store
+
+# Windows
+Thumbs.db
+
+# mkdocs build dir
+site/
