@@ -1,5 +1,5 @@
 site_name: Xbox One Research Wiki
 nav:
-    - Home: Home.md
+    - Home: index.md
     - FAQ: faq.md
-theme: bootstrap
+theme: mkdocs
