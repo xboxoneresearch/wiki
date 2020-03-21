@@ -1,47 +1,36 @@
-# Xbox One Research Wiki
+# Smartglass Documentation
 
-## Access the wiki
-Github wiki: https://github.com/xboxoneresearch/wiki/wiki
-Selfhosted: https://wiki.xosft.dev
+[![Build Status](https://travis-ci.com/xboxoneresearch/wiki.svg?branch=master)](https://travis-ci.com/xboxoneresearch/wiki)
+[![Discord](https://img.shields.io/discord/488349947473690625)](https://xboxoneresearch.github.io/)
 
-## Fetching a local wiki copy
-```
-git clone https://github.com/xboxoneresearch/wiki.wiki.git
-```
+Documentation of the Xbox One SmartGlass protocol
 
-## Contributing via issues
-1. Write some info for the wiki in markdown
-2. Open an issue on this repo and post your changes
+Python framework `mkdocs` is used to render the Markdown documentation.
 
-## Contributing by forking
+## Contribute
 
-1. Create a new repository on your github account. Call it "xboxoneresearch-wiki".
-2. Clone the wiki sub-repository to your local machine somewhere:
-```
-git clone https://github.com/xboxoneresearch/wiki.wiki.git
-```
+Contributions are very welcome. Here's how you can help:
 
-3. Remove the original "origin" remote and add your github repo as new "origin"
-```
-git remote rm origin
-git remote add origin git@github.com:<YOUR_USERNAME>/xboxoneresearch-wiki.git
-```
+- Add / correct / expand technical information
+- Improve documentation style
+- Correct spelling / grammar
+- Check ISSUES tab...
 
-4. Push the upstream state to your wiki
+### Workflow
+
+1. __Fork__ this repo
+1. Make changes
+1. __Verify__ your changes are formatted properly
+1. Send a __Pull Request__
+
+## Local testing
+
+Serve the documentation
 ```
-git push -u origin master
+make serve
 ```
 
-5. Create a branch for your changes, describe your changes in the branch name.
+Build the documentation
 ```
-git checkout -b my_special_additions
+make build
 ```
-
-6. Make your changes
-
-7. Push your edits
-```
-git push -u origin my_special_additions
-```
-
-8. Open an issue on this repo and link us to your edited fork. Please also briefly describe the changes you made
