@@ -39,8 +39,10 @@ PuTTy (or another SSH client of your choice).
   - Enter the console IP address and Connect
   - Use the following to login:
       - Username: DevToolsUser
-      - Password is the pin that is displayed on the "Show Visual Studio
-        Pin" in Dev Home.
+      - For the password you are able to use either or
+	      - pin that is displayed on the "Show Visual Studio Pin" in Dev Home.
+      - or
+	      - password used for smb access
   - Success\!
 
 This will not give you the sufficient priviliges. Fortunately, there is
