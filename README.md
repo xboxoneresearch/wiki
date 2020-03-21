@@ -1,9 +1,9 @@
-# Smartglass Documentation
+# Xbox One Research wiki
 
 [![Build Status](https://travis-ci.com/xboxoneresearch/wiki.svg?branch=master)](https://travis-ci.com/xboxoneresearch/wiki)
 [![Discord](https://img.shields.io/discord/488349947473690625)](https://xboxoneresearch.github.io/)
 
-Documentation of the Xbox One SmartGlass protocol
+Various info regarding the hard-/software of the Xbox One gaming console family.
 
 Python framework `mkdocs` is used to render the Markdown documentation.
 
