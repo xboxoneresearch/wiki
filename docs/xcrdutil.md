@@ -8,7 +8,7 @@ The tool is located at `C:\Windows\System32\xcrdutil.exe`
 ## Accepted paths
 XCRDutil allows specifying remote paths (in HostOS) via two notations:
 - XCRD paths (see below, e.g. `[XUC:]\package.xvd` for **User Content** partition in HostOS)
-- Global paths (e.g. `\??\F:\` for **F:** / [XBFS](xbox-boot-file-system) drive in HostOS)
+- Global paths (e.g. `\??\F:\` for **F:** / [XBFS](/xbox-boot-file-system) drive in HostOS)
 
 ## XCRD paths
 |XCRD Id | XCRD Path | Description
