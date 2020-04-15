@@ -14,7 +14,7 @@ that implement Microsoft's Xbox Virtual Machine stack.
 
 | Partition      | Mount Point | Notes                                                                                                                                                                                                                 |
 | -------------- | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Internal Flash | F:\\        | The flash does not contain a normal file system, it is using the [Xbox boot filesystem](/xbox-boot-file-system) and is exposed as a normal NTFS partition via a special driver. |
+| Internal Flash | F:\\        | The flash does not contain a normal file system, it is using the [Xbox boot filesystem](../xbox-boot-file-system) and is exposed as a normal NTFS partition via a special driver. |
 | host.xvd       | C:\\        | Host's Windows Installation.                                                                                                                                                                                          |
 | User Content   | E:\\        | Direct access to the HDD User Content partition. XVCs are stored here.                                                                                                                                                |
 | System Update  | R:\\        | Direct access to the HDD System Update partition. Boot slots and SystemOS XVDs.                                                                                                                                       |

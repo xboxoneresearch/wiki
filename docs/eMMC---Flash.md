@@ -2,7 +2,7 @@
 The flash chip is accessed via an eMMC controller.
 
 ## Filesystem
-See [XBFS](xbox-boot-file-system).
+See [XBFS](../xbox-boot-file-system).
 
 ## Flash chips
 - SK Hynix H26M42003GMR 8GB eMMC NAND Flash (Xbox One)
@@ -41,7 +41,7 @@ Place a **200-300 Ohm** resistor between **J4E1.1** and **TP4E1**
 
 [Enabling SMC_RESET](emmc-flash/3_durango_read_nand_smcreset.png)
 
-Disconnect the SMC clock from the [Southbridge](/southbridge) by removing **R4D2**.
+Disconnect the SMC clock from the [Southbridge](../southbridge) by removing **R4D2**.
 Save the resistor as it is needed for the Xbox One to function. If you do lose it then a solder bridge should work as the value is 0 Ohms.
 
 [Disconnecting SMC clock](emmc-flash/4_durango_read_nand_r4d2.png)

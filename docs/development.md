@@ -12,4 +12,4 @@ A command-line tool for manipulating Xbox One XVD & XVC files.
 
 ## Resources
 
-[Installing Compatible software](installing-compatible-software)
+[Installing Compatible software](../installing-compatible-software)
