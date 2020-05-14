@@ -37,6 +37,7 @@ See [FAQ](faq) for frequently asked questions.
   - [Bootanimation](bootanimation)
   - [Xbox UI](xbox-ui)
   - [XCRDUtil](xcrdutil)
+  - [Xbox WinRT](winmd)
 
 ### File formats
   - [Xbox Virtual Drives (XVD)](xbox-virtual-drive)
