@@ -22,8 +22,9 @@ flash drive to trigger commands on console boot.
 | MSXB_Kiosk                 | File   | Put a special Kiosk XVD on the flashdrive, after booting the console will be locked in Kiosk mode. To exit, power off console and remove the flash drive. |
 
 Note: 
-+ The SystemOS-full.dmpx file is encrypted and requires a retail key
-to decrypt.
-+ Using *$ConsoleRegion0* & *$ConsoleRegion1* will affect the ability to read Xbox China game discs, but won't affect already installed digital games.
-+ Non-Chinese Xbox One units cannot be region locked and read Xbox China discs / access China region Xbox Live by *$ConsoleRegion1*.
-+ $ConsoleRegion0 and $ConsoleRegion1 has been deprecated since OS 10.0.19041.2493 (rs_xbox_release_2005.200512-1756)(insider preview). Devices' region lock status will be remained as the same before it's update to this version. Quitting Insider Preview and re-upgrade the Xbox system while the current latest release ring OS version is equal to or under 10.0.19041.1927 (rs_xbox_release_2004.200415-0000) will re-enable the $ConsoleRegion0 and $ConsoleRegion1.
+
+* The SystemOS-full.dmpx file is encrypted and requires a retail key
+  to decrypt.
+* Using *$ConsoleRegion0* & *$ConsoleRegion1* will affect the ability to read Xbox China game discs, but won't affect already installed digital games.
+* Non-Chinese Xbox One units cannot be region locked and read Xbox China discs / access China region Xbox Live by *$ConsoleRegion1*.
+* $ConsoleRegion0 and $ConsoleRegion1 has been deprecated since OS 10.0.19041.2493 (rs_xbox_release_2005.200512-1756)(insider preview). Devices' region lock status will be remained as the same before it's update to this version. Quitting Insider Preview and re-upgrade the Xbox system while the current latest release ring OS version is equal to or under 10.0.19041.1927 (rs_xbox_release_2004.200415-0000) will re-enable the $ConsoleRegion0 and $ConsoleRegion1.
