@@ -14,4 +14,4 @@ C:\\Windows\\XboxUI.
 
 ## Win32 process rendering
 
-Unknown how to achieve...
+Generally incompatible due to lack of win32kfull.sys. SystemOS instead uses win32kmin.sys like Windows IoT. Win32kmin lacks windowing support. 
