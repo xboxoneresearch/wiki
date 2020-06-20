@@ -48,3 +48,5 @@ The second way is by copying over individual files to the correct location by do
 
 The third way is to copy an entire folder at a time via /api/app/packagemanager/upload where destinationFolder is the name of the folder to be placed under d:\developmentfiles\looseapps and the payload is a multi-part conforming http body of the directory contents.
 
+**Credits**
+Microsoft

@@ -42,3 +42,5 @@ This API has the following expected status codes.
 
 * Windows Xbox
 
+**Credits**
+Microsoft

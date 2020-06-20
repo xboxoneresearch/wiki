@@ -100,3 +100,6 @@ HTTP status code      | Description
 **Available device families**
 
 * Windows Xbox
+
+**Credits**
+Microsoft

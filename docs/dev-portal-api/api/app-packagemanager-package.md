@@ -94,4 +94,7 @@ This API has the following expected status codes.
 * HoloLens
 * IoT
 
+**Credits**
+Microsoft
+
 <hr>

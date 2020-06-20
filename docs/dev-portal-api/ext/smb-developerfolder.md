@@ -48,3 +48,6 @@ The returned credentials also provide access to the DevToolsUser account over ss
 **Available device families**
 
 * Windows Xbox
+
+**Credits**
+Microsoft

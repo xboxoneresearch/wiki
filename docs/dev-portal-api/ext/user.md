@@ -56,3 +56,6 @@ This API has the following expected status codes.
 | 204                | Call to PUT was successful and the users on the console have been updated |
 | 4XX                | Various errors for invalid request data or format |
 | 5XX                | Error codes for unexpected failures |
+
+**Credits**
+Microsoft

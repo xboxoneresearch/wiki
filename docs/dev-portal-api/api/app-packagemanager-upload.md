@@ -41,3 +41,5 @@ HTTP status code      | Description
 
 * Windows Xbox
 
+**Credits**
+Microsoft
