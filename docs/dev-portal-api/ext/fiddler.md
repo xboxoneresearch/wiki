@@ -122,6 +122,4 @@ HTTP status code      | Description
 
 * Windows Xbox
 
-## See also
-- [Configuring Fiddler for UWP on Xbox](uwp-fiddler.md)
 

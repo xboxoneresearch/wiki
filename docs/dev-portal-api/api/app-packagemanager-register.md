@@ -42,7 +42,7 @@ HTTP status code      | Description
 
 **Notes**
 
-There are at least three different ways to get the loose app on the console in the desired folder. The easiest is to simply copy the files via SMB to \\<IP_Address>\DevelopmentFiles\LooseApps. This will require a username and password on UWA kits which can be obtained via [/ext/smb/developerfolder](wdp-smb-api.md). 
+There are at least three different ways to get the loose app on the console in the desired folder. The easiest is to simply copy the files via SMB to \\<IP_Address>\DevelopmentFiles\LooseApps. This will require a username and password on UWA kits which can be obtained via /ext/smb/developerfolder. 
 
 The second way is by copying over individual files to the correct location by doing a POST to /api/filesystem/apps/file where knownfolderid is DevelopmentFiles, packagefullname is empty, and filename and path are properly supplied (path should begin with LooseApps).
 
