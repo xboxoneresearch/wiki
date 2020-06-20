@@ -73,7 +73,7 @@ HTTP status code      | Description
 4XX | Error codes
 5XX | Error codes
 
-<br />
+
 **Available device families**
 
 * Windows Xbox

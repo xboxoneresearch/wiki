@@ -46,5 +46,5 @@ There are at least three different ways to get the loose app on the console in t
 
 The second way is by copying over individual files to the correct location by doing a POST to /api/filesystem/apps/file where knownfolderid is DevelopmentFiles, packagefullname is empty, and filename and path are properly supplied (path should begin with LooseApps).
 
-The third way is to copy an entire folder at a time via [/api/app/packagemanager/upload](wdp-folder-upload.md) where destinationFolder is the name of the folder to be placed under d:\developmentfiles\looseapps and the payload is a multi-part conforming http body of the directory contents.
+The third way is to copy an entire folder at a time via /api/app/packagemanager/upload where destinationFolder is the name of the folder to be placed under d:\developmentfiles\looseapps and the payload is a multi-part conforming http body of the directory contents.
 

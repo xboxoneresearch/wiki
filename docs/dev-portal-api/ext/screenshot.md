@@ -36,7 +36,7 @@ This API has the following expected status codes.
 | ------------------ |-----------------|
 | 200                | Screenshot request successful and capture returned |
 | 5XX                | Error codes for unexpected failures |
-<br>
+
 
 **Available device families**
 

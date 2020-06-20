@@ -45,7 +45,7 @@ HTTP status code      | Description
 200 | Success
 4XX | Error codes
 5XX | Error codes
-<br />
+
 
 **Available device families**
 
