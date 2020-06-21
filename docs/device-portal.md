@@ -1,8 +1,17 @@
-# Device portal
+# Device Portal
 The Xbox one has a Device that enables developers to install apps and recieve other data
 
-## api
-### ext
+## Managing the Device Portal
+### Stoping the Device Portal
+`sc stop webmanagement`
+### Starting the Device Portal
+`sc start webmanagement`
+### Starting the Device Portal in debug mode
+`WebManagement.exe -debug -HttpPort 11443 -TraceLevel 5`
+### Getting the additional arguments from the Device Portal
+`WebManagement.exe /?`
+## API
+### EXT
 * [/ext/app/deployinfo](dev-portal-api/ext/app-deployinfo.md)
 * [/ext/app/sshpins](dev-portal-api/ext/app-sshpins.md)
 * [/ext/fiddler](dev-portal-api/ext/fiddler.md)
@@ -16,7 +25,7 @@ The Xbox one has a Device that enables developers to install apps and recieve ot
 * [/ext/user](dev-portal-api/ext/user.md)
 * [/ext/xbox/info](dev-portal-api/ext/xbox-info.md)
 * [/ext/xboxlive/sandbox](dev-portal-api/ext/xboxlive-sandbox.md)
-### api
+### API
 * [/api/app/packagemanager/package](dev-portal-api/api/app-packagemanager-package.md)
 * [/api/app/packagemanager/register](dev-portal-api/api/app-packagemanager-register.md)
 * [/api/app/packagemanager/upload](dev-portal-api/api/app-packagemanager-upload.md)
