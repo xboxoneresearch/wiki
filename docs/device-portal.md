@@ -8,6 +8,8 @@ The Xbox one has a Device that enables developers to install apps and recieve ot
 `sc start webmanagement`
 ### Starting the Device Portal in debug mode
 `WebManagement.exe -debug -HttpPort 11443 -TraceLevel 5`
+
+You will need to connect over HTTP rather than HTTPS on port 11443
 ### Getting the additional arguments from the Device Portal
 `WebManagement.exe /?`
 ## API
