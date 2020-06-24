@@ -14,6 +14,7 @@ You will need to connect over HTTP rather than HTTPS on port 11443
 `WebManagement.exe /?`
 ## API
 ### EXT
+* [/ext/app/packagemanager/era/available](dev-portal-api/ext/app-packagemanager-era-available.md)
 * [/ext/app/deployinfo](dev-portal-api/ext/app-deployinfo.md)
 * [/ext/app/sshpins](dev-portal-api/ext/app-sshpins.md)
 * [/ext/app/unregistered](dev-portal-api/ext/app-unregistered.md)
