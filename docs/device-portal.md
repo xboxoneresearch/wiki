@@ -16,6 +16,7 @@ You will need to connect over HTTP rather than HTTPS on port 11443
 ### EXT
 * [/ext/app/deployinfo](dev-portal-api/ext/app-deployinfo.md)
 * [/ext/app/sshpins](dev-portal-api/ext/app-sshpins.md)
+* [/ext/app/unregistered](dev-portal-api/ext/app-unregistered.md)
 * [/ext/fiddler](dev-portal-api/ext/fiddler.md)
 * [/ext/httpmonitor/sessions](dev-portal-api/ext/httpMonitor-sessions.md)
 * [/ext/networkcredentials](dev-portal-api/ext/networkcredentials.md)
