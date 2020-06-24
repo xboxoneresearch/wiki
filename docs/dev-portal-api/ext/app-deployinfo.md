@@ -6,6 +6,7 @@ Method      | Request URI
 :------     | :------
 POST | /ext/app/deployinfo
 <br />
+
 **URI parameters**
 
  - None

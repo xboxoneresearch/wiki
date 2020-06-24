@@ -11,6 +11,7 @@ Method      | Request URI
 :------     | :-----
 GET | /ext/remoteinput/controllers
 <br />
+
 **URI parameters**
 
 - None

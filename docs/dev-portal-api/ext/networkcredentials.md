@@ -11,6 +11,7 @@ Method      | Request URI
 :------     | :-----
 GET | /ext/networkcredential
 <br />
+
 **URI parameters**
 
 - None
@@ -90,6 +91,7 @@ Method      | Request URI
 :------     | :-----
 DELETE | /ext/networkcredential
 <br />
+
 **URI parameters**
 
 You can specify the following additional parameters on the request URI:

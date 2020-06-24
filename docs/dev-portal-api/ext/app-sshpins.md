@@ -9,6 +9,7 @@ Method      | Request URI
 :------     | :-----
 DELETE | /ext/app/sshpins
 <br />
+
 **URI parameters**
 
 - None

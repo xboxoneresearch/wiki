@@ -7,6 +7,7 @@ Method      | Request URI
 :------     | :-----
 Websocket | /ext/remoteinput
 <br />
+
 **URI parameters**
 
 - None
