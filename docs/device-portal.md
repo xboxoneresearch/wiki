@@ -12,7 +12,15 @@ The Xbox one has a Device that enables developers to install apps and recieve ot
 You will need to connect over HTTP rather than HTTPS on port 11443
 ### Getting the additional arguments from the Device Portal
 `WebManagement.exe /?`
+
 ## API
+### API
+* [/api/app/packagemanager/package](dev-portal-api/api/app-packagemanager-package.md)
+* [/api/app/packagemanager/register](dev-portal-api/api/app-packagemanager-register.md)
+* [/api/app/packagemanager/upload](dev-portal-api/api/app-packagemanager-upload.md)
+* [/api/app/packagemanager/state](dev-portal-api/api/app-packagemanager-state.md)
+* [/api/appx/packagemanager/state](dev-portal-api/api/appx-packagemanager-state.md)
+* [/api/appx/packagemanager/package](dev-portal-api/api/appx-packagemanager-package.md)
 ### EXT
 * [/ext/app/packagemanager/era/available](dev-portal-api/ext/app-packagemanager-era-available.md)
 * [/ext/app/deployinfo](dev-portal-api/ext/app-deployinfo.md)
@@ -29,8 +37,3 @@ You will need to connect over HTTP rather than HTTPS on port 11443
 * [/ext/user](dev-portal-api/ext/user.md)
 * [/ext/xbox/info](dev-portal-api/ext/xbox-info.md)
 * [/ext/xboxlive/sandbox](dev-portal-api/ext/xboxlive-sandbox.md)
-### API
-* [/api/app/packagemanager/package](dev-portal-api/api/app-packagemanager-package.md)
-* [/api/app/packagemanager/register](dev-portal-api/api/app-packagemanager-register.md)
-* [/api/app/packagemanager/upload](dev-portal-api/api/app-packagemanager-upload.md)
-* [/api/appx/packagemanager/package](dev-portal-api/api/appx-packagemanager-package.md)
