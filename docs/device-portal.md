@@ -20,6 +20,7 @@ You will need to connect over HTTP rather than HTTPS on port 11443
 * [/api/app/packagemanager/upload](dev-portal-api/api/app-packagemanager-upload.md)
 * [/api/app/packagemanager/state](dev-portal-api/api/app-packagemanager-state.md)
 * [/api/app/packagemanager/networkapp](dev-portal-api/api/app-packagemanager-networkapp.md)
+* [/api/appx/packagemanager/networkapp](dev-portal-api/api/appx-packagemanager-networkapp.md)
 * [/api/appx/packagemanager/state](dev-portal-api/api/appx-packagemanager-state.md)
 * [/api/appx/packagemanager/package](dev-portal-api/api/appx-packagemanager-package.md)
 ### EXT
