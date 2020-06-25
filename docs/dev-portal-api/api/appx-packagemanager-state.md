@@ -42,3 +42,5 @@ This API has the following expected status codes.
 
 **Notes**
 A duplicate of `/api/appx/packagemanager/state`
+**Credits**
+Microsoft

@@ -39,3 +39,5 @@ This API has the following expected status codes.
 * Xbox
 * HoloLens
 * IoT
+**Credits**
+Microsoft

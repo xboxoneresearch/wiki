@@ -6,7 +6,7 @@ You can register an app in a loose folder by using the following request format.
 
 | Method      | Request URI |
 | :------     | :----- |
-| POST | /api/app/packagemanager/networkapp |
+| POST | /api/appx/packagemanager/networkapp |
 
 **URI parameters**
 
@@ -58,7 +58,7 @@ You can register a [related set](https://blogs.msdn.microsoft.com/appinstaller/2
 
 | Method      | Request URI |
 | :------     | :----- |
-| POST | /api/app/packagemanager/networkapp |
+| POST | /api/appx/packagemanager/networkapp |
 
 **URI parameters**
 
@@ -108,3 +108,8 @@ This API has the following expected status codes.
 * Xbox
 * HoloLens
 * IoT
+
+**Note**
+Appears to be a duplicate of `/api/app/packagemanager/networkapp`
+**Credits**
+Microsoft

@@ -99,3 +99,6 @@ This API has the following expected status codes.
 **Notes**
 
 This is appears to be a duplicate of `/api/app/packagemanager/package`
+
+**Credits**
+Microsoft
