@@ -96,6 +96,50 @@ This API has the following expected status codes.
 
 <hr>
 
+### Uninstall an app
+
+**Request**
+
+You can uninstall an app by using the following request format.
+ 
+| Method      | Request URI |
+| :------     | :----- |
+| DELETE | /api/appx/packagemanager/package |
+
+**URI parameters**
+
+| URI parameter | Description |
+| :------          | :------ |
+| package   | (**required**) The PackageFullName (from GET /api/app/packagemanager/packages) of the target app |
+
+**Request headers**
+
+- None
+
+**Request body**
+
+- None
+
+**Response**
+
+**Status code**
+
+This API has the following expected status codes.
+
+|  HTTP status code      | Description | 
+| :------     | :----- |
+|  200 | OK | 
+| 4XX | Error codes |
+| 5XX | Error codes |
+
+**Available device families**
+
+* Windows Mobile
+* Windows Desktop
+* Xbox
+* HoloLens
+* IoT
+
 **Notes**
 
 This is appears to be a duplicate of `/api/app/packagemanager/package`

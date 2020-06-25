@@ -94,6 +94,51 @@ This API has the following expected status codes.
 * HoloLens
 * IoT
 
+### Uninstall an app
+
+**Request**
+
+You can uninstall an app by using the following request format.
+ 
+| Method      | Request URI |
+| :------     | :----- |
+| DELETE | /api/app/packagemanager/package |
+
+**URI parameters**
+
+| URI parameter | Description |
+| :------          | :------ |
+| package   | (**required**) The PackageFullName (from GET /api/app/packagemanager/packages) of the target app |
+
+**Request headers**
+
+- None
+
+**Request body**
+
+- None
+
+**Response**
+
+**Status code**
+
+This API has the following expected status codes.
+
+|  HTTP status code      | Description | 
+| :------     | :----- |
+|  200 | OK | 
+| 4XX | Error codes |
+| 5XX | Error codes |
+
+**Available device families**
+
+* Windows Mobile
+* Windows Desktop
+* Xbox
+* HoloLens
+* IoT
+
+
 **Credits**
 Microsoft
 
