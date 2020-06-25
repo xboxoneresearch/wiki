@@ -15,6 +15,7 @@ You will need to connect over HTTP rather than HTTPS on port 11443
 
 ## API
 ### API
+* [/api/os/machinename](dev-portal-api/api/os-machinename.md)
 * [/api/app/packagemanager/package](dev-portal-api/api/app-packagemanager-package.md)
 * [/api/app/packagemanager/register](dev-portal-api/api/app-packagemanager-register.md)
 * [/api/app/packagemanager/upload](dev-portal-api/api/app-packagemanager-upload.md)
