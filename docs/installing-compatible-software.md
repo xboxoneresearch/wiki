@@ -45,7 +45,7 @@ set PATH="%PATH%;%PYTHONPATH%"
     in the dotnet diectory (or anywhere if you updated your PATH).
   - Profit
 
-  ## .NET 5
+## .NET 5
 
   - Download the latest preview 64 bit dotnet **runtime** from
     <https://dotnet.microsoft.com/download/dotnet/5.0>.
