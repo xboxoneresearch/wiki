@@ -1,4 +1,4 @@
-# unregistered packages. API reference
+# Determines whether there are any apps ready to be registered on the Title Scratch drive or in the DeveloperFiles LooseApps folder.
 
 Gets a Boolean value that indicates whether there are any apps ready to be registered on the Title Scratch drive or in the DeveloperFiles LooseApps folder.
 
