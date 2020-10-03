@@ -26,6 +26,11 @@ You will need to connect over HTTP rather than HTTPS on port 11443
 * [/api/appx/packagemanager/package](dev-portal-api/api/appx-packagemanager-package.md)
 ### EXT
 * [/ext/app/packagemanager/era/available](dev-portal-api/ext/app-packagemanager-era-available.md)
+* [/ext/app/packagemanager/era/check](dev-portal-api/ext/app-packagemanager-era-check.md)
+* [/ext/app/packagemanager/era/register](dev-portal-api/ext/app-packagemanager-era-register.md)
+* [/ext/app/packagemanager/era/registernetwork](dev-portal-api/ext/app-packagemanager-era-registernetwork.md)
+* [/ext/app/packagemanager/era/streaming](dev-portal-api/ext/app-packagemanager-era-streaming.md)
+* [/ext/app/packagemanager/era/upload](dev-portal-api/ext/app-packagemanager-era-upload.md)
 * [/ext/app/deployinfo](dev-portal-api/ext/app-deployinfo.md)
 * [/ext/app/sshpins](dev-portal-api/ext/app-sshpins.md)
 * [/ext/app/unregistered](dev-portal-api/ext/app-unregistered.md)
