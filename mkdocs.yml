@@ -2,4 +2,4 @@ site_name: Xbox One Research Wiki
 nav:
     - Home: index.md
     - FAQ: faq.md
-theme: mkdocs
+theme: material
