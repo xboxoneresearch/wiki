@@ -1,5 +1,5 @@
 # Device Portal
-The Xbox one has a Device that enables developers to install apps and recieve other data
+The Xbox one has a Device portal that enables developers to install apps and recieve other data
 
 ## Managing the Device Portal
 ### Stoping the Device Portal
@@ -10,9 +10,12 @@ The Xbox one has a Device that enables developers to install apps and recieve ot
 `WebManagement.exe -debug -HttpPort 11443 -TraceLevel 5`
 
 You will need to connect over HTTP rather than HTTPS on port 11443
-### Getting the additional arguments from the Device Portal
+### Getting additional arguments from the Device Portal
 `WebManagement.exe /?`
 
+## Usage
+* [Setting up device portal](dev-portal-api/set-up-device-portal.md)
+* [Device portal pages](dev-portal-api/device-portal-pages.md)
 ## API
 ### API
 * [/api/os/machinename](dev-portal-api/api/os-machinename.md)
@@ -26,6 +29,11 @@ You will need to connect over HTTP rather than HTTPS on port 11443
 * [/api/appx/packagemanager/package](dev-portal-api/api/appx-packagemanager-package.md)
 ### EXT
 * [/ext/app/packagemanager/era/available](dev-portal-api/ext/app-packagemanager-era-available.md)
+* [/ext/app/packagemanager/era/check](dev-portal-api/ext/app-packagemanager-era-check.md)
+* [/ext/app/packagemanager/era/register](dev-portal-api/ext/app-packagemanager-era-register.md)
+* [/ext/app/packagemanager/era/registernetwork](dev-portal-api/ext/app-packagemanager-era-registernetwork.md)
+* [/ext/app/packagemanager/era/streaming](dev-portal-api/ext/app-packagemanager-era-streaming.md)
+* [/ext/app/packagemanager/era/upload](dev-portal-api/ext/app-packagemanager-era-upload.md)
 * [/ext/app/deployinfo](dev-portal-api/ext/app-deployinfo.md)
 * [/ext/app/sshpins](dev-portal-api/ext/app-sshpins.md)
 * [/ext/app/unregistered](dev-portal-api/ext/app-unregistered.md)

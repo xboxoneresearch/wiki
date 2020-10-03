@@ -39,11 +39,15 @@ set PATH="%PATH%;%PYTHONPATH%"
     <https://dotnet.microsoft.com/download/dotnet-core>.
   - Unzip and copy the binaries to a flash drive or
     D:\\DevelopmentFiles\\Dotnet.
-  - Optionally add the dotnet directory to your system PATH via *setx
-    path "%path%;D:\\DotnetPath"* using SSH.
+  - Optionally add the dotnet directory to your system PATH via `setx
+    path "%path%;D:\\DotnetPath"` using SSH.
   - Execute your dotnet core software via "dotnet program.exe" using SSH
     in the dotnet diectory (or anywhere if you updated your PATH).
   - Profit
+### Trouble shooting
+  Error | Solution
+  :---- | :----
+  The system cannot find the file specified | If running your dotnetcore software on an external drive, move it to an internal one such as D: or T:
 
 ## .NET 5
 
@@ -51,8 +55,12 @@ set PATH="%PATH%;%PYTHONPATH%"
     <https://dotnet.microsoft.com/download/dotnet/5.0>.
   - Unzip and copy the binaries to a flash drive or a location of your choice such as
     D:\\DevelopmentFiles\\Dotnet.
-  - Optionally add the dotnet directory to your system PATH via *setx
-    path "%path%;D:\\DotnetPath"* using SSH.
+  - Optionally add the dotnet directory to your system PATH via `setx
+    path "%path%;D:\\DotnetPath"` using SSH.
   - Execute your dotnet core software via "dotnet program.exe" using SSH
     in the dotnet diectory (or anywhere if you updated your PATH).
   - Profit
+### Trouble shooting
+  Error | Solution
+  :---- | :----
+  The system cannot find the file specified | If running your dotnetcore software on an external drive, move it to an internal one such as D: or T:
