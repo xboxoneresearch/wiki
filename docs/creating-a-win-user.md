@@ -4,7 +4,7 @@
 # Setup dev mode
 ## Prerequisites
 
-  This guide assumes you have already followed the Setup Dev Mode page found (here)[https://xosft.dev/wiki/setup-dev-mode/] on the Wiki. If you haven't, do so now. This guide can be skipped on ERA devkits by instead using xbrun or using an unattended script to start a system telnet session via WDP. 
+  This guide assumes you have already followed the Setup Dev Mode page found [here](https://xosft.dev/wiki/setup-dev-mode/) on the Wiki. If you haven't, do so now. This guide can be skipped on ERA devkits by instead using xbrun or using an unattended script to start a system telnet session via WDP. 
 
 ## Copying Net1 
 
