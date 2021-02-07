@@ -14,7 +14,7 @@
 ## Info
 Access local volumes using the Edge browser.
 
-- Edge’s address bar allowed access of local files on the device via the File:\\ protocol.
+- Edge’s address bar allowed access of local files on the device via the `File:\\` protocol.
 - This functionality is used for viewing local PDFs, etc but as the Xbox file system isn’t normally accessible, this allowed for the dumping of Xbox binaries.
 - Any valid path would trigger a download prompt, copying the file to the user's download folder where it was accessible via the File Browser application.
 
