@@ -1,5 +1,5 @@
 # Protocol URIs (deep links)
-Protocol URI are used to provide a means for apps to start other apps. An example of protocol URIs being used can be found in the url (`ms-windows-store://`) used to activate the store on the page for a certain app. Protocol URIs are also know as deep links. Info on how to implement them into your uwp app can be found [here](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/handle-uri-activation).
+Protocol URI are used to provide a means for apps to start other apps. An example of protocol URIs being used can be found in the url (`ms-windows-store://`) used to activate the store on the page for a certain app. Protocol URIs are also know as deep links or launch URIs. Info on how to implement them into your uwp app can be found [here](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/handle-uri-activation).
 
 ## System apps:
 The following list shows a complete list of deep links as of `10.0.19041.6630 (xb_flt_2103vb.210210-0000)` there may be a small number missing.
