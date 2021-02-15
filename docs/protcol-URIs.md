@@ -4,6 +4,7 @@ Protocol URI are used to provide a means for apps to start other apps. An exampl
 ## System apps:
 The following list shows a complete list of deep links as of `10.0.19041.6630 (xb_flt_2103vb.210210-0000)` there may be a small number missing.
 These were dumped by pulling all of the appx manifests accessible to a custom admin account in dev mode and then parsing all of them to get the protocol URIs.
+
 | Identity Name                        | Display Name                                   | Publisher Display Name           | Publisher Identity                                                               | URI                                                            |
 | ------------------------------------ | ---------------------------------------------- | -------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------- |
 | Microsoft.Xbox.TvSettings            | TvSettings                                     | Microsoft Corporation            | CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US | [ms-xbox-tvsettings://](ms-xbox-tvsettings://)                 |
@@ -71,3 +72,4 @@ These were dumped by pulling all of the appx manifests accessible to a custom ad
 | Microsoft.Xbox.Settings              | Xbox Settings                                  | Microsoft Corporation            | CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US | [ms-xbl-6d83c5c3://](ms-xbl-6d83c5c3://)                       |
 | XdashLauncher                        | ConsoleSupport                                 | Microsoft                        | CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US | [ms-survey://](ms-survey://)                                   |
 | Microsoft.MicrosoftEdge              | ms-resource:AppName                            | Microsoft Corporation            | CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US | [microsoft-edge-holographic://](microsoft-edge-holographic://) |
+
