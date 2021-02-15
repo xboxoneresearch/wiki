@@ -71,4 +71,3 @@ These were dumped by pulling all of the appx manifests accessible to a custom ad
 | Microsoft.Xbox.Settings              | Xbox Settings                                  | Microsoft Corporation            | CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US | [ms-xbl-6d83c5c3://](ms-xbl-6d83c5c3://)                       |
 | XdashLauncher                        | ConsoleSupport                                 | Microsoft                        | CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US | [ms-survey://](ms-survey://)                                   |
 | Microsoft.MicrosoftEdge              | ms-resource:AppName                            | Microsoft Corporation            | CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US | [microsoft-edge-holographic://](microsoft-edge-holographic://) |
-|                                      |
