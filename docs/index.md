@@ -33,6 +33,7 @@ See [FAQ](faq) for frequently asked questions.
   - [Security Processor](security-processor)
   - [Special NTFS USB files](special-ntfs-usb-files)
   - [Telemetry](telemetry)
+  = [Protocol URIs (Deep links)](protcol-URIs)
   - [Xbox Device Portal](device-portal)
   - [Xbox Game Disc](xbox-game-disc)
   - [Xbox Operating System](xbox-operating-system)
