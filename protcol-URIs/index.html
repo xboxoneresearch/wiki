@@ -1,0 +1,560 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.8">
+    
+    
+      
+        <title>Protocol URIs (deep links) - Xbox One Research Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.cb6bc1d0.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.39b8e14a.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#protocol-uris-deep-links" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href=".." title="Xbox One Research Wiki" class="md-header-nav__button md-logo" aria-label="Xbox One Research Wiki">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      <div class="md-header-nav__ellipsis">
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            Xbox One Research Wiki
+          </span>
+        </div>
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            
+              Protocol URIs (deep links)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Xbox One Research Wiki" class="md-nav__button md-logo" aria-label="Xbox One Research Wiki">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Xbox One Research Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        FAQ
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#system-apps" class="md-nav__link">
+    System apps:
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="protocol-uris-deep-links">Protocol URIs (deep links)</h1>
+<p>Protocol URI are used to provide a means for apps to start other apps. An example of protocol URIs being used can be found in the url (<code>ms-windows-store://</code>) used to activate the store on the page for a certain app. Protocol URIs are also know as deep links or launch URIs. Info on how to implement them into your uwp app can be found <a href="https://docs.microsoft.com/en-us/windows/uwp/launch-resume/handle-uri-activation">here</a>.</p>
+<h2 id="system-apps">System apps:</h2>
+<p>The following list shows a complete list of deep links as of <code>10.0.19041.6630 (xb_flt_2103vb.210210-0000)</code> there may be a small number missing.
+These were dumped by pulling all of the appx manifests accessible to a custom admin account in dev mode and then parsing all of them to get the protocol URIs.</p>
+<table>
+<thead>
+<tr>
+<th>Package Family Name</th>
+<th>URI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Xbox.Guide</td>
+<td><a href="guide://">guide://</a></td>
+</tr>
+<tr>
+<td>Microsoft.XboxEvents</td>
+<td><a href="xbox-events://">xbox-events://</a></td>
+</tr>
+<tr>
+<td>Xbox.Dashboard</td>
+<td><a href="xbox-gamehub://">xbox-gamehub://</a></td>
+</tr>
+<tr>
+<td>Microsoft.MicrosoftEdge</td>
+<td><a href="http://">http://</a></td>
+</tr>
+<tr>
+<td>Xbox.Dashboard</td>
+<td><a href="achievements://">achievements://</a></td>
+</tr>
+<tr>
+<td>Xbox.Dashboard</td>
+<td><a href="ms-xbox-achievements://">ms-xbox-achievements://</a></td>
+</tr>
+<tr>
+<td>Microsoft.Xbox.Settings</td>
+<td><a href="kinecttuner://">kinecttuner://</a></td>
+</tr>
+<tr>
+<td>Xbox.Dashboard</td>
+<td><a href="ms-xbox-gamedvr2://">ms-xbox-gamedvr2://</a></td>
+</tr>
+<tr>
+<td>Microsoft.MicrosoftEdge</td>
+<td><a href="https://">https://</a></td>
+</tr>
+<tr>
+<td>Microsoft.Xbox.LiveTV</td>
+<td><a href="ms-xbl-162615ad://">ms-xbl-162615ad://</a></td>
+</tr>
+<tr>
+<td>Microsoft.MicrosoftEdge</td>
+<td><a href="ms-xbl-3d8b930f://">ms-xbl-3d8b930f://</a></td>
+</tr>
+<tr>
+<td>XdashLauncher</td>
+<td><a href="ms-xdash://">ms-xdash://</a></td>
+</tr>
+<tr>
+<td>Xbox.Dashboard</td>
+<td><a href="social://">social://</a></td>
+</tr>
+<tr>
+<td>Microsoft.WindowsStore</td>
+<td><a href="zune://">zune://</a></td>
+</tr>
+<tr>
+<td>Xbox.SingleUserProxy</td>
+<td><a href="xsingleuserproxy://">xsingleuserproxy://</a></td>
+</tr>
+<tr>
+<td>Xbox.Dashboard</td>
+<td><a href="gamedvr2://">gamedvr2://</a></td>
+</tr>
+<tr>
+<td>Microsoft.MicrosoftEdge</td>
+<td><a href="read://">read://</a></td>
+</tr>
+<tr>
+<td>Microsoft.XboxDevices</td>
+<td><a href="xboxaccessories://">xboxaccessories://</a></td>
+</tr>
+<tr>
+<td>XdashLauncher</td>
+<td><a href="ms-subscription://">ms-subscription://</a></td>
+</tr>
+<tr>
+<td>Xbox.NetworkTroubleshooter</td>
+<td><a href="networktroubleshooter://">networktroubleshooter://</a></td>
+</tr>
+<tr>
+<td>Microsoft.Xbox.Settings</td>
+<td><a href="ms-settings://">ms-settings://</a></td>
+</tr>
+<tr>
+<td>Microsoft.Xbox.DevHome</td>
+<td><a href="ms-xbl-1c835833://">ms-xbl-1c835833://</a></td>
+</tr>
+<tr>
+<td>Microsoft.XboxCare</td>
+<td><a href="ms-oobe://">ms-oobe://</a></td>
+</tr>
+<tr>
+<td>Xbox.SignIn</td>
+<td><a href="signin://">signin://</a></td>
+</tr>
+<tr>
+<td>Microsoft.StorePurchaseApp</td>
+<td><a href="ms-xbet-survey://">ms-xbet-survey://</a></td>
+</tr>
+<tr>
+<td>Microsoft.CloudExperienceHost</td>
+<td><a href="ms-device-enrollment://">ms-device-enrollment://</a></td>
+</tr>
+<tr>
+<td>Microsoft.WindowsStore</td>
+<td><a href="ms-windows-store2://">ms-windows-store2://</a></td>
+</tr>
+<tr>
+<td>Xbox.BroadcastSetup</td>
+<td><a href="xpositioningtcui://">xpositioningtcui://</a></td>
+</tr>
+<tr>
+<td>Xbox.StorageManagement</td>
+<td><a href="storagemanagement://">storagemanagement://</a></td>
+</tr>
+<tr>
+<td>Microsoft.Microsoft.Xbox.AdsLauncher</td>
+<td><a href="ms-ad-hwa://">ms-ad-hwa://</a></td>
+</tr>
+<tr>
+<td>Xbox.Dashboard</td>
+<td><a href="ms-xbox-dashboard://">ms-xbox-dashboard://</a></td>
+</tr>
+<tr>
+<td>Microsoft.MicrosoftEdge</td>
+<td><a href="microsoft-edge-holographic://">microsoft-edge-holographic://</a></td>
+</tr>
+<tr>
+<td>Microsoft.XboxDevices</td>
+<td><a href="ms-xbl-2d34608b://">ms-xbl-2d34608b://</a></td>
+</tr>
+<tr>
+<td>Microsoft.Xbox.Settings</td>
+<td><a href="ms-xbl-6d83c5c3://">ms-xbl-6d83c5c3://</a></td>
+</tr>
+<tr>
+<td>Xbox.Dashboard</td>
+<td><a href="ms-xbl-achievements://">ms-xbl-achievements://</a></td>
+</tr>
+<tr>
+<td>Xbox.EditorialHost</td>
+<td><a href="editorialhost://">editorialhost://</a></td>
+</tr>
+<tr>
+<td>Microsoft.XboxCare</td>
+<td><a href="xhelp://">xhelp://</a></td>
+</tr>
+<tr>
+<td>Microsoft.Xbox.Settings</td>
+<td><a href="settings://">settings://</a></td>
+</tr>
+<tr>
+<td>Microsoft.MicrosoftEdge</td>
+<td><a href="microsoft-edge://">microsoft-edge://</a></td>
+</tr>
+<tr>
+<td>Xbox.Dashboard</td>
+<td><a href="ms-xbl-gamedvr2://">ms-xbl-gamedvr2://</a></td>
+</tr>
+<tr>
+<td>Microsoft.Xbox.LiveTV</td>
+<td><a href="ms-xbox-livetv://">ms-xbox-livetv://</a></td>
+</tr>
+<tr>
+<td>Microsoft.WindowsStore</td>
+<td><a href="xboxmusic://">xboxmusic://</a></td>
+</tr>
+<tr>
+<td>Xbox.Dashboard</td>
+<td><a href="screenshots://">screenshots://</a></td>
+</tr>
+<tr>
+<td>Microsoft.QuickBuy</td>
+<td><a href="ms-xbox-quickbuy://">ms-xbox-quickbuy://</a></td>
+</tr>
+<tr>
+<td>Xbox.VideoPlayer</td>
+<td><a href="xpreviewkiosk://">xpreviewkiosk://</a></td>
+</tr>
+<tr>
+<td>Xbox.Dashboard</td>
+<td><a href="xbox-club://">xbox-club://</a></td>
+</tr>
+<tr>
+<td>Microsoft.NTSCaptivePortal</td>
+<td><a href="ntscaptiveportal://">ntscaptiveportal://</a></td>
+</tr>
+<tr>
+<td>XdashLauncher</td>
+<td><a href="ms-survey://">ms-survey://</a></td>
+</tr>
+<tr>
+<td>Microsoft.Xbox.TvSettings</td>
+<td><a href="ms-xbox-tvsettings://">ms-xbox-tvsettings://</a></td>
+</tr>
+<tr>
+<td>Xbox.HDRGameCalibration</td>
+<td><a href="hdrgamecalibration://">hdrgamecalibration://</a></td>
+</tr>
+<tr>
+<td>Xbox.Dashboard</td>
+<td><a href="gameclips://">gameclips://</a></td>
+</tr>
+<tr>
+<td>Xbox.IdleScreen</td>
+<td><a href="idlescreen://">idlescreen://</a></td>
+</tr>
+<tr>
+<td>Microsoft.CloudExperienceHost</td>
+<td><a href="ms-cxh://">ms-cxh://</a></td>
+</tr>
+<tr>
+<td>Xbox.Dashboard</td>
+<td><a href="ms-xbl-281d1c2f://">ms-xbl-281d1c2f://</a></td>
+</tr>
+<tr>
+<td>Xbox.TrialOverlay</td>
+<td><a href="trialoverlay://">trialoverlay://</a></td>
+</tr>
+<tr>
+<td>Xbox.SU</td>
+<td><a href="systemupdatenew://">systemupdatenew://</a></td>
+</tr>
+<tr>
+<td>Microsoft.Xbox.OOBE</td>
+<td><a href="oobe://">oobe://</a></td>
+</tr>
+<tr>
+<td>Xbox.VideoPlayer</td>
+<td><a href="xpreview://">xpreview://</a></td>
+</tr>
+<tr>
+<td>Microsoft.XboxCare</td>
+<td><a href="ms-xcare://">ms-xcare://</a></td>
+</tr>
+<tr>
+<td>Microsoft.WindowsStore</td>
+<td><a href="microsoftmusic://">microsoftmusic://</a></td>
+</tr>
+<tr>
+<td>Microsoft.WindowsStore</td>
+<td><a href="ms-windows-store://">ms-windows-store://</a></td>
+</tr>
+<tr>
+<td>Xbox.Dashboard</td>
+<td><a href="library://">library://</a></td>
+</tr>
+<tr>
+<td>Microsoft.storify</td>
+<td><a href="ms-windows-store://">ms-windows-store://</a></td>
+</tr>
+<tr>
+<td>Microsoft.WindowsStore</td>
+<td><a href="microsoftvideo://">microsoftvideo://</a></td>
+</tr>
+<tr>
+<td>XdashLauncher</td>
+<td><a href="ms-content-picker://">ms-content-picker://</a></td>
+</tr>
+</tbody>
+</table>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/vendor.18f0862e.min.js"></script>
+      <script src="../assets/javascripts/bundle.994580cf.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "..",
+          features: [],
+          search: Object.assign({
+            worker: "../assets/javascripts/worker/search.9c0e82ba.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
