@@ -7,8 +7,8 @@ These were dumped by pulling all of the appx manifests accessible to a custom ad
 
 | Package Family Name                  | URI                                                            |
 | ------------------------------------ | -------------------------------------------------------------- |
-| Xbox.Guide                           | [guide://](guide://)                                           |
-| Microsoft.XboxEvents                 | [xbox-events://](xbox-events://)                               |
+| Xbox.Guide                           | <a href="guide://">guide://</a>                                |
+| Microsoft.XboxEvents                 | <xbox-events://>                                               |
 | Xbox.Dashboard                       | [xbox-gamehub://](xbox-gamehub://)                             |
 | Microsoft.MicrosoftEdge              | [http://](http://)                                             |
 | Xbox.Dashboard                       | [achievements://](achievements://)                             |
