@@ -2,7 +2,7 @@
 Protocol URI are used to provide a means for apps to start other apps. An example of protocol URIs being used can be found in the url (`ms-windows-store://`) used to activate the store on the page for a certain app. Protocol URIs are also know as deep links or launch URIs. Info on how to implement them into your uwp app can be found [here](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/handle-uri-activation).
 
 ## System apps:
-The following list shows a complete list of deep links as of `10.0.19041.6630 (xb_flt_2103vb.210210-0000)` there may be a small number missing.
+The following list shows a complete list of deep links as of `10.0.19041.6630 (xb_flt_2103vb.210210-0000)`.
 These were dumped by pulling all of the appx manifests accessible to a custom admin account in dev mode and then parsing all of them to get the protocol URIs.
 
 | Package Family Name                  | URI                                                            |
@@ -72,5 +72,6 @@ These were dumped by pulling all of the appx manifests accessible to a custom ad
 | Microsoft.storify                    | [ms-windows-store://](ms-windows-store://)                     |
 | Microsoft.WindowsStore               | [microsoftvideo://](microsoftvideo://)                         |
 | XdashLauncher                        | [ms-content-picker://](ms-content-picker://)                   |
-
-
+| Microsoft.BlurayPlayer               | [ms-xbl-6cded184://](ms-xbl-6cded184://)                       |
+| Microsoft.BlurayPlayer               | [blurayplayer://](blurayplayer://)                             |
+| Microsoft.BlurayPlayer               | [dvdplayer://](dvdplayer://)                                   |
