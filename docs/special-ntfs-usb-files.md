@@ -18,8 +18,8 @@ flash drive to trigger commands on console boot.
 | $Diagnosis\\debug.bin       | File   | Godbox certificate used for temporary godbox boosting of a Retail.                                                                                                                   |
 | $SystemUpdate\\consoles.txt | File   | Put an empty file consoles.txt on the flashdrive. Console will write its current systemupdate build version to the file on boot. |
 | $SystemUpdate\\hwinit.cfg   | File   | Enables an overclocked mode controlled by a byte at 0x8 and can have a value between 0x01 - 0x58. File Magic: 0x1-0x58 - 4E,49,57,48,02.Unknown FF range|
-| $ConsoleRegion0             | File   | Only available on Chinese Xbox One. ~~Put an empty file $ConsoleRegion0 on the flashdrive to Disable region lock.~~ This has now been blocked by an update, see below.|
-| $ConsoleRegion1             | File   | Only available on Chinese Xbox One. ~~Put an empty file $ConsoleRegion1 on the flashdrive to Enable region lock.~~ This has now been blocked by an update, see below.|
+| $ConsoleRegion0             | File   | Only available on Chinese Xbox One. ~~Put an empty file $ConsoleRegion0 on the flashdrive to Disable region lock.~~ __This has now been blocked by an update, see below.__|
+| $ConsoleRegion1             | File   | Only available on Chinese Xbox One. ~~Put an empty file $ConsoleRegion1 on the flashdrive to Enable region lock.~~ __This has now been blocked by an update, see below.__|
 | MSXB_Kiosk                 | File   | Put a special Kiosk XVD on the flashdrive, after booting the console will be locked in Kiosk mode. To exit, power off console and remove the flash drive. |
 
 Note: 
