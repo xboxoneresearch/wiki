@@ -21,7 +21,7 @@ flash drive to trigger commands on console boot.
 | $ConsoleRegion0             | File   | Only available on Chinese Xbox One. <s>Put an empty file $ConsoleRegion0 on the flashdrive to Disable region lock.</s> __This has now been blocked by an update, see below.__|
 | $ConsoleRegion1             | File   | Only available on Chinese Xbox One. <s>Put an empty file $ConsoleRegion1 on the flashdrive to Enable region lock.</s> __This has now been blocked by an update, see below.__|
 | $ConsoleGen8             | File   | Only available on Chinese Xbox One. Put an empty file $ConsoleGen8 on the flashdrive to disable region lock.|
-| $ConsoleGen9             | File   | Only available on Chinese Xbox Series X/S. Put an empty file $ConsoleGen8 on the flashdrive to disable region lock.|
+| $ConsoleGen9             | File   | Only available on Chinese Xbox Series X/S. Put an empty file $ConsoleGen9 on the flashdrive to disable region lock.|
 | MSXB_Kiosk                 | File   | Put a special Kiosk XVD on the flashdrive, after booting the console will be locked in Kiosk mode. To exit, power off console and remove the flash drive. |
 
 Note: 
