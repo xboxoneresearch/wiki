@@ -19,7 +19,7 @@ You can also extract more explicit information for manual use in a command line 
 
 ## Extracting header and idl files
 1. Open the Developer Command Prompt and navigate to the dumped directory of the consoles "C:\Windows\System32\WinMetadata" location.
-2. Run: winmidl /nologo /outdir:"[Full path to extraction folder]" [Full path to target file].winmd
+2. Run: winmdidl /nologo /outdir:"[Full path to extraction folder]" [Full path to target file].winmd
 3. Run: midlrt "[Path of extracted IDL file]" /metadata_dir "[Path to Xbox WinMetadata folder]"
 4. Done!
 
@@ -27,5 +27,5 @@ Once they are extracted, you could then include the generated files but the pref
 and do manual activation - you can see this done in XboxUnattend.
 
 # Resources
-https://docs.microsoft.com/en-us/uwp/winrt-cref/winmd-files
-https://docs.microsoft.com/en-us/cpp/cppcx/wrl/use-winmdidl-and-midlrt-to-create-h-files-from-windows-metadata?view=vs-2019
+[https://docs.microsoft.com/en-us/uwp/winrt-cref/winmd-files](https://docs.microsoft.com/en-us/uwp/winrt-cref/winmd-files)
+[https://docs.microsoft.com/en-us/cpp/cppcx/wrl/use-winmdidl-and-midlrt-to-create-h-files-from-windows-metadata?view=vs-2019](https://docs.microsoft.com/en-us/cpp/cppcx/wrl/use-winmdidl-and-midlrt-to-create-h-files-from-windows-metadata?view=vs-2019)
