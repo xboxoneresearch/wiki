@@ -80,3 +80,20 @@ set PATH="%PATH%;%PYTHONPATH%"
   Error | Solution
   :---- | :----
   The system cannot find the file specified | If running your dotnetcore software on an external drive, move it to an internal one such as D: or T:
+
+
+## Java Development Kit
+
+  - Download the latest JDK Windows 64 bit **Compressed Archive** from
+    <https://www.oracle.com/java/technologies/downloads/>.
+  - Unzip and copy the binaries to a flash drive or a location of your choice such as
+    D:\\DevelopmentFiles\\jdk.
+  - Optionally add the java directory to your system PATH via
+    ```cmd
+    set JAVA_HOME=D:\DevelopmentFiles\Applications\jdk-17.0.3.1
+    set PATH=%PATH%;%JAVA_HOME%\bin
+    ```
+    using SSH.
+  - Execute your java software via "java -jar program.jar" using SSH
+    in the java diectory (or anywhere if you updated your PATH).
+  - Profit
