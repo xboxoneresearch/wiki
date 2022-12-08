@@ -115,3 +115,13 @@ Delete file on Host layer
 ```
 xcrdutil -delete_blob [XUC:]\targetPackage.xvd
 ```
+
+## Error Codes
+|Error Number | Meaning  | Description | How to obtain it 
+|-------------|----------|-------------|-----------------
+|0x80070002   |File not found |This error appears when the path to a non-existent .xvd (either a XCRD type path, or a native \\??\\ path) is passed. | ```xcrdutil -m [XUC:]\idontexist.xvd```
+|0x80070570   |Possible permission error |This error appears when trying to mount host.xvd. It could be a "access denied" or "permissions insuficient" error. | ```xcrdutil -m \??\F:\host.xvd``` or ```xcrdutil -QueryInfo \??\F:\host.xvd 3```   
+|0x8007048F   |Path not found |This error appears when trying to creat/accesse a file in a XCRD path that does not exist. | ```xcrdutil -c [XE0:]\someinvalidpath```  
+|0x8007   | TBD |TBD. | ``TBD```  
+
+Note: some of these error are not consistent. For example, trying to mount host.xvd results in a 0x80070570 possible permissions error, but trying to unmount it results in a 0x80070002 file not found, which does not make sense. Maybe 0x80070002 is a generic "command has failed" error?
