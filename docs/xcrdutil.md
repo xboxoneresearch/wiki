@@ -42,7 +42,7 @@ XCRDutil allows specifying remote paths, in HostOS, via two notations:
 |26      |[XE7:]     | USB External Storage
 |27      |[XBX:]     | XBOX (Copy-Over-LAN)
 |28      |[XSR:]     | SRA (local or SMB)
-|29      |N/A        | N/A
+|29      |[XFA:]     | Unknown
 |30      |[XAS:]     | N/A
 |31      |[XRT:]     | N/A
 |32      |[XRU:]     | N/A
