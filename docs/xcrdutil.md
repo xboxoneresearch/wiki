@@ -1,12 +1,12 @@
 # XCRDutil
-Manage XVD/XVC mounting in Host from SystemOS.
+Manage mounting of XVD/XVC files in HostOS, from SystemOS.
 
-Xcrdutil can be used to get info about XVD files as well as mount and create XVD files with some limitations. Via the UWP sandbox, two different XVD files can be mounted, "Updater.xvd" and "SystemTools.xvd".
+Xcrdutil can be used to get info about XVD files (and other formats) as well as mount and create XVD files with some limitations. Via the UWP sandbox, two different XVD files can be mounted, "Updater.xvd" and "SystemTools.xvd".
 
 The tool is located at `C:\Windows\System32\xcrdutil.exe`
 
 ## Accepted paths
-XCRDutil allows specifying remote paths (in HostOS) via two notations:
+XCRDutil allows specifying remote paths, in HostOS, via two notations:
 - XCRD paths (see below, e.g. `[XUC:]\package.xvd` for **User Content** partition in HostOS)
 - Global paths (e.g. `\??\F:\` for **F:** / [XBFS](../xbox-boot-file-system) drive in HostOS)
 
@@ -23,7 +23,7 @@ XCRDutil allows specifying remote paths (in HostOS) via two notations:
 |7       |[XTF:]     | XTF Remote storage
 |8       |[XBL:]     | Xbox Live storage
 |9       |[XOD:]     | XODD (System VM)
-|10      |[XVE:]     | N/A
+|10      |[XVE:]     | Used for so-called "paths to embedded XVDs"
 |11      |[XT0:]     | USB Transfer Storage
 |12      |[XT1:]     | USB Transfer Storage
 |13      |[XT2:]     | USB Transfer Storage
@@ -50,6 +50,29 @@ XCRDutil allows specifying remote paths (in HostOS) via two notations:
 |34      |[XRI:]     | N/A
 
 ## Examples
+
+Create new XCRD Path in the HDD Temp partition
+```
+xcrdutil -bxp 0 mytestpath
+```
+
+Outputs something like:
+```
+Successfully built XCRD Path: [XTE:]\mytestpath
+Command completed successfully.
+```
+
+So called "paths to embedded XVDs" can also be created
+```
+xcrdutil -bxp 0 mytestembeddedpath -exvd_path
+```
+
+Outputs something like:
+```
+Successfully built XCRD Path: [XVE:]\[XTE:]\mytestembeddedpath
+Command completed successfully.
+```
+
 Mount package
 
 ```
