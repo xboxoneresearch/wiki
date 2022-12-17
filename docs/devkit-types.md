@@ -12,4 +12,12 @@ There are different types of devkits
 | MS Devkit        | 0x6001         | In addition to all the capabilities above, MS internal devkits enable a SYSTEM level telnet shell on all 3 operating systems (SystemOS, GameOS, and HostOS), however they are unable to run "Green" (Production) content like most games, and production builds of the Xbox OS. These certificates generally never expire.   
 | SP Devkit        | 0x8001         | SP devkits are the top-tier of the standard capability certificates. In addition to all the aforementioned abilities, they also allow for custom code to be ran on the PSP/Security Processor. This includes debug versions of the bootloaders like 2BL, and PSP firmware such as 1SP. Due to this ability, most SP devkits are not converted from standard retails and instead prepared from a virgin factory board (which has yet to have the PSP programmed.) These certificates also generally never expire.
 | Retail Devkit    | Unknown        | These devkits are Green versions of MS internal devkits. This allows them to debug retail games, run production versions of the Xbox OS, etc while all retaining the aforementioned mentioned capabilities. |   
-| Godbox           | Unknown        |  Godboxes are a mysterious devkit type that appear to be temporary versions of Retail consoles using "MTE Boosting".
+| Godbox           | Unknown        |  Godboxes are the absolute top tier of devkit, capable of kernel-mode and user-mode debugging on all Green operating systems while connected to Production Xbox Live. There are two subtypes of Godboxes, Full Godboxes and Restricted Godboxes. Full Godboxes are retail or lower tier developer consoles converted into a permanent Godbox, in addition to having JTAG and serial headers soldered onto the motherboard. Restricted Godboxes are the exactly same as above, except for the fact that they require a constant connection to Microsoft's CORPNET to activate it's developer functions.
+
+## Certificates
+
+See [Certificates](../certificates)
+
+## Godbox Certificate
+
+A magical capability certificate ([$Diagnosis/debug.bin on a NTFS USB](../special-ntfs-usb-files)) that will temporaily activate a retail console as a limited Godbox for 24 hours. Kernel/User-Mode debugging is only possible on SystemOS and GameOS, not HostOS, and the temporary kit requires authentication against Live.
