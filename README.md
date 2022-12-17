@@ -1,6 +1,6 @@
 # Xbox One Research wiki
 
-[![GitHub Workflow - Build](https://img.shields.io/github/workflow/status/xboxoneresearch/wiki/build?label=build)](https://github.com/xboxoneresearch/wiki/actions?query=workflow%3Abuild)
+[![GitHub Workflow - Build](https://img.shields.io/github/actions/workflow/status/xboxoneresearch/wiki/build.yml?branch=master)](https://github.com/xboxoneresearch/wiki/actions?query=workflow%3Abuild)
 
 Various info regarding the hard-/software of the Xbox One gaming console family.
 
