@@ -24,14 +24,20 @@ flash drive to trigger commands on console boot.
 | $ConsoleGen9             | File   | Only available on Chinese Xbox Series X/S. Put an empty file $ConsoleGen9 on the flashdrive to disable region lock.|
 | MSXB_Kiosk                 | File   | Put a special Kiosk XVD on the flashdrive, after booting the console will be locked in Kiosk mode. To exit, power off console and remove the flash drive. |
 
-Note: 
+Note:
+
 * $Diagnosis, $NoSurface, $DumpSystemOS, $DumpHostOS references were found in xvdd.sys
-* The SystemOS-full.dmpx file is encrypted and requires a retail key
-  to decrypt.
+
+* The SystemOS-full.dmpx file is encrypted and requires a retail key to decrypt.
+
 * Using *$ConsoleRegion0* , *$ConsoleRegion1*, *$ConsoleGen8* or *$ConsoleGen9* will affect the ability to read Xbox China game discs, but won't affect already installed digital games.
+
 * Non-Chinese Xbox One units cannot be region locked and read Xbox China discs / access China region Xbox Live by *$ConsoleRegion1*.
+
 * *$ConsoleRegion0* and *$ConsoleRegion1* has been deprecated since OS 10.0.19041.2493 (rs_xbox_release_2005.200512-1756). Devices' region lock status will be remained as the same before it's update to this version. Those two special files will still work on devices with OS version equal to or under 10.0.19041.1927 (rs_xbox_release_2004.200415-0000). Users who still need to disable region lock should consider using *$ConsoleGen8* and *$ConsoleGen9* instead.
+
 * Usage of *$ConsoleGen8* and *$ConsoleGen9* require OS version equal to or newer than XB_FLT_2106VB\19041.8033.210514-0000 (insider preview) and active Internet connection to Xbox Live.
+
 * *$ConsoleGen8* will not work on Xbox Series X/S and *$ConsoleGen9* will not work on Xbox One (S/X).
 
 Credits:
