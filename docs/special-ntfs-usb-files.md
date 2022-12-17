@@ -25,7 +25,7 @@ flash drive to trigger commands on console boot.
 | MSXB_Kiosk                 | File   | Put a special Kiosk XVD on the flashdrive, after booting the console will be locked in Kiosk mode. To exit, power off console and remove the flash drive. |
 
 Note: 
-
+* $Diagnosis, $NoSurface, $DumpSystemOS, $DumpHostOS references were found in xvdd.sys
 * The SystemOS-full.dmpx file is encrypted and requires a retail key
   to decrypt.
 * Using *$ConsoleRegion0* , *$ConsoleRegion1*, *$ConsoleGen8* or *$ConsoleGen9* will affect the ability to read Xbox China game discs, but won't affect already installed digital games.
