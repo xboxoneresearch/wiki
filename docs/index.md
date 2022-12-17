@@ -40,6 +40,7 @@ See [FAQ](faq) for frequently asked questions.
   - [Xbox UI](xbox-ui)
   - [Xbox WinRT](winmd)
   - [XCRDUtil](xcrdutil)
+  - [DefaultApp](default-app)
 
 ### File formats
   - [Xbox Virtual Drives (XVD)](xbox-virtual-drive)

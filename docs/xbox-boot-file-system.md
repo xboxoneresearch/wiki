@@ -5,6 +5,18 @@
 Xbox Boot File System, or XBFS for short, refers to the console flash
 filesystem.
 
+## Filesystem sizes
+
+Durango (pre-series-S/X):
+
+- RAW: 0x1_3C00_0000 (5056 MB)
+- Logical: 0x1_3B00_0000 (5040 MB)
+
+Series S/X:
+
+- Logical: 0x4000_0000 (1024 MB / 1 GB)
+
+
 ## XBFS Header offsets
 
 The Flash can contain 3 different revisions of filetables,
@@ -14,11 +26,22 @@ active one.
 Checking if a filetable exists is done by checking for
 XBFS_HEADER-\>Magic.
 
-Absolute offsets:
+Absolute offsets (pre-series-S/X consoles):
 
-- 0x10000
-- 0x810000
-- 0x820000
+- 0x1_0000
+- 0x81_0000
+- 0x82_0000
+
+Absolute offsets (Series S/X)
+
+- 0x1800_8000
+- ?
+
+## Series S/X
+
+The Xbox Series S/X consoles have a big internal NVME drive, which has a dedicated section to hold XBFS.
+For some yet unknown reasons, when calculating the start offset of a file in XBFS, `0x6000` needs to be substracted to
+receive the correct start offset.
 
 ## Checking for file existance
 
