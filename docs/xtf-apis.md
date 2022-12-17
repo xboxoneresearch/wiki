@@ -35,6 +35,4 @@ These [XTF APIs](xtf-apis/xtfadditional.md) are used for checking available spac
 
 
 ###### Disclaimer:
-This infomation was gathered from a publicly accessible Game Development Kit and files dumped from a UWA devkit.
-As such, no NDA was broken as no NDA is in existance between Microsoft Inc and Team XOSFT. 
-
+This information was gathered from a publicly accessible Game Development Kit and files dumped from a UWA devkit.
