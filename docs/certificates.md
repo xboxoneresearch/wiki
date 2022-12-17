@@ -39,6 +39,7 @@ Total Size: 0x400 bytes
 
 Used to determine what type of developer features the console can use.
 Stored in **certkeys.bin** inside [XBFS](../xbox-boot-file-system).
+Also check out [Devkit types](../devkit-types).
 
 ### Format
 Total Size: 0x180 bytes
@@ -70,6 +71,9 @@ Total Size: 0x180 bytes
 | 0x280  | 0x180  | byte\[\]   | RsaSignature      |
 
 ### Capabilities
+
+Starting at offset 0x80, the capabilities are defined as 2 byte reversed entries. For example, 0x2001 - SRA_DEVKIT, which would be written as 01 20 in the certificate. An SRA Devkit's certificate would contain 0x2001 and 0x2002 respectively, while an MS Internal Devkit would contain 0x6001 and 0x6002 to enable host telnet.
+
 ```
 enum CERTIFICATE_CAPABILITIES : ushort {
     SRA_DEVKIT = 0x2001,
