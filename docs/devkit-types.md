@@ -1,7 +1,15 @@
 <!-- TITLE: Devkit Types -->
 <!-- SUBTITLE: A quick summary of Devkit Types -->
 
-# Devkit types
+# Devkits
+
+Most Xbox One devkits start out life as an off the shelf retail console (with the exception of special SP kits I will cover below). An Xbox One's devkit type and abilities or capabilities are defined by a file stored on the flash called "certkeys.bin." - certkeys.bin is referred to as the [Capability Certificate](../certificates) by the Platform Security Processor ([PSP](../security-processor)) and it will be referred to as such from here on out.
+
+It should be noted that capability certificates are locked to a particular console via the SOCID (Reported as Console ID in settings). The entire certificate is then signed to prevent tampering.
+
+A capability certificate defines what capabilities an Xbox One console is allowed to enable (This is regulated via the [PSP](../security-processor) and to a degree, HostOS.) The capabilities range from enabling Devmode and the respective developer services, ignoring requests to blowing e-fuses, HostOS telnet and Retail debugging, and much more.
+
+## Devkit types
 There are different types of devkits
 
 | Name             | Identification | Description                                                                                                                                                                                |
