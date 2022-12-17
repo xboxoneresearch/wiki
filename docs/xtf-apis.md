@@ -13,23 +13,28 @@ This [XTF API](xtf-apis/xtfapplication.md) is used to automate application manag
 This [XTF API](xtf-apis/xtfconsolecontrol.md) is used to get information about and manage a development console.
 
 ## XtfConsoleManager
-This XTF API is used to get the default development console or to manage a collection of development consoles.
+This [XTF API](xtf-apis/xtfconsolemanager.md) is used to get the default development console or to manage a collection of development consoles.
 
 ## XtfDebugMonitor
-This XTF API is used to receive debug output from an app or game running on a development console.
+This [XTF API](xtf-apis/xtfdebugmonitor.md) is used to receive debug output from an app or game running on a development console.
 
 ## XtfFileIO
-This XTF API is used to manage files on a development console.
+This [XTF API](xtf-apis/xtffileio.md) is used to manage files on a development console.
 
 ## XtfInput
-This XTF API is used to simulate controller input on a development console.
+This [XTF API](xtf-apis/xtfinput.md) is used to simulate controller input on a development console.
 
 ## XtfRemoteRun
-This XTF API is used to run utility executables on a development console.
+This [XTF API](xtf-apis/xtfremoterun.md) is used to run utility executables on a development console.
 
 ## XtfUser
-This XTF API is used to manage users on a development console.
+This [XTF API](xtf-apis/xtfuser.md) is used to manage users on a development console.
 
 ## Additional Xtf APIs
-These XTF APIs are used for checking available space for apps and retrieving user friendly error messages.
+These [XTF APIs](xtf-apis/xtfadditional.md) are used for checking available space for apps and retrieving user friendly error messages.
+
+
+###### Disclaimer:
+This infomation was gathered from a publicly accessible Game Development Kit and files dumped from a UWA devkit.
+As such, no NDA was broken as no NDA is in existance between Microsoft Inc and Team XOSFT. 
 
