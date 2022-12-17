@@ -54,9 +54,10 @@ See [FAQ](faq) for frequently asked questions.
   - [Setting up your console](setup-dev-mode)
   - [Installing Compatible Software](installing-compatible-software)
   - [Creating your own Windows User](creating-a-win-user)
+  - [XTF APIs](xtf-apis.md)
 
 ## Important
 
 We do our best to ensure that we are respectful towards the research
-conducted on the Xbox One. However, if there is any issues we are open
+conducted on the Xbox One and Series. However, if there is any issues we are open
 for discussion and will work with Microsoft accordingly.
