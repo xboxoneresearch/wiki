@@ -1,0 +1,12 @@
+Extracted from video: BlueHat Seattle 2019 || Guarding Against Physical Attacks: The Xbox One Story
+By: Microsoft Security Response Center (MSRC)
+URL: https://www.youtube.com/watch?v=quLa6kzzra0
+Speaker: Tony Chen
+
+Every game console since the first Atari was more or less designed to prevent the piracy of games and yet every single game console has been successfully modified to enable piracy.
+However, this trend has come to an end. Both the Xbox One and the PS4 have now been on the market for close to 6 years, without hackers being able to crack the system to enable piracy or cheating.
+This is the first time in history that game consoles have lasted this long without being cracked.
+In this talk, we will discuss how we achieved this for the Xbox One.
+We will first describe the Xbox security design goals and why it needs to guard against physical attacks, followed by descriptions of the hardware and software architecture to keep the Xbox secure.
+This includes details about the custom SoC we built with AMD and how we addressed the fact that all data read from flash, the hard drive, and even DRAM cannot be trusted.
+We will also discuss the corresponding software changes needed with the custom hardware to keep the system and the games secure against physical attacks.
