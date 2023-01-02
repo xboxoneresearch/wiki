@@ -13,6 +13,7 @@ See [FAQ](faq) for frequently asked questions.
 
 ### General
   - [Exploits](exploits)
+  - [Codenames](codenames)
 
 ### Hardware
   - [Console revisions](console-revisions)
