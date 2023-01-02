@@ -10,16 +10,18 @@ XCRDutil allows specifying remote paths, in HostOS, via two notations:
 - XCRD paths (see below, e.g. `[XUC:]\package.xvd` for **User Content** partition in HostOS). These paths are an abstraction to the HostOS filesystem, allowing to refer to .xvd's without knowing their exact location, and possibly also allowing for security / permission checks.
 - Global paths (e.g. `\??\F:\` for **F:** / [XBFS](../xbox-boot-file-system) drive in HostOS). These refer to a physical volume (like a disk partition, the flash, etc) in HostOS.
 
-Not all the options/arguments for XCRDUtil expect the same format for the paths. Some options are able to work with paths pointing to the SystemOS's filesystem, while others may only work with remote paths to HostOS, in either one of the two types specified previously:
-* "global" paths pointing to a HostOS volume, which start with the non-standard "\\??\\" prefix
+Not all the options/arguments for XCRDUtil expect the same format for the paths. Some options are able to work with paths pointing to the SystemOS's filesystem, while others may only work with remote paths to HostOS, in either one of the two types just specified previously:
 *  XCRD paths.
+* "global" paths pointing to a HostOS volume, which start with the non-standard "\\??\\" prefix
 
-Following is a table describing what kind of path each option expects.
+Following is a table describing what options XCRDUtil has, and kind of path each option expects. Examples are provided at the end of the page:
 | Option | Option description  | Arg1 Path type | Arg2 Path type 
 |-------------|----------|-------------|-------------
 | write_blob  | Writes the contents of an .xvd (from a SystemOS path) to an .xvd in the HostOS's filesystem, represented by a XCRD path  | XCRD | SystemOS
 | read_blob   | reads one .xvd (from a HostOS XCRD path) and writes it to SystemOS's filesystem.  | XCRD | SystemOS
 | QueryInfo   | Gives information about an XVD (either mounted or unmounted) accesible to HostOS | Global HostOS path / XCRD | N/A
+
+To be completed.
 
 ## XCRD paths
 |XCRD Id | XCRD Path | Description
@@ -131,6 +133,6 @@ xcrdutil -delete_blob [XUC:]\targetPackage.xvd
 |Error Number | Meaning  | Description | How to obtain it 
 |-------------|----------|-------------|-----------------
 |0x80070002   | File/path not found         | This error appears whenever an invalid path to a file is used (either XCRD, native \\??\\ path, or SystemOS path). | ```xcrdutil -m [XUC:]\idontexist.xvd```
-|0x80070570   | Possible permission error |This error appears when trying to mount host.xvd. It could be a "access denied" or "permissions insuficient" error. | ```xcrdutil -m \??\F:\host.xvd``` or ```xcrdutil -QueryInfo \??\F:\host.xvd 3```   
-|0x8007048F   | Path not found         |This error appears when trying to creat/accesse a file in a XCRD path that does not exist. | ```xcrdutil -c [XE0:]\someinvalidpath```  
+|0x80070570   | Possible permission error |This error appears when an operation is denied due to insufficient permissions. Examples include trying to mount host.xvd. | ```xcrdutil -m \??\F:\host.xvd``` or ```xcrdutil -QueryInfo \??\F:\host.xvd 3```   
+|0x8007048F   | Path not found         |This error appears when trying to create/access a file in a XCRD path that does not exist. | ```xcrdutil -c [XE0:]\someinvalidpath```  
 |0x80070032   | Unknown | Possibly meaning the passed XVD does not have region information | ```xcrdutil -Specifiers [XUC:]\someXvdYouveMounted```  
