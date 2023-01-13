@@ -27,6 +27,13 @@ The XDK Transfer device contains two `ATMLH532` i2c EEPROMs and two main `CYUSB3
   <img src="./xdk_transfer/IMG_8965.jpg">
 </p>
 
-## Software
+## Kernel Software
 
-The driver that communicates with the XDK Transfer Device is called `xbtplinkc.sys` and can be found in J:\drivers. Its full name is the `Xbox Transport Protocol Link Client` driver.
+The driver that communicates with the XDK Transfer Device is called `xbtplinkc.sys` and can be found in C:\Windows\System32. Its full name is the `Xbox Transport Protocol Link Client` driver.
+
+## Userland Software
+
+Additionally, a userland DLL called `xbtp.dll` can be found in `J:\tools\` in developer mode consoles. More investigation is required but this is likely used by some app which communicates with the XBTPLinkC driver.
+
+
+
