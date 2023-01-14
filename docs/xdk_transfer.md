@@ -33,6 +33,13 @@ The driver that communicates with the XDK Transfer Device is called `xbtplinkc.s
 
 The driver registers the device `\\??\\XbtpLink` but does not create any symlinks available to userland. In other words, it cannot receive IOCTLs from userland. The drivers does handle some IOCTLs, so it might [receive IOCTLs from other kernel drivers](https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers), though.
 
+The following two IOCTL are handled:
+|  Code     | Name      | Description  |
+|-----------|-----------|--------------|
+| 0x220007  | Unknown   | Unknown      | 
+| 0x22000b  | Unknown   | Unknown      | 
+
+
 ## Userland Software
 
 Additionally, a userland DLL called `xbtp.dll` can be found in `J:\tools\` in developer mode consoles. More investigation is required but this is likely used by some app which communicates with the XBTPLinkC driver.
