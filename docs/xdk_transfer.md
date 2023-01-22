@@ -29,9 +29,11 @@ The XDK Transfer device contains two `ATMLH532` i2c EEPROMs and two main `CYUSB3
 
 ## Kernel Software
 
-The driver that communicates with the XDK Transfer Device is called `xbtplinkc.sys` and can be found in C:\Windows\System32. Its full name is the `Xbox Transport Protocol Link Client` driver.
+The SystemOS driver that communicates with the XDK Transfer Device is called `xbtplinkc.sys` and can be found in C:\Windows\System32. Its full name is the `Xbox Transport Protocol Link Client` driver. The "Client" part of the name is Hyper-V terminology, hence we can presume there exists a counterpart XbtpLinkP (provider) driver in the HostOS, which dispatches requests.
 
-The driver registers the device `\\??\\XbtpLink` but does not create any symlinks available to userland. In other words, it cannot receive IOCTLs from userland. The drivers does handle some IOCTLs, so it might [receive IOCTLs from other kernel drivers](https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers), though.
+There are (at least) two known major versions of this SystemOS driver. XbtplinkC from 2017/2018 OS's is a very small driver in size (just a dozen Kb), while the driver in the latest OS revisions (2023) performs more tasks and is bigger in size (around 50 Kb).
+
+The driver registers the device `\\??\\XbtpLink` but does not create any symlinks available to userland. In other words, it cannot receive IOCTLs from userland apps. The drivers does handle some IOCTLs, so it might [receive IOCTLs from other kernel drivers](https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers), though.
 
 The following two IOCTL are handled:
 |  Code     | Name      | Description  |
@@ -43,6 +45,3 @@ The following two IOCTL are handled:
 ## Userland Software
 
 Additionally, a userland DLL called `xbtp.dll` can be found in `J:\tools\` in developer mode consoles. More investigation is required but this is likely used by some app which communicates with the XBTPLinkC driver.
-
-
-
