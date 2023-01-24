@@ -43,6 +43,11 @@ See [FAQ](faq) for frequently asked questions.
   - [XCRDUtil](xcrdutil)
   - [DefaultApp](default-app)
 
+### Xbox Live
+  - [Xbox Live Error Codes](xbox-live\hresult-error-codes.md)
+  - [XSTS Token](xbox-live\xsts-token.md)
+  - [Update Groups](xbox-live\update-groups-ids.md)
+
 ### File formats
   - [Xbox Virtual Drives (XVD)](xbox-virtual-drive)
   - [XVI](xvi)
