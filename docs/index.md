@@ -35,6 +35,7 @@ See [FAQ](faq) for frequently asked questions.
   - [Special NTFS USB files](special-ntfs-usb-files)
   - [Telemetry](telemetry)
   - [Protocol URIs (Deep links)](protcol-URIs)
+  - [ODD Update Logs](optical-disc-drive/odd-firmware-update-log)
   - [Xbox Device Portal](device-portal)
   - [Xbox Game Disc](xbox-game-disc)
   - [Xbox Operating System](xbox-operating-system)
@@ -42,6 +43,12 @@ See [FAQ](faq) for frequently asked questions.
   - [Xbox WinRT](winmd)
   - [XCRDUtil](xcrdutil)
   - [DefaultApp](default-app)
+
+### Xbox Live
+  - [Xbox Live Error Codes](xbox-live/hresult-error-codes.md)
+  - [XSTS Token](xbox-live/xsts-token.md)
+  - [Update Groups](xbox-live/update-group-ids.md)
+  - [Update CDN APIs and Downloads](xbox-live/update-cdn.md)
 
 ### File formats
   - [Xbox Virtual Drives (XVD)](xbox-virtual-drive)

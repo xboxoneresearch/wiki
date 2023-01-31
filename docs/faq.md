@@ -51,3 +51,7 @@ A power glitch hack that made hacking the Xbox 360 feasible for the public was a
 
 ## There was an Edge exploit - Why did nothing come out of it? ##
 Edge, while being a privileged UWP process, still runs in the usual UWP sandbox. Additionally, it is only allowed to communicate with the internet or local network if a valid Xbox Live connection is detected. This means that the operated console has to be running the latest mandatory Systemupdate - exploitation cannot happen offline / undetected.
+
+
+## Why is my console's power LED flashing after I did XYZ or nothing at all? ##
+This indicates that your SystemOS has bugchecked, and HostOS is in the process of making an encrypted crash dump before rebooting the VM. If you don't want to wait for the process to complete, unplugging and replugging your console to interrupt the process will not harm it.
