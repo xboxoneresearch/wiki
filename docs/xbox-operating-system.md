@@ -2,6 +2,9 @@
 <!-- SUBTITLE: Structure of the Xbox Operating System -->
 
 # Xbox Operating System
+
+The Xbox One can run multiple different Operating Systems at the same time through the use of virtualization technology. 
+
 ## Host
 
 The primary operating system known as the Host OS is responsible for
@@ -12,23 +15,26 @@ that implement Microsoft's Xbox Virtual Machine stack.
 
 ### Host Volumes/Drives
 
-| Partition      | Mount Point | Notes                                                                                                                                                                                                                 |
+| Partition Name | Mount Point as seen by HostOS | Notes                                                                                                                                                                                                                 |
 | -------------- | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Internal Flash | F:\\        | The flash does not contain a normal file system, it is using the [Xbox boot filesystem](../xbox-boot-file-system) and is exposed as a normal NTFS partition via a special driver. |
 | host.xvd       | C:\\        | Host's Windows Installation.                                                                                                                                                                                          |
 | User Content   | E:\\        | Direct access to the HDD User Content partition. XVCs are stored here.                                                                                                                                                |
 | System Update  | R:\\        | Direct access to the HDD System Update partition. Boot slots and SystemOS XVDs.                                                                                                                                       |
-| System Support | G:\\(?)     | Direct access to the HDD System Support partition. Containing SystemOS's settings, temp, etc.                                                                                                                         |
+| System Update 2  | J:\\      | Direct access to the secondary HDD System Update partition. Can also contain boot slots and SystemOS XVDs. However it seems to be empty on most HDDs                                                                                                                                       |
+| System Support | G:\\ (or sometimes Q:\\)   | Direct access to the HDD System Support partition. Containing SystemOS's settings, temp, etc.                                                                                                                         |
+| Host Tools | D:\\    | Special XVD called HostTools.xvd in the HDD with extra utils to be used in the Host Operating System. If the XVD exists in the bootslot in the HDD, it will be mounted to this volume letter                                                                                                                         |
+| Temp Content | V:\\    | Direct access to the HDD Temp Content partition. Containing temporary XVD's, paging data, etc.                                                                                                                         |
 
 ## System
 
 The System OS is built to provide the main visual and interactive layer
 of the console. This operating system is currently based on Windows
-'OneCoreUAP' with a custom shell, services and other components.
+'OneCoreUAP' with a custom shell, services and other components. The apps that users can download from the Microsoft Store run in this operating system.
 
 ### SRA Virtual Drives
 
-| File Name          | Mount Point | Dev-Only | Read-Only | Desc                                                           |
+| File Name          | Mount Point as seen by SystemOS | Dev-Only | Read-Only | Desc                                                           |
 | ------------------ | ----------- | -------- | --------- | -------------------------------------------------------------- |
 | system.xvd         | C:\\        | false    | true      | System Boot.                                                   |
 | systemaux.xvd      | X:\\        | false    | true      | Inbox apps.                                                    |
