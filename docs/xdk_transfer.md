@@ -23,9 +23,22 @@ The XDK Transfer device contains two `ATMLH532` i2c EEPROMs and two main `CYUSB3
   <img src="https://user-images.githubusercontent.com/100166926/211207446-1af276c8-8679-44a3-9cc1-a3fc845e68ef.png">
 </p>
 
+Full board scans (thanks to @cactus for the help):
+
+Back:
+<details>
 <p align="center">
-  <img src="./xdk_transfer/IMG_8965.jpg">
+  <img src="./xdk_transfer/transfer_back.jpg">
 </p>
+</details>
+
+Front:
+<details>
+<p align="center">
+  <img src="./xdk_transfer/transfer_front.jpg">
+</p>
+</details>
+
 
 ## Kernel Software
 
