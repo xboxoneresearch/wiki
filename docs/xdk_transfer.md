@@ -1,6 +1,6 @@
 # XDK Transfer Device
 
-The XDK Transfer Device is a special hardware accesory available oficially only to registered Xbox developers. Its main purpose is to allow for very fast trasnfers of data, mainly aimed at transfering game builds during the development phase. It is presumably no longer needed for the next generation of consoles (Series X/S) since these natively support fast data transfer rates thanks to their SSD technology
+The XDK Transfer Device is a special hardware accesory available oficially only to registered Xbox developers. Its main purpose is to allow for very fast trasnfers of data, mainly aimed at dumping GPU information to a PC for debugging purposes, and maybe also transfering game builds during the development phase. It is presumably no longer needed for the next generation of consoles (Series X/S) since these natively support fast data transfer rates thanks to their SSD technology
 . These devices are typically sold for cheap on eBay and similar marketplaces since they don't have any real use for normal gamers.
 
 ## Hardware
@@ -23,9 +23,22 @@ The XDK Transfer device contains two `ATMLH532` i2c EEPROMs and two main `CYUSB3
   <img src="https://user-images.githubusercontent.com/100166926/211207446-1af276c8-8679-44a3-9cc1-a3fc845e68ef.png">
 </p>
 
+Full board scans (thanks to @cactus for the help):
+
+Back:
+<details>
 <p align="center">
-  <img src="./xdk_transfer/IMG_8965.jpg">
+  <img src="./xdk_transfer/transfer_back.jpg">
 </p>
+</details>
+
+Front:
+<details>
+<p align="center">
+  <img src="./xdk_transfer/transfer_front.jpg">
+</p>
+</details>
+
 
 ## Kernel Software
 
