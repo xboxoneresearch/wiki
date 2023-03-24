@@ -49,6 +49,40 @@ set PATH="%PATH%;%PYTHONPATH%"
   :---- | :----
   The system cannot find the file specified | If running your dotnetcore software on an external drive, move it to an internal one such as D: or T:
 
+## SysInternals
+
+Sysinternals provide a suite of nice tools to look for possible misconfigured states or inner workings of the system.
+
+For example:
+
+* Listing active HANDLEs
+* Listing loaded ddls
+* Listing active Volumes (incl. hidden / unmounted)
+* Checking access control of files/registry/pipes etc.
+* ...
+
+Here is just a quick reminder how to deploy it.
+
+### Download
+
+Download: https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite
+
+Fetch:
+
+* Sysinternals Suite
+* Sysinternals Suite for Nano Server
+
+Extract each to their own folder on the console.
+
+### Accept the EULA via reg key
+
+Normally each tool requires the additional argument `-accepteula` on the commandline - on each call!
+
+Instead, execute this in powershell just once:
+`New-ItemProperty -Path 'HKCU:\Software\Sysinternals' -Name 'EulaAccepted' -Value '1' -PropertyType DWORD -Force`
+
+Profit!
+
 ## .NET 5
 
   - Download the latest preview Windows 64 bit dotnet **runtime** from
