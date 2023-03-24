@@ -25,4 +25,21 @@ Access restricted/encrypted volumes using the Xbox File Explorer.
 ## Instructions
  - Change the drive letter to your USB drive letter in Program.cs  
  - Run it  
- - Plug it into Xbox, use File Browser to browse through the symlinks, which will link to other parts of the system.  
+ - Plug it into Xbox, use File Browser to browse through the symlinks, which will link to other parts of the system.
+
+## Manual instructions
+
+The following snippet assume that your usb flash drive is mounted to `E:\` on your computer that's executing linkd.
+
+```
+mkdir E:\symlinks
+linkd.exe E:\symlinks\Volume0\ \\?\GLOBALROOT\Device\HarddiskVolume0\
+linkd.exe E:\symlinks\Volume1\ \\?\GLOBALROOT\Device\HarddiskVolume1\
+linkd.exe E:\symlinks\Volume2\ \\?\GLOBALROOT\Device\HarddiskVolume2\
+linkd.exe E:\symlinks\Volume3\ \\?\GLOBALROOT\Device\HarddiskVolume3\
+linkd.exe E:\symlinks\Volume4\ \\?\GLOBALROOT\Device\HarddiskVolume4\
+linkd.exe E:\symlinks\Volume5\ \\?\GLOBALROOT\Device\HarddiskVolume5\
+... etc ...
+```
+
+**NOTE**: You might be able to use [`junction.exe` from Sysinternals](https://learn.microsoft.com/en-us/sysinternals/downloads/junction) too!
