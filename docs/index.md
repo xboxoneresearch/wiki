@@ -24,6 +24,7 @@ See [FAQ](faq) for frequently asked questions.
   - [Ethernet](ethernet)
   - [Optical Disc Drive](optical-disc-drive)
   - [RF unit](rf-unit)
+  - [XDK Transfer device](xdk_transfer)
 
 ### Software
   - [Bootanimation](bootanimation)
