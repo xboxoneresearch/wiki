@@ -8,19 +8,19 @@ The XDK Transfer Device is a special hardware accesory available oficially only 
 The XDK Transfer Device box contains four TORX head screws located in the back of the device, under the sticker:
 
 <p align="center">
-  <img src="./xdk_transfer/XDKTransfer.jpg">
+  <img src="/xdk_transfer/XDKTransfer.jpg">
 </p>
 
 Internally, the device contains two heatsinks for heat disipation when doing data transfers. The PCB has a rectangular shape.
 
 <p align="center">
-  <img src="./xdk_transfer/xdk_transfer_teardown.png">
+  <img src="/xdk_transfer/xdk_transfer_teardown.png">
 </p>
 
 The XDK Transfer device contains two `ATMLH532` i2c EEPROMs and two main `CYUSB3014-BZXI` ICs, which are essentially dedicated ARM926 EJ-S cores capable of 5 GBit/s USB speeds. The following is a block diagram depicting the design and main features of these cores. 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/100166926/211207446-1af276c8-8679-44a3-9cc1-a3fc845e68ef.png">
+  <img src="/xdk_transfer/xdk_transfer_block_diagram.png">
 </p>
 
 Full board scans (thanks to @cactus for the help):
@@ -28,14 +28,14 @@ Full board scans (thanks to @cactus for the help):
 Back:
 <details>
 <p align="center">
-  <img src="./xdk_transfer/transfer_back.jpg">
+  <img src="/xdk_transfer/transfer_back.jpg">
 </p>
 </details>
 
 Front:
 <details>
 <p align="center">
-  <img src="./xdk_transfer/transfer_front.jpg">
+  <img src="/xdk_transfer/transfer_front.jpg">
 </p>
 </details>
 
@@ -49,6 +49,7 @@ There are (at least) two known major versions of this SystemOS driver. XbtplinkC
 The driver registers the device `\\??\\XbtpLink` but does not create any symlinks available to userland. In other words, it cannot receive IOCTLs from userland apps. The drivers does handle some IOCTLs, so it might [receive IOCTLs from other kernel drivers](https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers), though.
 
 The following two IOCTL are handled:
+
 |  Code     | Name      | Description  |
 |-----------|-----------|--------------|
 | 0x220007  | Unknown   | Unknown      | 
