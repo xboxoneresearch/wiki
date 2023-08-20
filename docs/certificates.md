@@ -8,7 +8,7 @@ determining the capabalities to enable.
 ## Console Certificate
 
 Per-console certificate to verify and define the device. Stored in
-**sp_s.cfg** (offset: 0x5400) inside [XBFS](../xbox-boot-file-system).
+**sp_s.cfg** (offset: 0x5400) inside [XBFS](xbox-boot-file-system.md).
 
 Total Size: 0x400 bytes
 
@@ -38,8 +38,8 @@ Total Size: 0x400 bytes
 ## Boot Capability Certificate
 
 Used to determine what type of developer features the console can use.
-Stored in **certkeys.bin** inside [XBFS](../xbox-boot-file-system).
-Also check out [Devkit types](../devkit-types).
+Stored in **certkeys.bin** inside [XBFS](xbox-boot-file-system.md).
+Also check out [Devkit types](devkit-types.md).
 
 ### Format
 Total Size: 0x180 bytes

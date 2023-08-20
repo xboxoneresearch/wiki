@@ -1,5 +1,5 @@
 # XCT
-Unknown usecase, related to [XVD files](../xbox-virtual-drive/).
+Unknown usecase, related to [XVD files](xbox-virtual-drive.md).
 
 ## File format
 

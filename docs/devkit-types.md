@@ -3,11 +3,11 @@
 
 # Devkits
 
-Most Xbox One devkits start out life as an off the shelf retail console (with the exception of special SP kits I will cover below). An Xbox One's devkit type and abilities or capabilities are defined by a file stored on the flash called "certkeys.bin." - certkeys.bin is referred to as the [Capability Certificate](../certificates) by the Platform Security Processor ([PSP](../security-processor)) and it will be referred to as such from here on out.
+Most Xbox One devkits start out life as an off the shelf retail console (with the exception of special SP kits I will cover below). An Xbox One's devkit type and abilities or capabilities are defined by a file stored on the flash called "certkeys.bin." - certkeys.bin is referred to as the [Capability Certificate](certificates.md) by the Platform Security Processor ([PSP](security-processor.md)) and it will be referred to as such from here on out.
 
 It should be noted that capability certificates are locked to a particular console via the SOCID (Reported as Console ID in settings). The entire certificate is then signed to prevent tampering.
 
-A capability certificate defines what capabilities an Xbox One console is allowed to enable (This is regulated via the [PSP](../security-processor) and to a degree, HostOS.) The capabilities range from enabling Devmode and the respective developer services, ignoring requests to blowing e-fuses, HostOS telnet and Retail debugging, and much more.
+A capability certificate defines what capabilities an Xbox One console is allowed to enable (This is regulated via the [PSP](security-processor.md) and to a degree, HostOS.) The capabilities range from enabling Devmode and the respective developer services, ignoring requests to blowing e-fuses, HostOS telnet and Retail debugging, and much more.
 
 ## Devkit types
 There are different types of devkits
@@ -24,8 +24,8 @@ There are different types of devkits
 
 ## Certificates
 
-See [Certificates](../certificates)
+See [Certificates](certificates.md)
 
 ## Godbox Certificate
 
-A magical capability certificate ([$Diagnosis/debug.bin on a NTFS USB](../special-ntfs-usb-files)) that will temporaily activate a retail console as a limited Godbox for 24 hours. Kernel/User-Mode debugging is only possible on SystemOS and GameOS, not HostOS, and the temporary kit requires authentication against Live.
+A magical capability certificate ([$Diagnosis/debug.bin on a NTFS USB](special-ntfs-usb-files.md)) that will temporaily activate a retail console as a limited Godbox for 24 hours. Kernel/User-Mode debugging is only possible on SystemOS and GameOS, not HostOS, and the temporary kit requires authentication against Live.

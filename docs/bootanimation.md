@@ -1,7 +1,7 @@
 # Bootanimation
 Bootanimation is the Xbox loading animation showing at bootup of the console.
 
-The file is stored in [XBFS](../xbox-boot-filesystem) as bootanim.dat.
+The file is stored in [XBFS](xbox-boot-file-system.md) as bootanim.dat.
 
 It uses a proprietary format, likely specific to the AMD GPU.
 

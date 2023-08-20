@@ -26,7 +26,7 @@ Named pipes / special kernel broker drivers are used to push data between the OS
 The Xbox One is known to currently use a driver common on all OS VMs known as "XVIO" which appear to use shared memory ring buffers to communicate between the host and guest virtual machines.
 
 ## Can we draw standard Win32 UI? ##
-The possibility of "escaping" the UWP sandbox thats originally targeted at homebrew developers is tempting and of course delivers a bigger potential for developers to port applications more easily. However, as the rendering is done in a non-Win32-conform way, it is also a challenge to achieve displaying such Win32 GUI application. See [XboxUI](../xbox-ui) for further info. 
+The possibility of "escaping" the UWP sandbox thats originally targeted at homebrew developers is tempting and of course delivers a bigger potential for developers to port applications more easily. However, as the rendering is done in a non-Win32-conform way, it is also a challenge to achieve displaying such Win32 GUI application. See [XboxUI](xbox-ui.md) for further info. 
 Traditional Win32 rendering is very unlikely to be possible on SystemOS. Like Windows IoT, the System VM makes use of the win32kmin.sys windowing driver rather than the full win32k.sys or win32kfull.sys employed by Client and Desktop, which doesn't support rendering more than one window at a time. Microsoft has tricks to supplement this (which can be seen in cases of the guide and dash being open, etc), however they are not known at this time. 
 
 ## Where and how do we get the keys? ##
@@ -44,7 +44,7 @@ Different keys are used for the following purposes:
 - Games / apps (CIK / Content integrity keys)
 
 ## Certificates ##
-There are at least two major certificates utilized for generic usage: Console certificate and Boot capability certificate. Of course they are signed with an RSA key and therefore cannot be modified. For further info see [Certificates](../certificates).
+There are at least two major certificates utilized for generic usage: Console certificate and Boot capability certificate. Of course they are signed with an RSA key and therefore cannot be modified. For further info see [Certificates](certificates.md).
 
 ## Reset Glitch hack? ##
 A power glitch hack that made hacking the Xbox 360 feasible for the public was an unforseen technique that led to breaking the secure boot chain of trust [Info](https://recon.cx/2015/slides/recon2015-13-colin-o-flynn-Glitching-and-Side-Channel-Analysis-for-All.pdf) You could say that the designers of the console, that appeared in the end of 2005, were not aware of this possibility. Obviously technique and mitigations evolved since that time, so it is a lot harder to pull off such an attack on the modern Xbox One console. It is expected to have a lot of mitigations implemented (for example: timing checks, excessive data validity checks etc.) 
