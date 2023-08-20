@@ -7,43 +7,43 @@ Welcome to the Xbox One Research wiki\!
 This is a place where information about the Xbox One console can be
 shared. Things are currently slow but will be adding when we can.
 
-See [FAQ](faq) for frequently asked questions.
+See [FAQ](faq.md) for frequently asked questions.
 
 ## Getting started
 
 ### General
-  - [Exploits](exploits)
-  - [Codenames](codenames)
+  - [Exploits](exploits.md)
+  - [Codenames](codenames.md)
 
 ### Hardware
-  - [Console revisions](console-revisions)
-  - [CPU](cpu)
-  - [Southbridge](southbridge)
-  - [eMMC / Flash](eMMC---Flash)
-  - [Wifi](wifi)
-  - [Ethernet](ethernet)
-  - [Optical Disc Drive](optical-disc-drive)
-  - [RF unit](rf-unit)
-  - [XDK Transfer device](xdk_transfer)
+  - [Console revisions](console-revisions.md)
+  - [CPU](cpu.md)
+  - [Southbridge](southbridge.md)
+  - [eMMC / Flash](eMMC---Flash.md)
+  - [Wifi](wifi.md)
+  - [Ethernet](ethernet.md)
+  - [Optical Disc Drive](optical-disc-drive.md)
+  - [RF unit](rf-unit.md)
+  - [XDK Transfer device](xdk_transfer.md)
 
 ### Software
-  - [Bootanimation](bootanimation)
-  - [Bootloaders](bootloaders)
-  - [Certificates](certificates)
-  - [Flash (XBFS)](xbox-boot-file-system)
-  - [Hard drive](harddrive)
-  - [Security Processor](security-processor)
-  - [Special NTFS USB files](special-ntfs-usb-files)
-  - [Telemetry](telemetry)
-  - [Protocol URIs (Deep links)](protcol-URIs)
-  - [ODD Update Logs](optical-disc-drive/odd-firmware-update-log)
-  - [Xbox Device Portal](device-portal)
-  - [Xbox Game Disc](xbox-game-disc)
-  - [Xbox Operating System](xbox-operating-system)
-  - [Xbox UI](xbox-ui)
-  - [Xbox WinRT](winmd)
-  - [XCRDUtil](xcrdutil)
-  - [DefaultApp](default-app)
+  - [Bootanimation](bootanimation.md)
+  - [Bootloaders](bootloaders.md)
+  - [Certificates](certificates.md)
+  - [Flash (XBFS)](xbox-boot-file-system.md)
+  - [Hard drive](harddrive.md)
+  - [Security Processor](security-processor.md)
+  - [Special NTFS USB files](special-ntfs-usb-files.md)
+  - [Telemetry](telemetry.md)
+  - [Protocol URIs (Deep links)](protcol-URIs.md)
+  - [ODD Update Logs](optical-disc-drive/odd-firmware-update-log.md)
+  - [Xbox Device Portal](device-portal.md)
+  - [Xbox Game Disc](xbox-game-disc.md)
+  - [Xbox Operating System](xbox-operating-system.md)
+  - [Xbox UI](xbox-ui.md)
+  - [Xbox WinRT](winmd.md)
+  - [XCRDUtil](xcrdutil.md)
+  - [DefaultApp](default-app.md)
 
 ### Xbox Live
   - [Xbox Live Error Codes](xbox-live/hresult-error-codes.md)
@@ -52,17 +52,17 @@ See [FAQ](faq) for frequently asked questions.
   - [Update CDN APIs and Downloads](xbox-live/update-cdn.md)
 
 ### File formats
-  - [Xbox Virtual Drives (XVD)](xbox-virtual-drive)
-  - [XVI](xvi)
-  - [XCT](xct)
-  - [VBI](vbi)
-  - [Savegames](savegames)
+  - [Xbox Virtual Drives (XVD)](xbox-virtual-drive.md)
+  - [XVI](xvi.md)
+  - [XCT](xct.md)
+  - [VBI](vbi.md)
+  - [Savegames](savegames.md)
 
 ### Dev Mode
-  - [Devkit types](devkit-types)
-  - [Setting up your console](setup-dev-mode)
-  - [Installing Compatible Software](installing-compatible-software)
-  - [Creating your own Windows User](creating-a-win-user)
+  - [Devkit types](devkit-types.md)
+  - [Setting up your console](setup-dev-mode.md)
+  - [Installing Compatible Software](installing-compatible-software.md)
+  - [Creating your own Windows User](creating-a-win-user.md)
   - [XTF APIs](xtf-apis.md)
 
 ## Important

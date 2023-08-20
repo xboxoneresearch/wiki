@@ -1,5 +1,5 @@
 # Xvi files
-Some sort of metadata file related to [XVD files](../xbox-virtual-disk), stored next to downloaded xvd files on the hard drive.
+Some sort of metadata file related to [XVD files](xbox-virtual-drive.md), stored next to downloaded xvd files on the hard drive.
 
 ## File format
 Total size: 0x1000

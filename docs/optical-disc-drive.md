@@ -4,7 +4,7 @@
 # Xbox Optical disc drive
 ## Game discs
 
-Xbox One game discs are called [XGD4](xbox-game-disc) (Xbox Game Disc Version 4).
+Xbox One game discs are called [XGD4](xbox-game-disc.md) (Xbox Game Disc Version 4).
 
 ## Drive models
 

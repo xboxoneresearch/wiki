@@ -9,7 +9,7 @@ The tool is located at `C:\Windows\System32\xcrdutil.exe`
 XCRDutil allows specifying remote paths, in HostOS, via two notations:
 
 - XCRD paths (see below, e.g. `[XUC:]\package.xvd` for **User Content** partition in HostOS). These paths are an abstraction to the HostOS filesystem, allowing to refer to .xvd's without knowing their exact location, and possibly also allowing for security / permission checks.
-- Global paths (e.g. `\??\F:\` for **F:** / [XBFS](../xbox-boot-file-system) drive in HostOS). These refer to a physical volume (like a disk partition, the flash, etc) in HostOS.
+- Global paths (e.g. `\??\F:\` for **F:** / [XBFS](xbox-boot-file-system.md) drive in HostOS). These refer to a physical volume (like a disk partition, the flash, etc) in HostOS.
 
 Not all the options/arguments for XCRDUtil expect the same format for the paths. Some options are able to work with paths pointing to the SystemOS's filesystem, while others may only work with remote paths to HostOS, in either one of the two types just specified previously:
 
