@@ -13,3 +13,13 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+
+validation:
+  nav:
+    omitted_files: info
+    not_found: warn
+    absolute_links: warn
+  links:
+    not_found: warn
+    absolute_links: warn
+    unrecognized_links: warn
