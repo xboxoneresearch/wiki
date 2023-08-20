@@ -1,6 +1,6 @@
 # Device Portal pages
 
-The Xbox Device Portal provides a set of standard pages similar to what's available on the Windows Device Portal, as well as several pages that are unique. For detailed descriptions of the former, see [Windows Device Portal overview](../debug-test-perf/device-portal.md). The following sections describe the pages that are unique to the Xbox Device Portal.
+The Xbox Device Portal provides a set of standard pages similar to what's available on the Windows Device Portal, as well as several pages that are unique. For detailed descriptions of the former, see [Windows Device Portal overview](https://learn.microsoft.com/en-us/windows/uwp/debug-test-perf/device-portal). The following sections describe the pages that are unique to the Xbox Device Portal.
 
 ## Home
 
@@ -12,7 +12,7 @@ Under **Xbox Live test accounts**, you can manage the accounts associated with y
 
 ## Xbox Live (Game saves)
 
-Both the Windows Device Portal and the Xbox Device Portal have an **Xbox Live** page. However, the Xbox Device Portal has a unique section, **Xbox Live game saves**, where you can save data for games installed on your Xbox. Enter the **Service Configuration ID (SCID)** (see [Xbox Live service configuration](/gaming/xbox-live/xbox-live-service-configuration.md#get-your-ids) for more information), **Membername (MSA)**, and **Package Family Name (PFN)** associated with the title and game save, browse for the **Input File (.json or .xml)**, and then select one of the buttons (**Reset**, **Import**, **Export**, and **Delete**) to manipulate the save data.
+Both the Windows Device Portal and the Xbox Device Portal have an **Xbox Live** page. However, the Xbox Device Portal has a unique section, **Xbox Live game saves**, where you can save data for games installed on your Xbox. Enter the **Service Configuration ID (SCID)** (see [Xbox Live service configuration](https://learn.microsoft.com/en-us/gaming/gdk/_content/gc/live/test-release/portal-config/live-service-config-ids-mp#get-your-ids) for more information), **Membername (MSA)**, and **Package Family Name (PFN)** associated with the title and game save, browse for the **Input File (.json or .xml)**, and then select one of the buttons (**Reset**, **Import**, **Export**, and **Delete**) to manipulate the save data.
 
 In the **Generate** section, you can generate dummy data and save to the specified input file. Simply enter the **Containers (default 2)**, **Blobs (default 3)**, and **Blob Size (default 1024)**, and select **Generate**.
 
@@ -32,7 +32,7 @@ Once enabled, in the Xbox Device Portal, you can **Stop**, **Clear**, and **Save
 
 ## Network (Fiddler tracing)
 
-The **Network** page in the Xbox Device Portal is almost identical to the **Networking** page in the Windows Device Portal, with the exception of **Fiddler tracing**, which is unique to the Xbox Device Portal. This allows you to run Fiddler on your PC to log and inspect HTTP and HTTPS traffic between your Xbox One and the internet. See [How to use Fiddler with Xbox One when developing for UWP](../xbox-apps/uwp-fiddler.md) for more information.
+The **Network** page in the Xbox Device Portal is almost identical to the **Networking** page in the Windows Device Portal, with the exception of **Fiddler tracing**, which is unique to the Xbox Device Portal. This allows you to run Fiddler on your PC to log and inspect HTTP and HTTPS traffic between your Xbox One and the internet. See [How to use Fiddler with Xbox One when developing for UWP](https://learn.microsoft.com/en-us/windows/uwp/xbox-apps/uwp-fiddler) for more information.
 
 ![Network](images/device-portal-xbox-19.png)
 
@@ -156,4 +156,4 @@ This is a blank workspace, which you can customize to your liking. You can use t
 
 On the **Game event data** page, you can view a realtime graph that streams in the number of Event Tracing for Windows (ETW) game events currently recorded on your Xbox One. If there are game events recorded on the system, you can also view details (event name, event occurrence, and the game title) describing each event in a data table below the data graph. The table is only available if there are events recorded.
 
-![Game event data](images/device-portal-xbox-22.PNG)
+![Game event data](images/device-portal-xbox-22.png)
