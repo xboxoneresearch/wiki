@@ -44,6 +44,7 @@ See [FAQ](faq.md) for frequently asked questions.
   - [Xbox WinRT](winmd.md)
   - [XCRDUtil](xcrdutil.md)
   - [DefaultApp](default-app.md)
+  - [Kiosk](kiosk.md)
 
 ### Xbox Live
   - [Xbox Live Error Codes](xbox-live/hresult-error-codes.md)
