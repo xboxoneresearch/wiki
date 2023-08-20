@@ -7,3 +7,8 @@ Thumbs.db
 
 # mkdocs build dir
 site/
+
+# Python venv
+venv/
+.venv/
+.env/

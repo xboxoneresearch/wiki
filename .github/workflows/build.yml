@@ -2,8 +2,7 @@ name: build
 on:
   workflow_dispatch:
   push:
-    branches:
-      - master
+  pull_request:
 
 jobs:
   build:
@@ -13,7 +12,14 @@ jobs:
       - name: Checkout master
         uses: actions/checkout@v3
 
+      - name: Install dependencies
+        run: pip install -U mkdocs-material
+
+      - name: Build and check for errors
+        run: mkdocs build --strict
+
       - name: Deploy docs
+        if: github.ref_name == 'master'
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
