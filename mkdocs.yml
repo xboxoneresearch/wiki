@@ -23,5 +23,3 @@ validation:
     not_found: warn
     absolute_links: warn
     unrecognized_links: warn
-
-strict: true
