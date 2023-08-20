@@ -29,7 +29,7 @@ Installer:
 
 |                                   |
 | --------------------------------- |
-| ![Visual studio setup](https://i.imgur.com/ASeeUAo.png) |
+| ![Visual studio setup](setup-dev-mode/vs_setup_dev_mode.png) |
 
 ## Using SSH
 
