@@ -7,37 +7,28 @@ The XDK Transfer Device is a special hardware accesory available oficially only 
 
 The XDK Transfer Device box contains four TORX head screws located in the back of the device, under the sticker:
 
-<p align="center">
-  <img src="/xdk_transfer/XDKTransfer.jpg">
-</p>
+![XDK Transfer](xdk_transfer/XDKTransfer.jpg)
 
 Internally, the device contains two heatsinks for heat disipation when doing data transfers. The PCB has a rectangular shape.
 
-<p align="center">
-  <img src="/xdk_transfer/xdk_transfer_teardown.png">
-</p>
+![XDK Transfer teardown](xdk_transfer/xdk_transfer_teardown.png)
 
 The XDK Transfer device contains two `ATMLH532` i2c EEPROMs and two main `CYUSB3014-BZXI` ICs, which are essentially dedicated ARM926 EJ-S cores capable of 5 GBit/s USB speeds. The following is a block diagram depicting the design and main features of these cores. 
 
-<p align="center">
-  <img src="/xdk_transfer/xdk_transfer_block_diagram.png">
-</p>
+![XDK Transfer block diagram](xdk_transfer/xdk_transfer_block_diagram.png)
 
 Full board scans (thanks to @cactus for the help):
 
+NOTE: Click on the image to load high-resolution image!
+
 Back:
-<details>
-<p align="center">
-  <img src="/xdk_transfer/transfer_back.jpg">
-</p>
-</details>
+
+[![XDK Transfer - backside](xdk_transfer/thumb_transfer_back.jpg)](xdk_transfer/transfer_back.jpg)
+
 
 Front:
-<details>
-<p align="center">
-  <img src="/xdk_transfer/transfer_front.jpg">
-</p>
-</details>
+
+[![XDK Transfer - frontside](xdk_transfer/thumb_transfer_front.jpg)](xdk_transfer/transfer_back.jpg)
 
 
 ## Kernel Software
