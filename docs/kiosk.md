@@ -6,7 +6,7 @@ The Xbox One family of consoles features an obscure mode of operation called `Ki
 
 As part of the marketing effort for the console, special units were shipped to videogame stores, airports, big malls and other locations, which showed promotional videos of games, or that allowed to play latest releases and demos of upcoming games. These stations are known as "Kiosk Consoles" or simply "Kiosks", which are fairly common in the gamming world.
 
-![a](https://i.ytimg.com/vi/A3zvWoPEBRw/maxresdefault.jpg)
+![Kiosk Console](kiosk-mode/kiosk_console.jpg)
 
 ## How to enter Kiosk Mode
 
