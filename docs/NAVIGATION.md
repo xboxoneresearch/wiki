@@ -44,6 +44,7 @@
   - [VBI](vbi.md)
   - [Savegames](savegames.md)
 - Development
+  - [PC tools](pc_tools.md)
   - [Devkit types](devkit-types.md)
   - [Setting up your console](setup-dev-mode.md)
   - [Compiling for xbox](compiling-for-xbox.md)
