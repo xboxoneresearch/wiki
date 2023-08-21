@@ -15,7 +15,7 @@ theme:
 
 validation:
   nav:
-    omitted_files: info
+    omitted_files: warn
     not_found: warn
     absolute_links: warn
   links:
