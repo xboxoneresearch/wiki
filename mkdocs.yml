@@ -4,6 +4,7 @@ nav:
     - FAQ: faq.md
 theme:
   name: material
+  custom_dir: docs/overrides
   palette:
     - scheme: default
       toggle:
@@ -23,3 +24,9 @@ validation:
     not_found: warn
     absolute_links: warn
     unrecognized_links: warn
+
+plugins:
+  - search
+  - git-authors:
+      show_email_address: false
+  - git-revision-date-localized
