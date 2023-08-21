@@ -9,6 +9,9 @@ shared. Things are currently slow but will be adding when we can.
 
 See [FAQ](faq.md) for frequently asked questions.
 
+## Contributing
+
+Please check the following page for instructions: <https://github.com/xboxoneresearch/wiki>
 
 ## Important
 
