@@ -1,7 +1,6 @@
-- General
-  - [Home](index.md)
-  - [Codenames](codenames.md)
+- [Home](index.md)
 - Hardware
+  - [Codenames](codenames.md)
   - [Console revisions](console-revisions.md)
   - [CPU](cpu.md)
   - [Southbridge](southbridge.md)
