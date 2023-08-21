@@ -1,7 +1,5 @@
 site_name: Xbox One Research Wiki
-nav:
-    - Home: index.md
-    - FAQ: faq.md
+
 theme:
   name: material
   custom_dir: docs/overrides
@@ -27,6 +25,11 @@ validation:
 
 plugins:
   - search
+  - literate-nav:
+      nav_file: index.md
+      tab_length: 2
   - git-authors:
       show_email_address: false
-  - git-revision-date-localized
+      strict: false
+  - git-revision-date-localized:
+      strict: false
