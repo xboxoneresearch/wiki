@@ -1,28 +1,33 @@
-name: build
-on:
-  workflow_dispatch:
-  push:
-  pull_request:
+name: Deploy Website
+on: [push, pull_request]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
-  build:
-    name: Deploy docs
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout master
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-
-      - name: Install dependencies
-        run: pip install -U -r requirements.txt
-
-      - name: Build and check for errors
-        run: mkdocs build --strict
-
-      - name: Deploy docs
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: pip install -U -r requirements.txt
+      - run: mkdocs build --strict
+      - uses: actions/upload-pages-artifact@v1
+        with:
+          path: 'site'
+      - id: deployment
         if: github.ref_name == 'master'
-        uses: mhausenblas/mkdocs-deploy-gh-pages@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+        uses: actions/deploy-pages@v1
