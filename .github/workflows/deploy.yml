@@ -1,0 +1,36 @@
+name: Deploy Website
+on:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: pip install -U -r requirements.txt
+      - run: mkdocs build --strict
+      - uses: actions/upload-pages-artifact@v1
+        with:
+          path: 'site'
+      - id: deployment
+        if: github.ref_name == 'master'
+        uses: actions/deploy-pages@v1
