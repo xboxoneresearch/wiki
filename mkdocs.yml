@@ -26,7 +26,7 @@ validation:
 plugins:
   - search
   - literate-nav:
-      nav_file: index.md
+      nav_file: NAVIGATION.md
       tab_length: 2
   - git-authors:
       show_email_address: false
