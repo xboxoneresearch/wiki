@@ -32,4 +32,6 @@ plugins:
       show_email_address: false
       strict: false
   - git-revision-date-localized:
+      enabled: !ENV [CI, false]
       strict: false
+      enable_creation_date: true
