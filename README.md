@@ -36,30 +36,48 @@ git clone git@github.com:yourusername/wiki.git
 cd wiki/
 ```
 
-3. Create & activate python virtual-environment (might need dependency `python3-venv`, see: <https://docs.python.org/3/library/venv.html>)
+3. Choose one of the two deployment methods below.
+
+### Native deployment
+
+1. Create & activate python virtual-environment (might need dependency `python3-venv`, see: <https://docs.python.org/3/library/venv.html>)
 
 ```
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-4. Install mkdocs and dependencies
+2. Install mkdocs and dependencies
 
 ```
 pip install -r requirements.txt
 ```
 
-5. Edit docs and verify with the following commands:
+3. Edit docs and verify with the following commands:
 
-Serve the documentation
+Serve the documentation (<http://127.0.0.1:8000>)
 ```
-make serve
+mkdocs serve --strict
 ```
 
 Build the documentation
 ```
-make build --strict
+mkdocs build --strict
 ```
 
-6. Commit & push your changes
-7. Send a Pull Request
+### Docker deployment
+
+1. Execute docker container:
+
+```
+docker compose up
+```
+
+2. Navigate to <http://127.0.0.1:8000>
+3. Make your changes
+
+## Submit your work
+
+- Commit your changes
+- Push the changes
+- Send a Pull Request
