@@ -1,8 +1,14 @@
 site_name: Xbox One Research Wiki
+repo_url: https://github.com/xboxoneresearch/wiki
 
 theme:
   name: material
   custom_dir: docs/overrides
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - content.action.view
+    - content.action.edit
   palette:
     - scheme: default
       toggle:
@@ -29,6 +35,7 @@ plugins:
       nav_file: NAVIGATION.md
       tab_length: 2
   - git-authors:
+      enabled: !ENV [CI, false]
       show_email_address: false
       strict: false
   - git-revision-date-localized:
