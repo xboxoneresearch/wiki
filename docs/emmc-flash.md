@@ -10,7 +10,9 @@ See [XBFS](xbox-boot-file-system.md).
 
 ## Reading eMMC via hardware
 
-### Durango
+Each console revision has different circuitry to drive the eMMC, so a different method is needed for each console revision.
+
+### Durango (original launch-date motherboards)
 Motherboard overview:
 
 ![Mainboard top view](emmc-flash/0_durango_read_nand_mb1.png)
@@ -61,6 +63,12 @@ Everything works better when you hook everything up to the SD reader with everyt
 ![eMMC communication points](emmc-flash/7_durango_read_nand_connection.png)
 
 Source: [Team Xecuter / xpgamesaves](https://www.xpgamesaves.com/threads/how-to-read-write-xbox-one-nand-filesystem.95025/)
+
+### Silverton (2014-2015 revisions of the original PHAT motherboard)
+Follow [this tutorial](https://gbatemp.net/threads/tutorial-hardmod-xbox-one-silverton-and-dump-nand-memory.607875/) by @TorusHyperV
+
+### Xbox One S
+Coming soon to an eMMC near you
 
 ## References
 [SK Hynix H26M42003GMR](https://www.electronicsdatasheets.com/manufacturers/sk-hynix/parts/h26m42003gmr)

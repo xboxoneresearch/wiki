@@ -40,6 +40,9 @@ Non-XVC files use an ODK which appears to be static for all XVDs (but differs be
 
 - ODK: Offline Distribution Key, used to decrypt the header's encrypted CIK, and likely any CIK stored outside the package
 
+## Visual representation of the XVD format
+Get the [PDF Here](./XVD_visual_format-2.pdf)
+
 ## Tools
 [xvdtool by emoose](https://github.com/emoose/xvdtool)
 
