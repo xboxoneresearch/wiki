@@ -35,19 +35,19 @@ Hardware wise, a bunch of different Xbox One and Xbox Series models exist. These
 
 **Xbox One PHAT game devkit:**
 
-![](https://preview.redd.it/6b1c12m4u7k51.jpg?width=640&crop=smart&auto=webp&s=95d2afb817ad65a4492696ce7987fdbd67d52c96)
+![](./devkits/xbox_one_phat_xdk.webp)
 
 **Xbox One S game devkit:**
-![](https://i.redd.it/figured-yall-would-enjoy-this-one-s-one-x-xdk-v0-cbml58i63d991.jpg?width=4000&format=pjpg&auto=webp&s=96c405168feee4a6bb7a7da64200a0a0fb8fc378)
+![](./devkits/xbox_one_s_xdk.jpg)
 
 **Xbox One X testkit:**
-![inextestkit](https://pbs.twimg.com/media/Fk67JCpX0AAGlHA?format=jpg&name=4096x4096)
+![inextestkit](./devkits/xbox_one_x_testkit.jpg)
 
 **Xbox One X game devkit:**
-![Xb1X-ERA](https://i.blogs.es/7a4e9b/xboxscorpio/1366_2000.jpg)
+![Xb1X-ERA](./devkits/xbox_one_x_xdk.jpg)
 
 **Xbox Series S/X game devkit (pre-release):**
-![Series X XDK](https://pbs.twimg.com/media/FRBv-OQXoAAz7yd.jpg)
+![Series X XDK](./devkits/series_x_xdk.jpg)
 
 **Xbox Series X game devkit (release version):**
 
