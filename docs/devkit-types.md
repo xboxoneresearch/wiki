@@ -31,7 +31,7 @@ See [Certificates](certificates.md)
 A magical capability certificate ([$Diagnosis/debug.bin on a NTFS USB](special-ntfs-usb-files.md)) that will temporaily activate a retail console as a limited Godbox for 24 hours. Kernel/User-Mode debugging is only possible on SystemOS and GameOS, not HostOS, and the temporary kit requires authentication against Live.
 
 ## Devkit types classified by hardware
-Hardware wise, a bunch of different Xbox One and Xbox Series models exist. These are some of them:
+Hardware wise, a bunch of different Xbox One and Xbox Series models exist. These are some of them, which mostly correspond to the ERA type mentioned in the previous section:
 
 **Xbox One PHAT game devkit:**
 
