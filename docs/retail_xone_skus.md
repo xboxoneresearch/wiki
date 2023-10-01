@@ -1,6 +1,18 @@
 # Retail Xbox One Motherboard SKU listing
 
-This page aims to become an exhaustive list of every different motherboard models / SKUs out there.
+This page aims to become an exhaustive list of every different motherboard models / SKUs out there. **It is currently Work In Progress.**
+
+At the moment, the following identificators are collected, and where to find them:
+
+For Xbox One Phat:
+- PCB Label Number: This is the number, starting with X, that appears on the motherboard's label, in the front layer.
+- PCB Soldermask Number: This is the number, starting with X, that appears on the bottom right corner, in the front layer.
+- Hardware description / differences: relevant changes in components, etc.
+- Owned by / Contributed by: who discovered the board revision.
+- Pictures.
+
+For Xbox One S/X:
+- Same as above. Update this page with where to find the identificators on the boards.
 
 ## Xbox One Phat
 
@@ -15,7 +27,7 @@ This page aims to become an exhaustive list of every different motherboard model
 
 <details>
   
-![XDK Transfer - backside](xdk_transfer/transfer_back.jpg)
+Not available yet
 
 </details>
 
