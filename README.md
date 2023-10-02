@@ -19,8 +19,10 @@ Contributions are very welcome. Here's how you can help:
 
 1. __Fork__ this repo
 1. Make changes
-1. __Verify__ your changes are formatted properly
+1. __Verify__ your changes are formatted properly (otherwise the PR cannot be accepted)
 1. Send a __Pull Request__
+
+**NOTE**: When adding a new page, ensure it's linked in [NAVIGATION.md](./docs/NAVIGATION.md)
 
 ## Local testing
 
@@ -74,10 +76,4 @@ docker compose up
 ```
 
 2. Navigate to <http://127.0.0.1:8000>
-3. Make your changes
-
-## Submit your work
-
-- Commit your changes
-- Push the changes
-- Send a Pull Request
+3. Make your changes and verify the formatting / linking still checks out
