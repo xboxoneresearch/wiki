@@ -1,6 +1,6 @@
 - [Home](index.md)
 - Hardware
-  - [SKU List](retail_xone_skus.md) 
+  - [SKU List](retail-xone-skus.md)
   - [Codenames](codenames.md)
   - [Console revisions](console-revisions.md)
   - [CPU](cpu.md)
