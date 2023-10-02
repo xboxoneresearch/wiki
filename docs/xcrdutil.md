@@ -138,4 +138,7 @@ xcrdutil -delete_blob [XUC:]\targetPackage.xvd
 |0x80070002   | File/path not found         | This error appears whenever an invalid path to a file is used (either XCRD, native \\??\\ path, or SystemOS path). | ```xcrdutil -m [XUC:]\idontexist.xvd```
 |0x80070570   | Possible permission error |This error appears when an operation is denied due to insufficient permissions. Examples include trying to mount host.xvd. | ```xcrdutil -m \??\F:\host.xvd``` or ```xcrdutil -QueryInfo \??\F:\host.xvd 3```   
 |0x8007048F   | Path not found         |This error appears when trying to create/access a file in a XCRD path that does not exist. | ```xcrdutil -c [XE0:]\someinvalidpath```  
-|0x80070032   | Unknown | Possibly meaning the passed XVD does not have region information | ```xcrdutil -Specifiers [XUC:]\someXvdYouveMounted```  
+|0x80070032   | Unknown | Possibly meaning the passed XVD does not have region information | ```xcrdutil -Specifiers [XUC:]\someXvdYouveMounted``` 
+|0x80070005   | Unknown | Unknown | ```xcrdutil -read_blob \??\F:\host.xvd D:\DevelopmentFiles\host.xvd.dmp``` (as elevated admin account) 
+
+NOTE: It is possible that error codes have changed over time with newer xcrdutil versions, and the table might not be completely accurate.

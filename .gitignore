@@ -6,6 +6,7 @@
 Thumbs.db
 
 # mkdocs build dir
+.cache/
 site/
 
 # Python venv
