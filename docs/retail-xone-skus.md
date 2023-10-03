@@ -92,3 +92,13 @@ _Your help is needed to complete this page! Fork this repo and make a Pull Reque
 
 ## Xbox One X
 _Your help is needed to complete this page! Fork this repo and make a Pull Request to contribute_
+
+* **PCB Label Number**: M1069869 - 001
+* **PCB Soldermask Number**: M1037358-004
+* **Hardware description / differences**: -
+* **Owned by / Contributed by**: Bradman117
+* **Pictures**:
+
+![M1037358-004 Front](hardware/M1037358-004/front.jpg)
+![M1037358-004 Back](hardware/M1037358-004/back.jpg)
+![M1037358-004 Back](hardware/M1037358-004/sticker.jpg)
