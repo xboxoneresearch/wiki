@@ -39,13 +39,15 @@ Use the following guidelines:
 ### Durango Revisions
 
 
-* **PCB Label Number**:
-* **PCB Soldermask Number**:
-* **Hardware description / differences**:
-* **Owned by / Contributed by**: public domain
+* **PCB Label Number**: X884497 - 001 Rev F-2
+* **PCB Soldermask Number**: X877750-003
+* **Hardware description / differences**: -
+* **Owned by / Contributed by**: Bradman117
 * **Pictures**: 
 
-Not available yet
+![X887998-010 Front](hardware/X877750-003/front.jpg)
+![X887998-010 Sticker](hardware/X877750-003/sticker.jpg)
+![X887998-010 Back](hardware/X877750-003/back.jpg)
 
 
 ### Silverton Revisions
