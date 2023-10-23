@@ -76,4 +76,4 @@ docker compose up
 ```
 
 2. Navigate to <http://127.0.0.1:8000>
-3. Make your changes and verify the formatting / linking still checks out
+3. Make your changes and verify the formatting / linking still checks out.
