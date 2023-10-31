@@ -31,8 +31,8 @@ storage device to trigger operations during cold boot of the console.
 | $EnableGameCache			  | TBD.   | TBD.																																					   |
 | $HostEtwTrace				  | Folder | Informs the console to treat the external storage device as a host trace request upon connection.														   |
 | $KPixCapture				  | TBD.   | TBD.																																					   |
-| $SystemUpdate\\consoles.txt | File   | When preset on the external USB storage device during boot, the console will output its current system update build version to the file.                  |
-| $SystemUpdate\\hwinit.cfg   | File   | Sets motherboard traces, voltages, header behaivor, and IC clock speed overrides. Read, flashed, and executed during the console's cold boot routine.     |
+| $SystemUpdate\\consoles.txt | File   | When present on the external USB storage device during boot, the console will output its current system update build version to the file.                  |
+| $SystemUpdate\\hwinit.cfg   | File   | Sets motherboard traces, voltages, header behavior, and IC clock speed overrides. Read, flashed, and executed during the console's cold boot routine.     |
 | $SystemUpdate\\devkit.ini	  | File   | Sets default primary debug output interface, connecting host network address, and protocol. Read, flashed, and executed during the console's cold boot routine.|
 | MSXB_Kiosk                  | File   | XVDs with this title (No extension) and Kiosk type will temporarily boot the console in Kiosk mode when present on the root of the USB external storage.  |
 | $NoSurface                  | Folder | Mounts external storage to HostOS as opposed to SystemOS. External Host volumes are assigned a drive letter that can only be accessed from HostOS and Xcrdutil under SystemOS.|
