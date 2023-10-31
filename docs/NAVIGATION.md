@@ -18,7 +18,7 @@
   - [Flash (XBFS)](xbox-boot-file-system.md)
   - [Hard drive](harddrive.md)
   - [Security Processor](security-processor.md)
-  - [Special NTFS USB files](special-ntfs-usb-files.md)
+  - [USB NTFS Overrides](usb-ntfs-overrides.md)
   - [Telemetry](telemetry.md)
   - [Protocol URIs (Deep links)](protocol-URIs.md)
   - [ODD Update Logs](optical-disc-drive/odd-firmware-update-log.md)
