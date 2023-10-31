@@ -15,7 +15,7 @@ Please check the following page for instructions: <https://github.com/xboxoneres
 
 ## Community
 
-Sou can reach the community at [Matrix Chat](https://matrix.to/#/#xboxoneresearch:matrix.org)
+Sou can reach the community at [Matrix Chat](https://matrix.to/#/#xboxoneresearch_space:matrix.org)
 
 ## Important
 
