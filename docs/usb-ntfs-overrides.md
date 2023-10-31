@@ -1,10 +1,10 @@
 <!-- TITLE: Special Ntfs Usb Files -->
 <!-- SUBTITLE: A quick summary of USB Ntfs Ovverides -->
 
-# Special NTFS USB files
+# USB NTFS Overrides
 ## What is this about ?
 
-The following folders / files that can be created on a USB NTFS formated
+The following folders / files can be created on a USB NTFS formated
 storage device to trigger operations during cold boot of the console.
 
 ## List of files / folders
