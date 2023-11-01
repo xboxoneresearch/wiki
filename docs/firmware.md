@@ -4,6 +4,11 @@
 
 | version | GUID | build_tag | date | download (MS) | download (archive) | notes |
 |---------|------|-----------|------|---------------|--------------------|-------|
+| 10\.0.25398.2821 | n/a | xb_flt_2310zn.231018-2200 | 2023-10-25 | n/a | n/a | October 2023 OS |
+| 10\.0.25398.2538 | n/a  | n/a | 2023-10-19 | [Microsoft](https://download.microsoft.com/download/1/d/d/1dd3f392-84d8-48ed-915e-388b47fa565e/OSU1.zi) | n/a | October 2023 OS |
+| 10\.0.25398.2266 | n/a | xb_flt_2309zn.231010-1055 | 2023-10-16 | n/a | n/a | October 2023 OS |
+| 10\.0.25398.2258 | n/a | xb_flt_2309zn.230918-2000 | 2023-09-27 | n/a | n/a | September 2023 OS |
+| 10\.0.25398.1762 | n/a | xb_flt_2308zn.230831-1430 | 2023-09-06 | n/a | n/a | September 2023 OS |
 | 10\.0.25398.1648 | 46ce55ee-f274-472f-944c-12058332ea2f | n/a | n/a | n/a | n/a | n/a |
 | 10\.0.25398.1641 | c5406d79-845e-4759-ace9-3e0e20aea2ff | n/a | n/a | n/a | n/a | n/a |
 | 10\.0.25398.1635 | d16f9ee5-be49-4116-8813-d2b47a2a56cc | n/a | n/a | n/a | n/a | n/a |
