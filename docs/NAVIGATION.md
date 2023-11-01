@@ -12,6 +12,7 @@
   - [RF unit](rf-unit.md)
   - [XDK Transfer device](xdk_transfer.md)
 - Software
+  - [Firmware](firmware.md)
   - [Bootanimation](bootanimation.md)
   - [Bootloaders](bootloaders.md)
   - [Certificates](certificates.md)
