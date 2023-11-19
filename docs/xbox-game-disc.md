@@ -39,6 +39,24 @@ XGD4_DISC
 
 Note: All keys have been replaced by bogus data
 
+## SignedLicense
+The data of **SignedLicense** in License0.xml base64-decodes to something like this:
+```
+<?xml version="1.0"?>
+<SignedLicense xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" LicenseProtocolVersion="4" xmlns="http://schemas.microsoft.com/xboxlive/security/clas/LicResp/v1">
+  <SVLicense LicenseId="ed06549b-5727-4047-8657-03994daf25bb" LicenseType="GameContent" Persist="false" LicenseUsage="DiscOffline">
+    <DiscID>5bd47355-d6a1-fc83-a35d-1ff7c238c954</DiscID>
+    <BootMode>Retail</BootMode>
+    <KeyId>1792e213-317f-4a59-81b6-521ef942e778</KeyId>
+    <UplinkKeyId>00000004-0000-0000-0000-000000000000</UplinkKeyId>
+    <AbsoluteIssueDate>2016-05-11T20:22:32.7705418Z</AbsoluteIssueDate>
+  </SVLicense>
+  <SPLicenseBlock>o5SsbYZFJkeyRYdHI43l2II6kUEN2iEpngZyzIJIbhubMsdpz7VtGXKy3BweV9VsY1gdSYGMcStbBmlEzVw8lhZ3/cYYP3ZiA8+GurxlrbR1UG2XJfXpnHjaqQqD87LrkR4ONktDPnew7PQpto/lcaT58kcIETw2Pj9nTajS+31etpR1EC6lNNuvFFnvzfB4MT5czx/QNSRfpsNiGXgg4/k+VMTgECwFD6594nduJgatoEzX8G1tkTKDPECDeRe3SrinyrvoXwE1xHKZHBBK+rFbmuaAs2HUqk7KCQlhCNyF0y55vGpq5RJwCzL5Y5TtBNqal7BaK6hjTOf3jLb+cKACOkLij6PCvy/OGY3bIfRhagnBd8eV2mJyOuWW9gPBovW4gAr0un5vjI/sYM6bGYd4PqlfUwGN92eau9nMPqGcy6Go3jBVHkYZnt1BqfFPdUywB9lrN9kTb2QK3mz9bU8OLY9Yf52XEhZGfV4f+5WCLMi6bg391bl9QwIpnInkCYO21MnVWiLe9yVNjgo7dDCr/TW1lbUVpGRfolKrJtVp8e0k1HfgRXFu/YXxbzmT3dkMz9AzBo1b7/IaMct2riiE5EjtJeJGYbUkg6K/nA1Y32oxWIcbppI7xSBCg5PbrAXUh1pFST8kN0R+0X5k8sOYeUbbVghxUJHHhIIzYCk=</SPLicenseBlock>
+</SignedLicense>
+```
+
+Note: All keys have been replaced by bogus data
+
 ### catalog.js
 ```
 {  
@@ -134,24 +152,6 @@ Note: All keys have been replaced by bogus data
   ]
 }
 ```
-
-## License
-The data of **SignedLicense** in License0.xml decodes to something like this:
-```
-<?xml version="1.0"?>
-<SignedLicense xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" LicenseProtocolVersion="4" xmlns="http://schemas.microsoft.com/xboxlive/security/clas/LicResp/v1">
-  <SVLicense LicenseId="ed06549b-5727-4047-8657-03994daf25bb" LicenseType="GameContent" Persist="false" LicenseUsage="DiscOffline">
-    <DiscID>5bd47355-d6a1-fc83-a35d-1ff7c238c954</DiscID>
-    <BootMode>Retail</BootMode>
-    <KeyId>1792e213-317f-4a59-81b6-521ef942e778</KeyId>
-    <UplinkKeyId>00000004-0000-0000-0000-000000000000</UplinkKeyId>
-    <AbsoluteIssueDate>2016-05-11T20:22:32.7705418Z</AbsoluteIssueDate>
-  </SVLicense>
-  <SPLicenseBlock>o5SsbYZFJkeyRYdHI43l2II6kUEN2iEpngZyzIJIbhubMsdpz7VtGXKy3BweV9VsY1gdSYGMcStbBmlEzVw8lhZ3/cYYP3ZiA8+GurxlrbR1UG2XJfXpnHjaqQqD87LrkR4ONktDPnew7PQpto/lcaT58kcIETw2Pj9nTajS+31etpR1EC6lNNuvFFnvzfB4MT5czx/QNSRfpsNiGXgg4/k+VMTgECwFD6594nduJgatoEzX8G1tkTKDPECDeRe3SrinyrvoXwE1xHKZHBBK+rFbmuaAs2HUqk7KCQlhCNyF0y55vGpq5RJwCzL5Y5TtBNqal7BaK6hjTOf3jLb+cKACOkLij6PCvy/OGY3bIfRhagnBd8eV2mJyOuWW9gPBovW4gAr0un5vjI/sYM6bGYd4PqlfUwGN92eau9nMPqGcy6Go3jBVHkYZnt1BqfFPdUywB9lrN9kTb2QK3mz9bU8OLY9Yf52XEhZGfV4f+5WCLMi6bg391bl9QwIpnInkCYO21MnVWiLe9yVNjgo7dDCr/TW1lbUVpGRfolKrJtVp8e0k1HfgRXFu/YXxbzmT3dkMz9AzBo1b7/IaMct2riiE5EjtJeJGYbUkg6K/nA1Y32oxWIcbppI7xSBCg5PbrAXUh1pFST8kN0R+0X5k8sOYeUbbVghxUJHHhIIzYCk=</SPLicenseBlock>
-</SignedLicense>
-```
-
-Note: All keys have been replaced by bogus data
 
 
 ## References
