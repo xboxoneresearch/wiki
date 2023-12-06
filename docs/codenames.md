@@ -19,5 +19,6 @@ This page contains a list of known internal codenames for hardware, software, ac
 | Silverton | Codename for a retail Xbox One PHAT mainboard revision | Hardware | N/A |
 | Zurich | [Xbox One Digital Tv Tuner Adapter](https://www.amazon.de/Xbox-One-Digital-TV-Tuner/dp/B00E97HVJI)   |  Hardware | N/A |
 | Brittlebush | [XDK Transfer Device](xdk_transfer.md)   |  Hardware | N/A |
+| Zephyrus | Name of the EV2 revision of the Xbox Adaptive Controller | Hardware | Some prototype appeared online for sale in late 2023 |
 | Xiphos | Codename for the GIP (Gamepad Input Provider) service in SystemOS |  Software | N/A |
  
