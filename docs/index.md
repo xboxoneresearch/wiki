@@ -13,6 +13,10 @@ See [FAQ](faq.md) for frequently asked questions.
 
 Please check the following page for instructions: <https://github.com/xboxoneresearch/wiki>
 
+## Community
+
+Sou can reach the community at [Matrix Chat](https://matrix.to/#/#xboxoneresearch_space:matrix.org)
+
 ## Important
 
 We do our best to ensure that we are respectful towards the research
