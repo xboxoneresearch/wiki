@@ -15,8 +15,14 @@ This page contains a list of known internal codenames for hardware, software, ac
 | Petra  | Presumably, a codename of an earlier Kinect prototype hardware version | Hardware | N/A |
 | Nazca  | Presumably, a codename of an earlier Kinect prototype hardware version | Hardware | N/A |
 | Ameri  | Presumably, a codename of an earlier Kinect prototype hardware version | Hardware | N/A |
-| Graybull | Codename for the retail Xbox One PHAT day One mainboard revision | Hardware | N/A |
+| Durango | Codename for the retail Xbox One PHAT day One mainboard revision | Hardware | NOTE: Durango was also used during 2012-2013 to refer to Xbox One alpha prorotypes. However nowadays the name is mostly used to refer to the day one console hardware version. |
+| Graybull | Codename for the retail Xbox One PHAT day One mainboard revision | Hardware | refers to the same retail board as Durango |
 | Silverton | Codename for a retail Xbox One PHAT mainboard revision | Hardware | N/A |
+| Edmonton | Codename for the retail Xbox One S mainboard revision | Hardware | N/A |
+| Kingston | Codename for the retail Xbox One S mainboard revision - presumably same as edmonton | Hardware | Leaked schematics presumably refer to the Xbox One S as Kingston Retail |
+| Carmel | Codename for some mainboard revision - needs verification wether this is an Xbox One S flavour or is it Xbox One PHAT / Xbox One X! | Hardware | N/A |
+| Cactus | Codename for the retail Xbox One X maiboard | Hardware | The PCBs sometimes include the Cactus text |
+| Scorpio | Codename for the retail Xbox One X maiboard | Hardware | Used interchangeably with Cactus |
 | Zurich | [Xbox One Digital Tv Tuner Adapter](https://www.amazon.de/Xbox-One-Digital-TV-Tuner/dp/B00E97HVJI)   |  Hardware | N/A |
 | Brittlebush | [XDK Transfer Device](xdk_transfer.md)   |  Hardware | N/A |
 | Zephyrus | Name of the EV2 revision of the Xbox Adaptive Controller | Hardware | Some prototype appeared online for sale in late 2023 |
