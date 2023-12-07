@@ -24,6 +24,8 @@
   - [Protocol URIs (Deep links)](protocol-URIs.md)
   - [ODD Update Logs](optical-disc-drive/odd-firmware-update-log.md)
   - [Xbox Game Disc](xbox-game-disc.md)
+  - [XEO3 Emulator](xeo3.md)
+    - xeo3/*.md
   - [Xbox Operating System](xbox-operating-system.md)
   - [Xbox UI](xbox-ui.md)
   - [Xbox WinRT](winmd.md)
