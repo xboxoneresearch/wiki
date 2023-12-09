@@ -20,4 +20,5 @@ This page contains a list of known internal codenames for hardware, software, ac
 | Zurich | [Xbox One Digital Tv Tuner Adapter](https://www.amazon.de/Xbox-One-Digital-TV-Tuner/dp/B00E97HVJI)   |  Hardware | N/A |
 | Brittlebush | [XDK Transfer Device](xdk_transfer.md)   |  Hardware | N/A |
 | Xiphos | Codename for the GIP (Gamepad Input Provider) service in SystemOS |  Software | N/A |
+| Zephos | The Xbox Accessability Controller | Hardware | N/A |
  

@@ -34,6 +34,7 @@
   - [Kiosk](kiosk.md)
   - [Exploits](exploits.md)
     - exploits/*.md
+  - [Unauthorized Xbox Device Lockout](unauthorized-device-lockout.md)
 - Xbox Live
   - [Xbox Live Error Codes](xbox-live/hresult-error-codes.md)
   - [XSTS Token](xbox-live/xsts-token.md)
