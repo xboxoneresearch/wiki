@@ -21,20 +21,19 @@ This page contains a list of known internal codenames for hardware, software, ac
 | Edmonton | Codename for the retail Xbox One S mainboard revision | Hardware | N/A |
 | Kingston | Codename for the retail Xbox One S mainboard revision - presumably same as edmonton | Hardware | Leaked schematics presumably refer to the Xbox One S as Kingston Retail |
 | Carmel | Codename for some mainboard revision - needs verification wether this is an Xbox One S flavour or is it Xbox One PHAT / Xbox One X! | Hardware | N/A |
-| Cactus | Codename for the retail Xbox One X maiboard | Hardware | The PCBs sometimes include the Cactus text |
-| Scorpio | Codename for the retail Xbox One X maiboard | Hardware | Used interchangeably with Cactus |
+| Cactus | Codename for the retail Xbox One X mainboard | Hardware | The PCBs sometimes include the Cactus text |
+| Scorpio | Codename for the retail Xbox One X mainboard | Hardware | Used interchangeably with Cactus |
 | Zurich | [Xbox One Digital Tv Tuner Adapter](https://www.amazon.de/Xbox-One-Digital-TV-Tuner/dp/B00E97HVJI)   |  Hardware | N/A |
 | Brittlebush | [XDK Transfer Device](xdk_transfer.md)   |  Hardware | N/A |
 | Zephyrus | Name of the EV2 revision of the Xbox Adaptive Controller | Hardware | Some prototype appeared online for sale in late 2023 |
 | Xiphos | Codename for the GIP (Gamepad Input Provider) service in SystemOS |  Software | N/A |
-| Zephyrus | The Xbox Accessability Controller | Hardware | N/A |
-| Merlin | Series X/S Controller | Hardware | N/A |
-| Troy | Elite (Generation One) Controller | Hardware | N/A |
-| Delphi | Elite (Generation Two) Controller | Hardware | N/A |
-| Crete | Xbox One Controller Revision (BT + 3.5mm) | Hardware | N/A |
-| Merlin | Series X/S Controller | Hardware | N/A |
-| Norland | Xbox Stereo Headset (Generation One) | Hardware | N/A |
-| Parkview | Xbox Stereo Headset (Generation Two) | Hardware | N/A |
+| Merlin | Series X/S Controller | Hardware | Xbox Accessories App Image Names |
+| Troy | Elite (Generation One) Controller | Hardware | Xbox Accessories App Image Names |
+| Delphi | Elite (Generation Two) Controller | Hardware | Xbox Accessories App Image Names |
+| Crete | Xbox One Controller Revision (BT + 3.5mm) | Hardware | Xbox Accessories App Image Names |
+| Merlin | Series X/S Controller | Hardware | Xbox Accessories App Image Names |
+| Norland | Xbox Stereo Headset (Generation One) | Hardware | Xbox Accessories App Image Names |
+| Parkview | Xbox Stereo Headset (Generation Two) | Hardware | Xbox Accessories App Image Names |
 
 
 
