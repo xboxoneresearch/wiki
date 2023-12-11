@@ -5,7 +5,7 @@ This page contains a list of known internal codenames for hardware, software, ac
 | Codename   |      Product / App Name     | Category |  Description or Comments |
 |----------|-------------|------|------|
 | Arden/Sparkman | Codename(s)? for the Xbox Series S/X secure AMD enclave | Hardware | N/A |
-| Keystone   | Unreleased Xbox Streaming platform / hardware device    | Hardware | N/A |
+| Keystone   | Shelved Xbox Streaming platform / hardware device    | Hardware | N/A |
 | Cordova    | Codename for one of the Xbox One ODD hardware revisions | Hardware | N/A |
 | Lancaster  | Codename for one of the Xbox One ODD hardware revisions | Hardware | N/A |
 | Monterey   | Codename for one of the Xbox One ODD hardware revisions | Hardware | N/A |
@@ -20,5 +20,16 @@ This page contains a list of known internal codenames for hardware, software, ac
 | Zurich | [Xbox One Digital Tv Tuner Adapter](https://www.amazon.de/Xbox-One-Digital-TV-Tuner/dp/B00E97HVJI)   |  Hardware | N/A |
 | Brittlebush | [XDK Transfer Device](xdk_transfer.md)   |  Hardware | N/A |
 | Xiphos | Codename for the GIP (Gamepad Input Provider) service in SystemOS |  Software | N/A |
-| Zephos | The Xbox Accessability Controller | Hardware | N/A |
+| Zephyrus | The Xbox Accessability Controller | Hardware | N/A |
+| Merlin | Series X/S Controller | Hardware | N/A |
+| Troy | Elite (Generation One) Controller | Hardware | N/A |
+| Delphi | Elite (Generation Two) Controller | Hardware | N/A |
+| Crete | Xbox One Controller Revision (BT + 3.5mm) | Hardware | N/A |
+| Merlin | Series X/S Controller | Hardware | N/A |
+| Norland | Xbox Stereo Headset (Generation One) | Hardware | N/A |
+| Parkview | Xbox Stereo Headset (Generation Two) | Hardware | N/A |
+
+
+
+
  
