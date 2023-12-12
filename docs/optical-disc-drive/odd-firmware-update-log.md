@@ -1,6 +1,6 @@
 ## ODD Update Log Variants
 
-### Day-1 Xbox One console ODD update log in another console (thanks to anonymous donnor)
+### Day-1 Xbox One console ODD update log in another console (thanks to anonymous contributor)
 The first batches of Xbox One Consoles that made it into the shelves in 2013, apparently did not contain a production-ready firmware for the optical disc drive. Hence, their internal memory was unlocked and could be read/writen. The drives were still paired to the console they shipped with, so it was not possible to use them with another console, but would have been useful for DVD/ODD firmware research. After the day-1 update these drives would be update and locked. Here's the log of one of those drives being plugged to a different console:
 
 ```
