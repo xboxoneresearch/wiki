@@ -5,7 +5,7 @@ This page contains a list of known internal codenames for hardware, software, ac
 | Codename   |      Product / App Name     | Category |  Description or Comments |
 |----------|-------------|------|------|
 | Arden/Sparkman | Codename(s)? for the Xbox Series S/X secure AMD enclave | Hardware | N/A |
-| Keystone   | Shelved Xbox Streaming platform / hardware device    | Hardware | N/A |
+| Keystone   | A [cancelled](https://kotaku.com/xbox-game-pass-keystone-microsoft-halo-infinite-1849790199) Xbox Streaming platform / hardware device    | Hardware | N/A |
 | Cordova    | Codename for one of the Xbox One ODD hardware revisions | Hardware | N/A |
 | Lancaster  | Codename for one of the Xbox One ODD hardware revisions | Hardware | N/A |
 | Monterey   | Codename for one of the Xbox One ODD hardware revisions | Hardware | N/A |
@@ -25,8 +25,7 @@ This page contains a list of known internal codenames for hardware, software, ac
 | Scorpio | Codename for the retail Xbox One X mainboard | Hardware | Used interchangeably with Cactus |
 | Zurich | [Xbox One Digital Tv Tuner Adapter](https://www.amazon.de/Xbox-One-Digital-TV-Tuner/dp/B00E97HVJI)   |  Hardware | N/A |
 | Brittlebush | [XDK Transfer Device](xdk_transfer.md)   |  Hardware | N/A |
-| Zephyrus | Name of the EV2 revision of the Xbox Adaptive Controller | Hardware | Some prototype appeared online for sale in late 2023 |
-| Xiphos | Codename for the GIP (Gamepad Input Provider) service in SystemOS |  Software | N/A |
+| Zephyrus | Internal and API name of the Xbox Adaptive Controller | Hardware | Some prototype appeared online for sale in late 2023 |
 | Merlin | Series X/S Controller | Hardware | Xbox Accessories App Image Names |
 | Troy | Elite (Generation One) Controller | Hardware | Xbox Accessories App Image Names |
 | Delphi | Elite (Generation Two) Controller | Hardware | Xbox Accessories App Image Names |
@@ -34,8 +33,4 @@ This page contains a list of known internal codenames for hardware, software, ac
 | Merlin | Series X/S Controller | Hardware | Xbox Accessories App Image Names |
 | Norland | Xbox Stereo Headset (Generation One) | Hardware | Xbox Accessories App Image Names |
 | Parkview | Xbox Stereo Headset (Generation Two) | Hardware | Xbox Accessories App Image Names |
-
-
-
-
- 
+| Xiphos | Codename for the GIP (Gamepad Input Provider) service in SystemOS |  Software | N/A |
