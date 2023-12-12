@@ -33,4 +33,5 @@ This page contains a list of known internal codenames for hardware, software, ac
 | Merlin | Series X/S Controller | Hardware | Xbox Accessories App Image Names |
 | Norland | Xbox Stereo Headset (Generation One) | Hardware | Xbox Accessories App Image Names |
 | Parkview | Xbox Stereo Headset (Generation Two) | Hardware | Xbox Accessories App Image Names |
+| Orren | Unknown controller hardware | Hardware | Found [here](https://xbaccessories.blob.core.windows.net/accessories/M/XB_GA_ew92RW1KHEGfgr6ZoY3DyQ.json) |
 | Xiphos | Codename for the GIP (Gamepad Input Provider) service in SystemOS |  Software | N/A |
