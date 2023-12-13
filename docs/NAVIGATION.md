@@ -9,6 +9,7 @@
   - [Wifi](wifi.md)
   - [Ethernet](ethernet.md)
   - [Optical Disc Drive](optical-disc-drive.md)
+    - [ODD Update Logs](optical-disc-drive/odd-firmware-update-log.md)
   - [RF unit](rf-unit.md)
   - [XDK Transfer device](xdk_transfer.md)
 - Software
@@ -22,7 +23,6 @@
   - [USB NTFS Overrides](usb-ntfs-overrides.md)
   - [Telemetry](telemetry.md)
   - [Protocol URIs (Deep links)](protocol-URIs.md)
-  - [ODD Update Logs](optical-disc-drive/odd-firmware-update-log.md)
   - [Xbox Game Disc](xbox-game-disc.md)
   - [XEO3 Emulator](xeo3.md)
     - xeo3/*.md
