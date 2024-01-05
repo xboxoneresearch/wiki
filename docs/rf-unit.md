@@ -58,6 +58,10 @@ I2C address: `0x5A`
 
 Datasheet: [ISD9160FI](./rf-unit/1811151450_Nuvoton-Tech-ISD9160FI_C79806.pdf)
 
+Pinout (from the official datasheet linked above)
+
+![ISD9160F Pinout](./rf-unit/isd9160f_pinout.png)
+
 #### Communication
 
 The exact communication protocol is unknown so far.
