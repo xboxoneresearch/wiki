@@ -75,8 +75,6 @@ Responsible for playing the power-on/off and eject sounds.
 
 Model: ISD9160F
 
-I2C address: `0x5A`
-
 Datasheet: [ISD9160FI](./rf-unit/1811151450_Nuvoton-Tech-ISD9160FI_C79806.pdf)
 
 Pinout (from the official datasheet linked above)
@@ -97,6 +95,8 @@ This IC has multiple possible pin-configurations, the following are verified sig
 ##### I2C
 
 Captured via Logic Analyzer from Pin 5,6 on RF Unit.
+
+I2C address: `0x5A`
 
 Commands
 
