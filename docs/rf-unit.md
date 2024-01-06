@@ -62,9 +62,245 @@ Pinout (from the official datasheet linked above)
 
 ![ISD9160F Pinout](./rf-unit/isd9160f_pinout.png)
 
-#### Communication
+##### Communication
 
-The exact communication protocol is unknown so far.
+###### I2C
+
+Captured via Logic Analyzer from Pin 5,6 on RF Unit.
+
+Commands
+
+| Byte | Name           | Args           | Reads data |
+| ---- | -------------- | -------------- | ---------- |
+| 0xC0 | Interrupt Read | /              |        Yes |
+| 0x48 | Register Write | Register, Data |         No |
+| 0xC1 | Register Read  | /              |        Yes |
+| ---- | -------------- | -------------- | ---------- |
+| 0x81 | Start Sound    | Sound index    |         No |
+| 0x02 | Stop Sound     | /              |         No |
+| 0x42 | Reset          | 0x55           |         No |
+
+Registers
+
+| Num  | Name          | Read/Write |
+| ---- | ------------- | ---------- |
+| 0x0C | Status        | READ-ONLY  |
+| 0x04 | Address0      | R/W        |
+
+Available sounds
+
+| Index| Name         |
+| ---- | ------------ |
+| 0x00 | PowerOn      |
+| 0x01 | Ding         |
+| 0x02 | PowerOff     |
+| 0x03 | DiscDrive1   |
+| 0x04 | DiscDrive2   |
+| 0x05 | DiscDrive3   |
+| 0x06 | Plopp        |
+| 0x07 | No Disc      |
+| 0x08 | Plopp Louder |
+
+Init sequence:
+
+```
+WRITE [CMD_REGISTER_WRITE, REG_STATUS, 0x01]
+WRITE [CMD_REGISTER_WRITE, REG_ADDR0, 0xFF, 0xFF]
+```
+
+Play sound
+
+```
+WRITE [CMD_START, SOUND_INDEX]
+```
+
+Stop sound
+
+```
+WRITE [CMD_STOP]
+```
+
+Reset
+
+```
+WRITE [CMD_RESET, 0x55]
+```
+
+Write register
+
+```
+WRITE [CMD_REGISTER_WRITE, <REGISTER>, <DATA>]
+```
+
+Read register
+
+```
+WRITE [CMD_REGISTER_READ, <REGISTER>]
+READ <DATA>
+```
+
+Read interrupt
+
+```
+WRITE [CMD_INTERRUPT_READ]
+READ <DATA>
+```
+
+
+To get a sound playing, this is the full flow done by the console
+
+```
+- Init
+- Stop
+- Play sound
+```
+
+**Example code**
+
+I2C Hardware: GreatFET One Devboard
+
+```py
+"""
+Xbox One I2C RF Unit
+
+Connections:
+
+5V -> RF Unit, Pin 4
+3.3V -> RF Unit, Pin 12
+SDA (Pin 39) -> RF Unit, Pin 6
+SCL (Pin 40) -> RF Unit, Pin 5
+
+Hardware:
+* GreatFET One
+
+Dependencies:
+* greatfet
+"""
+
+from enum import Enum
+from typing import List
+import greatfet
+from greatfet.interfaces.i2c_bus import I2CBus
+from greatfet.interfaces.i2c_device import I2CDevice
+
+I2C_ADDR = 0x5A
+
+"""
+Commands
+"""
+
+CMD_INTERRUPT_READ_xC0 = 0xC0
+CMD_REG_WRITE_x48 = 0x48
+CMD_REG_READ_xC1 = 0xC1
+
+CMD_START_x81 = 0x81
+CMD_STOP_x02 = 0x02
+CMD_RESET_x4A = 0x4A
+
+
+"""
+Registers
+"""
+
+# R/W I2C Control Register
+REG_CTL = 0x00
+# R/W I2C Slave address Register0
+REG_ADDR0 = 0x04
+# R/W I2C DATA Register
+REG_DAT = 0x08
+# R I2C Status Register
+REG_STATUS = 0x0C
+# R/W I2C clock divided Register
+REG_CLKDIV = 0x10
+# R/W I2C Time out control Register
+REG_TOCTL = 0x14
+# R/W I2C Slave address Register1
+REG_ADDR1 = 0x18
+# R/W I2C Slave address Register2
+REG_ADDR2 = 0x1C
+# R/W I2C Slave address Register3
+REG_ADDR3 = 0x20
+# R/W I2C Slave address Mask Register0
+REG_ADDRMSK0 = 0x24
+# R/W I2C Slave address Mask Register1
+REG_ADDRMSK1 = 0x28
+# R/W I2C Slave address Mask Register2
+REG_ADDRMSK2 = 0x2C
+# R/W I2C Slave address Mask Register3
+REG_ADDRMSK3 = 0x30
+
+class Sound(Enum):
+    POWERON = 0x00
+    BING = 0x01
+    POWEROFF = 0x02
+
+    DISC_DRIVE_1 = 0x03
+    DISC_DRIVE_2 = 0x04
+    DISC_DRIVE_3 = 0x05
+
+    PLOPP = 0x06
+    NO_DISC = 0x07
+    PLOPP_LOUDER = 0x08
+
+gf = greatfet.GreatFET()
+
+bus = I2CBus(gf)
+dev = I2CDevice(bus, I2C_ADDR)
+
+def init():
+    write_register(REG_STATUS, [0x01])
+    write_register(REG_ADDR0, [0xFF, 0xFF])
+
+def stop():
+    dev.write([CMD_STOP_x02])
+
+def write_register(register: int, data: List[int]):
+    write_data = [CMD_REG_WRITE_x48]
+    write_data.extend([register])
+    write_data.extend(data)
+
+    dev.write(write_data)
+
+def read_interrupt() -> List[int]:
+    return dev.transmit([CMD_INTERRUPT_READ_xC0], 2)
+
+def read_register(register: int) -> List[int]:
+    return dev.transmit([CMD_REG_READ_xC1, register], 4)
+
+def play_sound(num: Sound|int):
+    if isinstance(num, Sound):
+        num = num.value
+    dev.write([CMD_START_x81, num])
+
+def reset():
+    dev.write([CMD_RESET_x4A, 0x55])
+
+class RegCONTROL:
+    def __init__(self, val: int):
+        self.val = val
+        self.INTEN = (val & (1 << 7)) != 0
+        self.I2CEN = (val & (1 << 6)) != 0
+        self.STA = (val & (1 << 5)) != 0
+        self.STO = (val & (1 << 4)) != 0
+        self.SI = (val & (1 << 3)) != 0
+        self.AA = (val & (1 << 2)) != 0
+        # Reserved bits
+        assert (val & 2) == 0
+        assert (val & 1) == 0
+    
+    def __str__(self):
+        return f"Status({self.val}) INTEN={self.INTEN} I2CEN={self.I2CEN} STA={self.STA} STO={self.STO} SI={self.SI} AA={self.AA}"
+
+if __name__ == "__main__":
+    init()
+    stop()
+    play_sound(Sound.BING)
+
+```
+
+###### Read/Write internal flash
+
+This has not been successful so far...
 
 Two sample implementations how the chip *could* be programmed.
 
