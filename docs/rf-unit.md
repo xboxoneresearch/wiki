@@ -15,6 +15,7 @@ Components:
 - Wifi Antenna connector (J2)
 - FPC connector (J3)
 - Motherboard connector (J8)
+- Unpopulated (SW2)
 
 ####  General
 
@@ -24,9 +25,9 @@ Actual RF communication is happening via [Wifi module](wifi.md).
 
 Communication from the Nuvotun chip to the Southbridge is done via I2C.
 
-#### Pinout
+#### Connector (J8)
 
-Connector
+Pinout
 
 | Pin| Function        |
 |----|-----------------|
@@ -49,8 +50,24 @@ Connector
 | 17 | -               |
 | 18 | GND             |
 | 19 | GND             |
- 
-#### Nuvoton Soundcorder chip
+
+#### FPC Connector (J3)
+
+Pinout
+
+| Pin | Function |
+| ----| ---------|
+| 1   |  Power   |
+| 2   |  Power   |
+| 3   |  -       |
+| 4   |  -       |
+| 5   |  -       |
+| 6   |  Eject   |
+| 7   |  Eject   |
+
+Bridge the respective pins briefly to trigger action.
+
+#### Nuvoton Soundcorder chip (U4)
 
 Model: ISD9160F
 
