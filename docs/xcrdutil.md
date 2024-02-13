@@ -64,6 +64,8 @@ To be completed.
 |32      |[XRU:]     | N/A
 |33      |[XRS:]     | N/A
 |34      |[XRI:]     | N/A
+|35      |N/A        | N/A
+|36      |[XCC:]     | N/A
 
 ## Examples
 
