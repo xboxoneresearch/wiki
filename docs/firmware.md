@@ -1,9 +1,20 @@
 # List of Known Firmware Versions
 
-## 2023
+## [2024](https://support.xbox.com/en-US/help/hardware-network/settings-updates/whats-new-xbox-one-system-updates)
+| version | GUID | build_tag | date | download (MS) | download (archive) | notes |
+|---------|------|-----------|------|---------------|--------------------|-------|
+| 10\.0.25398.3864 | n/a | xb_flt_2403zn.240306-1700 | 2024-03-13 | n/a | n/a | March 2024 OS |
+| 10\.0.25398.3491 | n/a | xb_flt_2402zn.240207-1700 | 2024-02-14 | n/a | n/a | February 2024 OS |
+| 10\.0.25398.2923 | n/a | xb_flt_2311zn.240110-1710 | 2024-01-16 | n/a | n/a | January 2024 OS |
+
+
+## [2023](https://support.xbox.com/en-US/help/hardware-network/settings-updates/system-updates-2023)
 
 | version | GUID | build_tag | date | download (MS) | download (archive) | notes |
 |---------|------|-----------|------|---------------|--------------------|-------|
+| 10\.0.25398.2921 | n/a | xb_flt_2311zn.231211-1920 | 2023-12-13 | n/a | n/a | December 2023 OS |
+| 10\.0.25398.2920 | n/a | xb_flt_2311zn.231205-1910 | 2023-12-07 | n/a | n/a | December 2023 OS |
+| 10\.0.25398.2917 | n/a | xb_flt_2311zn.231115-1800 | 2023-11-29 | n/a | n/a | November 2023 OS |
 | 10\.0.25398.2821 | n/a | xb_flt_2310zn.231018-2200 | 2023-10-25 | n/a | n/a | October 2023 OS |
 | 10\.0.25398.2538 | n/a  | n/a | 2023-10-19 | [Microsoft](https://download.microsoft.com/download/1/d/d/1dd3f392-84d8-48ed-915e-388b47fa565e/OSU1.zi) | n/a | October 2023 OS |
 | 10\.0.25398.2266 | n/a | xb_flt_2309zn.231010-1055 | 2023-10-16 | n/a | n/a | October 2023 OS |
@@ -24,7 +35,7 @@
 | 10\.0.22621.3446 | bdae44e8-231e-4d89-92b6-02b9c2e423bb | xb_flt_2302ni.230208-1530 | 2023-02-15 | [Microsoft](https://download.microsoft.com/download/9/0/2/902bdc60-8403-464a-a0e6-292754da81f0/OSU1.zip) | n/a | February 2023 OS |
 
 
-## 2022
+## [2022](https://support.xbox.com/en-US/help/hardware-network/settings-updates/system-updates-2022)
 
 | version | GUID | build_tag | date | download (MS) | download (archive) | notes |
 |---------|------|-----------|------|---------------|--------------------|-------|
@@ -46,7 +57,7 @@
 | 10\.0.22000.3542 | eba804dd-5290-4d3f-8ba9-471f476eb4f7 | 10\.0.22000.3542 (xb_flt_2202co.220202-1734) | 2022-02-09 | n/a | n/a | n/a |
 | 10\.0.22000.3055 | 5e1314bc-aea4-4569-88cd-4ad6a6b4443f | 10\.0.22000.3055 (xb_flt_2111co.211213-1700) | 2022-01-05 | [Microsoft](https://download.microsoft.com/download/2/e/b/2ebbbd1f-bffd-43de-864c-2a4af59b99b2/OSU1.zip) | n/a | n/a |
 
-## 2021
+## [2021](https://support.xbox.com/en-US/help/hardware-network/settings-updates/system-updates-2021)
 
 | version | GUID | build_tag | date | download (MS) | download (archive) | notes |
 |---------|------|-----------|------|---------------|--------------------|-------|
@@ -70,7 +81,7 @@
 | 10\.0.19041.5496 | n/a | 10\.0.19041.5496 (rs_xbox_release_2011.210105.1930) / Shell version: 2011.1.2012.11004 | 2021-01-25 | n/a | n/a | n/a |
 | 10\.0.19041.5496 | ec5b59ca-2318-4290-9bdf-9bf9d69e0249 | 10\.0.19041.5496 (rs_xbox_release_2011.210105-1930) | 2021-01-11 | n/a | [archive.org](https://archive.org/download/xbox-one-system-update-archive/2021/10.0.19041.5496%20%28rs_xbox_release_2011.210105-1930%29.zip) | n/a |
 
-## 2020
+## [2020](https://support.xbox.com/en-US/help/hardware-network/settings-updates/system-updates-2020)
 
 | version | GUID | build_tag | date | download (MS) | download (archive) | notes |
 |---------|------|-----------|------|---------------|--------------------|-------|
@@ -88,7 +99,7 @@
 | 10\.0.19041.1927 | 354afa60-6dda-40f6-a45b-29ea6af6e18d | 10\.0.19041.1927 (rs_xbox_release_2004.200415-0000) | 2020-04-21 | n/a | [archive.org](https://archive.org/download/xbox-one-system-update-archive/2020/10.0.19041.1927%20%28rs_xbox_release_2004.200415-0000%29.zip) | n/a |
 | 10\.0.18363.9135 | d8aa0cfb-49d9-4e24-ab3e-a9d1efdce6d7 | 10\.0.18363.9135 (19h1_release_xbox_dev_2002.200219-1515) | 2020-02-24 | n/a | [archive.org](https://archive.org/download/xbox-one-system-update-archive/2020/10.0.18363.9135%20%2819h1_release_xbox_dev_2002.200219-1515%29.zip) | n/a |
 
-## 2019
+## [2019](https://support.xbox.com/en-US/help/hardware-network/settings-updates/system-updates-2019)
 
 | version | GUID | build_tag | date | download (MS) | download (archive) | notes |
 |---------|------|-----------|------|---------------|--------------------|-------|
@@ -105,7 +116,7 @@
 | 10\.0.17763.4088 | 69cf3cce-b0f4-4204-b09f-6607197e9196 | 10\.0.17763.4088 (rs5_release_xbox-dev_1902.190303-1935) | 2019-03-05 | n/a | [archive.org](https://archive.org/download/xbox-one-system-update-archive/2019/10.0.17763.4088%20%28rs5_release_xbox_dev_1902.190303-1935%29.zip)   | n/a |
 | 10\.0.17763.4085 | 367f76b2-4e27-42a6-a92b-4f127dceb386 | 10\.0.17763.4085 (rs5_release_xbox_dev\_ 1902.190131-1620) | 2019-02-12 | n/a | [archive.org](https://archive.org/download/xbox-one-system-update-archive/2019/10.0.17763.4085%20%28rs5_release_xbox_dev_1902.190131-1620%29.zip) | n/a |
 
-## 2018
+## [2018](https://support.xbox.com/en-US/help/hardware-network/settings-updates/system-updates-2018)
 
 | version | GUID | build_tag | date | download (MS) | download (archive) | notes |
 |---------|------|-----------|------|---------------|--------------------|-------|
@@ -120,7 +131,7 @@
 | 10\.0.16299.5101 | e33ecdf7-93cd-48e0-9e1c-74df631ff8d2 | 10\.0.16299.5101 (RS3_RELEASE_XBOX_DEV_1802.180131-1450) | 2018-02-07 | n/a | [archive.org](https://archive.org/download/xbox-one-system-update-archive/2018/10.0.16299.5101%20%28rs3_release_xbox_dev_1802.180131-1450%29.zip) | n/a |
 | 10\.0.16299.4055 | ea0a5e66-8e7d-4223-99f0-b030d4f152b5 | 10\.0.16299.4055 (rs3_release_xbox_dev_1711.171203-1700) and 10.0.16299.4059 (rs3_release_xbox_dev_1711.180109-1130) | 2018-01-22 | [Microsoft](https://download.microsoft.com/download/D/C/A/DCADDD5F-59EC-42B4-B418-2293FD59B02D/OSU1.zip) | [archive.org](https://archive.org/download/xbox-one-system-update-archive/2017/10.0.16299.4055%20%28rs3_release_xbox_dev_1711.171203-1700%29.zip) | n/a |
 
-## 2017
+## [2017](https://support.xbox.com/en-US/help/hardware-network/settings-updates/system-updates-2017)
 
 | version | GUID | build_tag | date | download (MS) | download (archive) | notes |
 |---------|------|-----------|------|---------------|--------------------|-------|
@@ -134,7 +145,7 @@
 | 10\.0.15063.2019 | baee2a48-c0c5-4991-a1f1-aee21264fbdb | 10\.0.15063.2019 (RS2_RELEASE_XBOX_1704.170407-2038) | 2017-04-13 | n/a | [archive.org](https://archive.org/download/xbox-one-system-update-archive/2017/10.0.15063.2019%20%28rs2_release_xbox_1704.170407-2038%29.zip) | n/a |
 | 10\.0.15063.1005 | bd7961d8-459e-4bda-848e-8b5a60d35e4b | 10\.0.15063.1005 (RS2_RELEASE_XBOX_1703.170323-1228) fre | 2017-03-29 | n/a | n/a | n/a |
 
-## 2016
+## [2016](https://support.xbox.com/en-US/help/hardware-network/settings-updates/system-updates-2016)
 
 | version | GUID | build_tag | date | download (MS) | download (archive) | notes |
 |---------|------|-----------|------|---------------|--------------------|-------|
@@ -152,7 +163,7 @@
 | 10\.0.10586.1194 | 4eee3618-b547-44fe-bd1e-9fda23c9625f | 10\.0.10586.1194 (th2_xbox_rel_1603.160317-1900) fre | 2016-03-23 | n/a | [archive.org](https://archive.org/download/xbox-one-system-update-archive/2016/10.0.10586.1194%20%28th2_xbox_rel_1603.160317-1900%29%20fre.zip) | n/a |
 | 10\.0.10586.1100 | 28022977-cc0f-441e-81c9-e142b441b606 | 10\.0.10586.1100 (th2_xbox_rel_1602.160210-2122) fre | 2016-02-19 | n/a | [archive.org](https://archive.org/download/xbox-one-system-update-archive/2016/10.0.10586.1100%20%28th2_xbox_rel_1602.160210-2122%29%20fre.zip) | n/a |
 
-## 2015
+## [2015](https://support.xbox.com/en-US/help/hardware-network/settings-updates/system-updates-2015)
 
 | version | GUID | build_tag | date | download (MS) | download (archive) | notes |
 |---------|------|-----------|------|---------------|--------------------|-------|
@@ -170,7 +181,7 @@
 | 6\.2.12130.0 | 13be74db-d404-4723-b306-0aeb3454124f | 6\.2.12130.0 (xb_rel_1502.150209-1738) fre | 2015-02-13 | [Microsoft](http://download.microsoft.com/download/B/D/2/BD212E7A-B53F-4645-B2F6-F2261F90CF8C/OSUDT1.zip) | n/a | n/a |
 | 6\.2.12128.0 | f9628b5e-9ac0-4ffe-b3e6-24561fac77f0 | 6\.2.12128.0 (xb_rel_1502.150202-2200) fre | 2015-02-05 | n/a | [archive.org](https://archive.org/download/xbox-one-system-update-archive/2015/6.2.12128.0%20%28xb_rel_1502.150202-2200%29%20fre.zip) | n/a |
 
-## 2014
+## [2014](https://support.xbox.com/en-US/help/hardware-network/settings-updates/system-updates-2014)
 
 | version | GUID | build_tag | date | download (MS) | download (archive) | notes |
 |---------|------|-----------|------|---------------|--------------------|-------|
@@ -187,7 +198,7 @@
 | 6\.2.10698.0 | 658032a7-6ddd-400b-85dc-4921ef728d0d | 6\.2.10698.0 (xb_rel_1403.140301-2200) fre | 2014-03-04 | n/a | [archive.org](https://archive.org/download/xbox-one-system-update-archive/2014/6.2.10698.0%20%28xb_rel_1403.140301-2200%29%20fre.zip) | n/a |
 | 6\.2.10542.0 | bb22fd9b-a42a-4c5e-b4fc-9ea37d3a197a | 6\.2.10542.0 (xb_rel_1402.140213-0115) fre | 2014-02-14 | n/a | [archive.org](https://archive.org/download/xbox-one-system-update-archive/2014/6.2.10542%20%28xb_rel_1402.140213-0115%29%20fre.zip) | n/a |
 
-## 2013
+## [2013](https://support.xbox.com/en-US/help/hardware-network/settings-updates/system-updates-2013)
 
 | version | GUID | build_tag | date | download (MS) | download (archive) | notes |
 |---------|------|-----------|------|---------------|--------------------|-------|
