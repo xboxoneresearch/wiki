@@ -16,7 +16,7 @@
 | 10\.0.25398.2920 | n/a | xb_flt_2311zn.231205-1910 | 2023-12-07 | n/a | n/a | December 2023 OS |
 | 10\.0.25398.2917 | n/a | xb_flt_2311zn.231115-1800 | 2023-11-29 | n/a | n/a | November 2023 OS |
 | 10\.0.25398.2821 | n/a | xb_flt_2310zn.231018-2200 | 2023-10-25 | n/a | n/a | October 2023 OS |
-| 10\.0.25398.2538 | n/a  | n/a | 2023-10-19 | [Microsoft](https://download.microsoft.com/download/1/d/d/1dd3f392-84d8-48ed-915e-388b47fa565e/OSU1.zi) | n/a | October 2023 OS |
+| 10\.0.25398.2538 | n/a  | n/a | 2023-10-19 | [Microsoft](https://download.microsoft.com/download/1/d/d/1dd3f392-84d8-48ed-915e-388b47fa565e/OSU1.zip) | n/a | October 2023 OS |
 | 10\.0.25398.2266 | n/a | xb_flt_2309zn.231010-1055 | 2023-10-16 | n/a | n/a | October 2023 OS |
 | 10\.0.25398.2258 | n/a | xb_flt_2309zn.230918-2000 | 2023-09-27 | n/a | n/a | September 2023 OS |
 | 10\.0.25398.1762 | n/a | xb_flt_2308zn.230831-1430 | 2023-09-06 | n/a | n/a | September 2023 OS |
