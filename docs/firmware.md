@@ -3,7 +3,7 @@
 ## [2024](https://support.xbox.com/en-US/help/hardware-network/settings-updates/whats-new-xbox-one-system-updates)
 | version | GUID | build_tag | date | download (MS) | download (archive) | notes |
 |---------|------|-----------|------|---------------|--------------------|-------|
-| 10\.0.25398.3864 | n/a | xb_flt_2403zn.240306-1700 | 2024-03-13 | n/a | n/a | March 2024 OS |
+| 10\.0.25398.3864 | n/a | xb_flt_2403zn.240306-1700 | 2024-03-13 | [Microsoft](https://download.microsoft.com/download/6/7/9/679356c4-842b-4fdc-aba9-1eb4fb3ea2c0/OSU1.zip) | n/a | March 2024 OS |
 | 10\.0.25398.3491 | n/a | xb_flt_2402zn.240207-1700 | 2024-02-14 | n/a | n/a | February 2024 OS |
 | 10\.0.25398.2923 | n/a | xb_flt_2311zn.240110-1710 | 2024-01-16 | n/a | n/a | January 2024 OS |
 
