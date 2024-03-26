@@ -25,7 +25,7 @@ Xbox Live services use the same pre-configured relying party that is opaque to a
 ## Token structure
 The token is broken into sections including a Header and the Payload. There are other sections in the token depending on the encryption method for your token. Each part of the token is separated by a ‘.’ in the encoded token string.
 
-![XSTS Token Structure](xsts-token-structure.png)
+![XSTS Token Structure](../_files/xsts-token-structure.png)
 
 `Note: For Symmetric X-tokens, the format is similar but there is no Content Encryption Key or XBL Signature. The Payload is encrypted and decrypted directly with the symmetric shared secret key.`
 

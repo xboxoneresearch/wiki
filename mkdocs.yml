@@ -3,7 +3,7 @@ repo_url: https://github.com/xboxoneresearch/wiki
 
 theme:
   name: material
-  custom_dir: docs/overrides
+  custom_dir: overrides
   icon:
     repo: fontawesome/brands/github
   features:
