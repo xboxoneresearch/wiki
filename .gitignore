@@ -5,6 +5,9 @@
 # Windows
 Thumbs.db
 
+# Obsidian
+docs/.obsidian
+
 # mkdocs build dir
 .cache/
 site/

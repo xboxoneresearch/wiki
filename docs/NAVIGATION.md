@@ -18,6 +18,7 @@
   - [Bootloaders](bootloaders.md)
   - [Certificates](certificates.md)
   - [Flash (XBFS)](xbox-boot-file-system.md)
+  - [Southbridge filesystem (SBFS)](southbridge-file-system.md)
   - [Hard drive](harddrive.md)
   - [Security Processor](security-processor.md)
   - [USB NTFS Overrides](usb-ntfs-overrides.md)
