@@ -102,20 +102,20 @@ Commands
 
 | Byte | Name           | Args           | Reads data |
 | ---- | -------------- | -------------- | ---------- |
-| 0xC0 | Interrupt Read | /              |        Yes |
-| 0x48 | Register Write | Register, Data |         No |
-| 0xC1 | Register Read  | /              |        Yes |
-| ---- | -------------- | -------------- | ---------- |
-| 0x81 | Start Sound    | Sound index    |         No |
-| 0x02 | Stop Sound     | /              |         No |
-| 0x42 | Reset          | 0x55           |         No |
+| 0x48 | Register Write | Register, Data | No         |
+| 0xC0 | Interrupt Read | /              | Yes        |
+| 0xC1 | Register Read  | /              | Yes        |
+| 0xC3 | Flash Read     | Address U32-LE | Yes        |
+| 0x81 | Start Sound    | Sound index    | No         |
+| 0x02 | Stop Sound     | /              | No         |
+| 0x42 | Reset          | 0x55           | No         |
 
 Registers
 
-| Num  | Name          | Read/Write |
-| ---- | ------------- | ---------- |
-| 0x0C | Status        | READ-ONLY  |
-| 0x04 | Address0      | R/W        |
+| Num  | Name     | Read/Write |
+| ---- | -------- | ---------- |
+| 0x0C | Status   | READ-ONLY  |
+| 0x04 | Address0 | R/W        |
 
 Available sounds
 
@@ -176,6 +176,13 @@ WRITE [CMD_INTERRUPT_READ]
 READ <DATA>
 ```
 
+Flash read
+
+```
+WRITE [CMD_FLASH_READ, <Address as UINT32, little endian>]
+READ <DATA> (8 bytes)
+* Cut off first 2 bytes to yield 6 bytes of flash data
+```
 
 To get a sound playing, this is the full flow done by the console
 
@@ -184,158 +191,6 @@ To get a sound playing, this is the full flow done by the console
 - Stop
 - Play sound
 ```
-
-**Example code**
-
-I2C Hardware: GreatFET One Devboard
-
-```py
-"""
-Xbox One I2C RF Unit
-
-Connections:
-
-5V -> RF Unit, Pin 4
-3.3V -> RF Unit, Pin 12
-SDA (Pin 39) -> RF Unit, Pin 6
-SCL (Pin 40) -> RF Unit, Pin 5
-
-Hardware:
-* GreatFET One
-
-Dependencies:
-* greatfet
-"""
-
-from enum import Enum
-from typing import List
-import greatfet
-from greatfet.interfaces.i2c_bus import I2CBus
-from greatfet.interfaces.i2c_device import I2CDevice
-
-I2C_ADDR = 0x5A
-
-"""
-Commands
-"""
-
-CMD_INTERRUPT_READ_xC0 = 0xC0
-CMD_REG_WRITE_x48 = 0x48
-CMD_REG_READ_xC1 = 0xC1
-
-CMD_START_x81 = 0x81
-CMD_STOP_x02 = 0x02
-CMD_RESET_x4A = 0x4A
-
-
-"""
-Registers
-"""
-
-# R/W I2C Control Register
-REG_CTL = 0x00
-# R/W I2C Slave address Register0
-REG_ADDR0 = 0x04
-# R/W I2C DATA Register
-REG_DAT = 0x08
-# R I2C Status Register
-REG_STATUS = 0x0C
-# R/W I2C clock divided Register
-REG_CLKDIV = 0x10
-# R/W I2C Time out control Register
-REG_TOCTL = 0x14
-# R/W I2C Slave address Register1
-REG_ADDR1 = 0x18
-# R/W I2C Slave address Register2
-REG_ADDR2 = 0x1C
-# R/W I2C Slave address Register3
-REG_ADDR3 = 0x20
-# R/W I2C Slave address Mask Register0
-REG_ADDRMSK0 = 0x24
-# R/W I2C Slave address Mask Register1
-REG_ADDRMSK1 = 0x28
-# R/W I2C Slave address Mask Register2
-REG_ADDRMSK2 = 0x2C
-# R/W I2C Slave address Mask Register3
-REG_ADDRMSK3 = 0x30
-
-class Sound(Enum):
-    POWERON = 0x00
-    BING = 0x01
-    POWEROFF = 0x02
-
-    DISC_DRIVE_1 = 0x03
-    DISC_DRIVE_2 = 0x04
-    DISC_DRIVE_3 = 0x05
-
-    PLOPP = 0x06
-    NO_DISC = 0x07
-    PLOPP_LOUDER = 0x08
-
-gf = greatfet.GreatFET()
-
-bus = I2CBus(gf)
-dev = I2CDevice(bus, I2C_ADDR)
-
-def init():
-    write_register(REG_STATUS, [0x01])
-    write_register(REG_ADDR0, [0xFF, 0xFF])
-
-def stop():
-    dev.write([CMD_STOP_x02])
-
-def write_register(register: int, data: List[int]):
-    write_data = [CMD_REG_WRITE_x48]
-    write_data.extend([register])
-    write_data.extend(data)
-
-    dev.write(write_data)
-
-def read_interrupt() -> List[int]:
-    return dev.transmit([CMD_INTERRUPT_READ_xC0], 2)
-
-def read_register(register: int) -> List[int]:
-    return dev.transmit([CMD_REG_READ_xC1, register], 4)
-
-def play_sound(num: Sound|int):
-    if isinstance(num, Sound):
-        num = num.value
-    dev.write([CMD_START_x81, num])
-
-def reset():
-    dev.write([CMD_RESET_x4A, 0x55])
-
-class RegCONTROL:
-    def __init__(self, val: int):
-        self.val = val
-        self.INTEN = (val & (1 << 7)) != 0
-        self.I2CEN = (val & (1 << 6)) != 0
-        self.STA = (val & (1 << 5)) != 0
-        self.STO = (val & (1 << 4)) != 0
-        self.SI = (val & (1 << 3)) != 0
-        self.AA = (val & (1 << 2)) != 0
-        # Reserved bits
-        assert (val & 2) == 0
-        assert (val & 1) == 0
-    
-    def __str__(self):
-        return f"Status({self.val}) INTEN={self.INTEN} I2CEN={self.I2CEN} STA={self.STA} STO={self.STO} SI={self.SI} AA={self.AA}"
-
-if __name__ == "__main__":
-    init()
-    stop()
-    play_sound(Sound.BING)
-
-```
-
-##### Read/Write internal flash
-
-This has not been successful so far...
-
-Two sample implementations how the chip *could* be programmed.
-
-- [Trumpet project](https://github.com/robbie-cao/trumpet) on github
-- [Piccolo project](https://github.com/robbie-cao/piccolo) on github
 
 ### Xbox One S
 
@@ -404,5 +259,8 @@ Xbox One S
 
 Xbox One X (SCORPIO)
 
+## Tools
+
+- [DuRFUnitI2C] - (Python) Communicate with the (PHAT) RF Unit and dump its flash
 ## Credits
 - [Pictures from ifixit.com](https://www.ifixit.com/Search?c-doctype_namespace=product&doctype=product&query=xbox%20one)
