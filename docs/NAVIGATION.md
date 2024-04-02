@@ -20,6 +20,7 @@
   - [CPU](hardware/cpu.md)
   - [Southbridge](hardware/southbridge.md)
   - [eMMC / Flash](hardware/emmc-flash.md)
+  - [Facet](hardware/facet.md)
   - [Wifi](hardware/wifi.md)
   - [Ethernet](hardware/ethernet.md)
   - [Optical Disc Drive](hardware/optical-disc-drive.md)
