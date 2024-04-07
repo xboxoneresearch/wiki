@@ -2,3 +2,4 @@ mkdocs-material
 mkdocs-literate-nav
 mkdocs-git-authors-plugin
 mkdocs-git-revision-date-localized-plugin
+mkdocs-rss-plugin
