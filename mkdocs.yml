@@ -1,4 +1,6 @@
 site_name: Xbox One Research Wiki
+site_description: Wiki for everything related to Xbox One/Series-family research.
+site_url: https://xboxoneresearch.github.io/wiki
 repo_url: https://github.com/xboxoneresearch/wiki
 
 theme:
@@ -30,6 +32,7 @@ validation:
     unrecognized_links: warn
 
 plugins:
+  - rss
   - search
   - literate-nav:
       nav_file: NAVIGATION.md
