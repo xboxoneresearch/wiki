@@ -6,8 +6,10 @@ First revision of the Xbox One has both chipsets on the same PCB, a 8-pin connec
 Communication is via 2x USB data-pairs.
 **IMPORTANT**: The board is operated via 3,3V, standard USB is 5V!
 
-- Marvell Avastar 88W8897
-- Marvell Avastar 88W8782U
+USB VID: 0x1286
+
+- Marvell Avastar 88W8897 (PID 0x2045)
+- Marvell Avastar 88W8782U (PID 0x2040)
 
 ### Pinout
 
@@ -18,10 +20,6 @@ Communication is via 2x USB data-pairs.
 - JST 2x6 Pin connector (JST PHD 2X6P, 2.00mm)
 
 JST Pinout
-
-USB2_ACC - Connectivity for accessories / game-controllers
-
-USB2_WIFI - Connectivity for WiFi
 
 | Pin | Description  | Pin | Description  |
 | --- | ------------ | --- | ------------ |
@@ -48,7 +46,7 @@ USB Host GND -- GND
 
 ### Interfaces
 
-USB2_ACC
+USB2_ACC - Connectivity for accessories / game-controllers (1286:2040)
 
 lsusb (verbose)
 
@@ -164,7 +162,7 @@ Device Status:     0x0000
 ```
 
 
-USB2_WIFI
+USB2_WIFI - Connectivity for WiFi (1286:2045)
 
 lsusb (verbose)
 
