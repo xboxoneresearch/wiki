@@ -6,8 +6,8 @@ See  [XCrdUtil](../operating-system/xcrdutil.md) for partition mapping.
 
 XVD Container filepaths:
 
-- `[XTE:]\ConnectedStorage` (Retail)
-- `[XTE:]\ConnectedStorage-devkit` (XDK)
+- `[XTE:]\ConnectedStorage-retail` (Retail)
+- `[XTE:]\ConnectedStorage` (XDK)
 
 ## File format
 
