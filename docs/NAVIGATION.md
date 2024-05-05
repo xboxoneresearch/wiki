@@ -18,6 +18,7 @@
   - [Devkit types](console-models/devkit-types.md)
 - Hardware
   - [CPU](hardware/cpu.md)
+  - [POST](hardware/post.md)
   - [Southbridge](hardware/southbridge.md)
   - [eMMC / Flash](hardware/emmc-flash.md)
   - [Facet](hardware/facet.md)
