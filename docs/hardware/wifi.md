@@ -11,6 +11,8 @@ USB VID: 0x1286
 - Marvell Avastar 88W8897 (PID 0x2045)
 - Marvell Avastar 88W8782U (PID 0x2040)
 
+Both chips require a firmware blob to be uploaded.
+
 ### Pinout
 
 - (A / CON3) U.FL - To RF Unit
@@ -46,9 +48,9 @@ USB Host GND -- GND
 
 ### Interfaces
 
-USB2_ACC - Connectivity for accessories / game-controllers (1286:2040)
+USB2_ACC - 88W8782U - Connectivity for accessories / game-controllers
 
-lsusb (verbose)
+lsusb (verbose) - Before firmware upload
 
 ```
 Bus 001 Device 070: ID 1286:2040 Marvell Semiconductor, Inc. Marvell Wireless Device
@@ -161,10 +163,124 @@ Device Status:     0x0000
   (Bus Powered)
 ```
 
+After firmware upload (Firmware Blob: `mv14u8782.bin`)
 
-USB2_WIFI - Connectivity for WiFi (1286:2045)
+```
+Bus 001 Device 120: ID 045e:02ce Microsoft Corp. Embedded Wireless Adapter
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               2.00
+  bDeviceClass            0 [unknown]
+  bDeviceSubClass         0 [unknown]
+  bDeviceProtocol         0 
+  bMaxPacketSize0        64
+  idVendor           0x045e Microsoft Corp.
+  idProduct          0x02ce Embedded Wireless Adapter
+  bcdDevice           31.17
+  iManufacturer           1 Marvell
+  iProduct                2 Embedded Wireless Adapter
+  iSerial                 3 342387D162E1
+  bNumConfigurations      1
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength       0x003c
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          4 Dual Band Accessory Master
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower              500mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           6
+      bInterfaceClass       255 Vendor Specific Class
+      bInterfaceSubClass    255 Vendor Specific Subclass
+      bInterfaceProtocol    255 Vendor Specific Protocol
+      iInterface              5 Wireless LAN Interface
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x01  EP 1 OUT
+        bmAttributes            2
+          Transfer Type            Bulk
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0200  1x 512 bytes
+        bInterval               0
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            2
+          Transfer Type            Bulk
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0200  1x 512 bytes
+        bInterval               0
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x02  EP 2 OUT
+        bmAttributes            2
+          Transfer Type            Bulk
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0200  1x 512 bytes
+        bInterval               0
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x82  EP 2 IN
+        bmAttributes            2
+          Transfer Type            Bulk
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0200  1x 512 bytes
+        bInterval               0
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x03  EP 3 OUT
+        bmAttributes            2
+          Transfer Type            Bulk
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0200  1x 512 bytes
+        bInterval               0
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x83  EP 3 IN
+        bmAttributes            2
+          Transfer Type            Bulk
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0200  1x 512 bytes
+        bInterval               0
+Device Qualifier (for other device speed):
+  bLength                10
+  bDescriptorType         6
+  bcdUSB               2.00
+  bDeviceClass            0 [unknown]
+  bDeviceSubClass         0 [unknown]
+  bDeviceProtocol         0 
+  bMaxPacketSize0        64
+  bNumConfigurations      1
+can't get debug descriptor: Resource temporarily unavailable
+Device Status:     0x0001
+  Self Powered
+```
 
-lsusb (verbose)
+
+USB2_WIFI - 88W8897 - Connectivity for WiFi (1286:2045)
+
+lsusb (verbose) - Before firmware upload
 
 ```
 Bus 001 Device 072: ID 1286:2045 Marvell Semiconductor, Inc. Marvell Wireless Device
@@ -236,6 +352,10 @@ Device Status:     0x0000
   (Bus Powered)
 ```
 
+After firmware upload (Firmware Blob: `mv14u8897a0.bin` / `mv14u8897b0.bin`)
+
+**TBD**
+
 ### PCB
 
 Xbox One (PHAT)
@@ -280,9 +400,16 @@ Unknown
 Xbox One X (SCORPIO)
 
 ## Security considerations
-On the conference *ZeroNights 2018* several vulnerabilities in the Marvell Avastar
-Wifi chip family (88W8787, 88W8797, 88W8801, 88W8897, and 88W8997) were presented.
+
+On the conference *ZeroNights 2018* several vulnerabilities in the Marvell Avastar Wifi chip family (88W8787, 88W8797, 88W8801, 88W8897, and 88W8997) were presented.
+
 Click here for more info: [Link](https://kb.cert.org/vuls/id/730261/)
 
 ## Credits
+
 - [Pictures from ifixit.com](https://www.ifixit.com/Search?c-doctype_namespace=product&doctype=product&query=xbox%20one)
+
+## References
+
+- [MarvellFwDownloader](https://github.com/xboxoneresearch/MarvellFwDownloader) - Initialize Marvell chips with firmware.
+ 
