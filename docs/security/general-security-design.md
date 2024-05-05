@@ -1,4 +1,4 @@
-# General security design
+# General Security Design
 
 Watch the presentation by Microsoft as an intro: **Guarding Against Physical Attacks: The Xbox One Story**
 

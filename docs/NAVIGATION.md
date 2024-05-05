@@ -1,7 +1,8 @@
 - [Home](index.md)
 - Security
-  - [General Security design](security/general-security-design.md)
+  - [General Security Design](security/general-security-design.md)
   - [Security Processor (AMD PSP)](security/security-processor.md)
+  - [Code Integrity (CI)](security/code-integrity.md)
   - [Certificates](security/certificates.md)
   - [Exploits](security/exploits.md)
     - exploits/*.md
