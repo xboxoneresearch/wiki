@@ -16,6 +16,7 @@
 - Console models
   - [Console revisions](console-models/console-revisions.md)
   - [Retail SKUs](console-models/retail-xone-skus.md)
+  - [Non-Retail SKUs](console-models/non-retail-xone-skus.md)
   - [Devkit types](console-models/devkit-types.md)
 - Hardware
   - [CPU](hardware/cpu.md)
