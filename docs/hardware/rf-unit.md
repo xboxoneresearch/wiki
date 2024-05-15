@@ -258,13 +258,10 @@ Codename: Cactus
 ![RF Unit SLIM back](../_files/rf-unit/rf_unit_slim_back.jpg)
 
 ### Xbox One X (SCORPIO)
-#### Front Unit:
-![RF Unit One X front face front](../_files/rf-unit/rf_unit_onex_front_face_front.jpg)
-![RF Unit One X front face back](../_files/rf-unit/rf_unit_onex_front_face_back.jpg)
-![RF Unit One X front face front close-up](../_files/rf-unit/rf_unit_onex_front_face_detailed.jpg)
-#### Side Unit:
-![RF Unit One X side face front](../_files/rf-unit/rf_unit_onex_side_face_front.jpg)
-![RF Unit One X side face back](../_files/rf-unit/rf_unit_onex_side_face_front.jpg)
+
+![RF Unit One X front](../_files/rf-unit/rf_unit_onex_front.jpg)
+![RF Unit One X back](../_files/rf-unit/rf_unit_onex_back.jpg)
+![RF Unit One X front close-up](../_files/rf-unit/rf_unit_onex_front_detailed.jpg)
 
 ## Tools
 
