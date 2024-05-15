@@ -5,6 +5,8 @@ An __AMD Jaguar__ APU is used on all Xbox One consoles. It features an embedded 
 - AMD "Jaguar" 8-core APU X887732-001 DG3001FEG84HR (Xbox One)
 - AMD "Jaguar" 8-Core APU (CPU clock: 1,75 GHz, GPU clock: 914 MHz) X949211-001 DG4001FYG87IA (Xbox One S)
 - AMD "Jaguar" 8-Core APU (CPU clock: 2.3 GHz, GPU block: 1.17 GHz) X950118-002 DG5700GDA87IE (Xbox One X)
+- AMD "Jaguar" 8-core APU M1005792-001 DG5901GDA87IE (Xbox One X XDK)
+- AMD "Jaguar" 8-core APU M1005794-001 ZG5701T8A87E9 (Xbox One X XDK Prototype)
 
 ## Diagrams
 ![Durango Southbridge SoC schema](../_files/durango_southbridge_soc.gif)
