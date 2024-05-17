@@ -50,8 +50,7 @@ Hardware wise, a bunch of different Xbox One and Xbox Series models exist. These
 ![Series X XDK](../_files/devkits/series_x_xdk.jpg)
 
 **Xbox Series X game devkit (release version):**
-
-No pictures have surfaced yet, or no special game devkit with a retail Series X format exists.
+![](../_files/devkits/XboxDevKit2019_FrntTlt_RGB.png)
 
 **Xbox Series S game devkit (release version):**
 ![](../_files/devkits/series_s_release_xdk.png)
