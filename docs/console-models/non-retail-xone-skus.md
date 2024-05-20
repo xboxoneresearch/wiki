@@ -49,8 +49,8 @@ _Your help is needed to complete this page! Fork this repo and make a Pull Reque
 * **Owned by / Contributed by**: jacksomness
 * **Pictures**:
 
-![M1021605-005 Front](../_files/skus/M1021605-005/front.jpg)
-![M1021605-005 Back](../_files/skus/M1021605-005/back.jpg)
+[![M1021605-005 Front](../_files/skus/M1021605-005/front_thumb.jpg)](../_files/skus/M1021605-005/front.jpg)
+[![M1021605-005 Back](../_files/skus/M1021605-005/back_thumb.jpg)](../_files/skus/M1021605-005/back.jpg)
 
 ## Xbox One X XDK (prototype)
 _Coming soon... because jacksomness forgot to take pictures of it_

@@ -43,13 +43,18 @@ Pinout
 | 25  | SMBUS_CLK        | SMBUS_DATA  | 26  |
 
 ### Xbox One PHAT
+
 ![PHAT FACET Connector unpopulated](../_files/facet/facet_conn.png)
 ![PHAT FACET Connector populated](../_files/facet/facet_conn_populated.png)
+
 ### Xbox One S
+
 _Coming soon_
+
 ### Xbox One X
-![One X FACET Connector unpopulated](../_files/facet/xbox_one_x_retail_j22_facet.jpg)
-![One X FACET Connector populated](../_files/facet/xbox_one_x_xdk_j22_facet.jpg)
+
+[![One X FACET Connector unpopulated](../_files/facet/xbox_one_x_retail_j22_facet_thumb.jpg)](../_files/facet/xbox_one_x_retail_j22_facet.jpg)
+[![One X FACET Connector populated](../_files/facet/xbox_one_x_xdk_j22_facet_thumb.jpg)](../_files/facet/xbox_one_x_xdk_j22_facet.jpg)
 
 ## External PCB
 

@@ -393,8 +393,8 @@ Xbox One (PHAT)
 
 
 #### Xbox One X
-![Wifi module PCB One X front](../_files/wifi/wifi_module_pcb_onex_front.jpg)
-![Wifi module PCB One X back](../_files/wifi/wifi_module_pcb_onex_back.jpg)
+[![Wifi module PCB One X front](../_files/wifi/wifi_module_pcb_onex_front_thumb.jpg)](../_files/wifi/wifi_module_pcb_onex_front.jpg)
+[![Wifi module PCB One X back](../_files/wifi/wifi_module_pcb_onex_back_thumb.jpg)](../_files/wifi/wifi_module_pcb_onex_back.jpg)
 ![Wifi module PCB One X internals](../_files/wifi/wifi_module_pcb_onex_internals.png)
 
 ## Security considerations
