@@ -247,20 +247,25 @@ Codename: Cactus
 | 16 | 5V              |
 
 ## Pictures
-Xbox One (PHAT)
+### Xbox One (PHAT)
 
 ![RF Unit PHAT front](../_files/rf-unit/rf_unit_phat_front.jpg)
 ![RF Unit PHAT back](../_files/rf-unit/rf_unit_phat_back.jpg)
 
-Xbox One S
+### Xbox One S
 
 ![RF Unit SLIM front](../_files/rf-unit/rf_unit_slim_front.jpg)
 ![RF Unit SLIM back](../_files/rf-unit/rf_unit_slim_back.jpg)
 
-Xbox One X (SCORPIO)
+### Xbox One X (SCORPIO)
+
+[![RF Unit One X front](../_files/rf-unit/rf_unit_onex_front_thumb.jpg)](../_files/rf-unit/rf_unit_onex_front.jpg)
+[![RF Unit One X back](../_files/rf-unit/rf_unit_onex_back_thumb.jpg)](../_files/rf-unit/rf_unit_onex_back.jpg)
+[![RF Unit One X front close-up](../_files/rf-unit/rf_unit_onex_front_detailed_thumb.jpg)](../_files/rf-unit/rf_unit_onex_front_detailed.jpg)
 
 ## Tools
 
-- [DuRFUnitI2C] - (Python) Communicate with the (PHAT) RF Unit and dump its flash
+- [DuRFUnitI2C](https://github.com/xboxoneresearch/DuRFUnitI2C) - (Python) Communicate with the (PHAT) RF Unit and dump its flash
 ## Credits
-- [Pictures from ifixit.com](https://www.ifixit.com/Search?c-doctype_namespace=product&doctype=product&query=xbox%20one)
+- [Xbox One PHAT and One S Pictures from ifixit.com](https://www.ifixit.com/Search?c-doctype_namespace=product&doctype=product&query=xbox%20one)
+- Xbox One X Pictures taken by jacksomness

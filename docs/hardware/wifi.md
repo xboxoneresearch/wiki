@@ -366,7 +366,7 @@ Xbox One (PHAT)
 ![Wifi module cable PHAT front](../_files/wifi/wifi_module_cable_phat_back.jpg)
 
 
-## Xbox One S
+## Xbox One S/Xbox One X
 - MediaTek MT7612UN
 
 ### Pinout
@@ -387,17 +387,15 @@ Xbox One (PHAT)
 ### PCB
 
 
-Xbox One S
+#### Xbox One S
 ![Wifi module PCB SLIM front](../_files/wifi/wifi_module_pcb_slim_front.jpg)
 ![Wifi module PCB SLIM back](../_files/wifi/wifi_module_pcb_slim_back.jpg)
 
 
-## Xbox One X
-Unknown
-
-### PCB
-
-Xbox One X (SCORPIO)
+#### Xbox One X
+[![Wifi module PCB One X front](../_files/wifi/wifi_module_pcb_onex_front_thumb.jpg)](../_files/wifi/wifi_module_pcb_onex_front.jpg)
+[![Wifi module PCB One X back](../_files/wifi/wifi_module_pcb_onex_back_thumb.jpg)](../_files/wifi/wifi_module_pcb_onex_back.jpg)
+![Wifi module PCB One X internals](../_files/wifi/wifi_module_pcb_onex_internals.png)
 
 ## Security considerations
 
@@ -407,8 +405,8 @@ Click here for more info: [Link](https://kb.cert.org/vuls/id/730261/)
 
 ## Credits
 
-- [Pictures from ifixit.com](https://www.ifixit.com/Search?c-doctype_namespace=product&doctype=product&query=xbox%20one)
-
+- [Pictures of the PHAT and One S from ifixit.com](https://www.ifixit.com/Search?c-doctype_namespace=product&doctype=product&query=xbox%20one)
+- Pictures of the One X jacksomness and [the FCC](https://fcc.report/FCC-ID/C3K1802/3470587)
 ## References
 
 - [MarvellFwDownloader](https://github.com/xboxoneresearch/MarvellFwDownloader) - Initialize Marvell chips with firmware.

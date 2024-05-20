@@ -14,7 +14,7 @@ Some early development kits have the FACET circuitry on-board and feature a fema
 
 ## Connector
 
-Label: J4E1 (Xbox One PHAT)
+Label: J4E1 (Xbox One PHAT/Xbox One S) or J22 (Xbox One X)
 
 Connector: IDC 2x13P 2.00mm
 
@@ -42,8 +42,19 @@ Pinout
 | 23  | SMC_RXD          | 3,3V STBY   | 24  |
 | 25  | SMBUS_CLK        | SMBUS_DATA  | 26  |
 
-![FACET Connector unpopulated](../_files/facet/facet_conn.png)
-![FACET Connector populated](../_files/facet/facet_conn_populated.png)
+### Xbox One PHAT
+
+![PHAT FACET Connector unpopulated](../_files/facet/facet_conn.png)
+![PHAT FACET Connector populated](../_files/facet/facet_conn_populated.png)
+
+### Xbox One S
+
+_Coming soon_
+
+### Xbox One X
+
+[![One X FACET Connector unpopulated](../_files/facet/xbox_one_x_retail_j22_facet_thumb.jpg)](../_files/facet/xbox_one_x_retail_j22_facet.jpg)
+[![One X FACET Connector populated](../_files/facet/xbox_one_x_xdk_j22_facet_thumb.jpg)](../_files/facet/xbox_one_x_xdk_j22_facet.jpg)
 
 ## External PCB
 
