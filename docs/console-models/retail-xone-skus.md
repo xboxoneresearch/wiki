@@ -50,6 +50,17 @@ Use the following guidelines:
 ![X887998-010 Back](../_files/skus/X877750-003/back.jpg)
 
 
+---
+* **PCB Label Number**: X895857 - 001 Rev C
+* **PCB Soldermask Number**: X877750-003
+* **Hardware description / differences**: The printed text on the board is thicker.
+* **Owned by / Contributed by**: BlueRain-debug
+* **Pictures**: 
+
+![X895857 - 001 Sticker](../_files/skus/X877750-003/DDK-X895857-001_Rev. C-sticker.jpg)
+![X895857 - 001 Soldermask Number](../_files/skus/X877750-003/DDK-X895857-001_Rev. C-soldermask number.jpg)
+
+
 ### Silverton Revisions
 
 
