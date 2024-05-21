@@ -57,8 +57,8 @@ Use the following guidelines:
 * **Owned by / Contributed by**: BlueRain-debug
 * **Pictures**: 
 
-![X895857 - 001 Sticker](../_files/skus/X877750-003/DDK-X895857-001_Rev. C-sticker.jpg)
-![X895857 - 001 Soldermask Number](../_files/skus/X877750-003/DDK-X895857-001_Rev. C-soldermask number.jpg)
+![X895857-001 Sticker](../_files/skus/X877750-003/DDK-X895857-001_Rev._C-sticker.jpg)
+![X895857-001 Soldermask Number](../_files/skus/X877750-003/DDK-X895857-001_Rev._C-soldermask_number.jpg)
 
 
 ### Silverton Revisions
