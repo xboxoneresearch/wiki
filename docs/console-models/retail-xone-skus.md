@@ -51,6 +51,17 @@ Use the following guidelines:
 
 
 ---
+* **PCB Label Number**: X884498 - 001 Rev F-2
+* **PCB Soldermask Number**: X877750-003
+* **Hardware description / differences**: -
+* **Owned by / Contributed by**: BlueRain-debug
+* **Pictures**: 
+
+![X884498-001 Front](../_files/skus/X877750-003/DDK-X884498-001_Rev._F-2-front.jpg)
+![X884498-001 Sticker](../_files/skus/X877750-003/DDK-X884498-001_Rev._F-2-sticker.jpg)
+
+
+---
 * **PCB Label Number**: X895857 - 001 Rev C
 * **PCB Soldermask Number**: X877750-003
 * **Hardware description / differences**: The printed text on the board is thicker.
