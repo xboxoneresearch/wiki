@@ -10,11 +10,11 @@ A custom boot image format used to load the critical boot components for the Xbo
 | 0x08   |   0x04 |   uint32        | SizeOfHeaders                  |
 | 0x0C   |   0x04 |   uint32        | ImageSize                      |
 | 0x10   |   0x08 |   uint64        | BasePhysicalAddress            |
-| 0x14   |   0x08 |   uint64        | TrampolineVirtualAddress       |
-| 0x1C   |   0x04 |   uint32        | DataOffset                     |
-| 0x20   |   0x04 |   uint32        | Flags                          |
-| 0x24   |   0x04 |   uint32        | DirectoryEntryCount            |
-| 0x28   |   0xB8 |   VbiDirectory  | Directories                    |
+| 0x18   |   0x08 |   uint64        | TrampolineVirtualAddress       |
+| 0x20   |   0x04 |   uint32        | DataOffset                     |
+| 0x24   |   0x04 |   uint32        | Flags                          |
+| 0x28   |   0x04 |   uint32        | DirectoryEntryCount            |
+| 0x2C   |   0xB8 |   VbiDirectory  | Directories                    |
 
 ### VBI Directory
 | Offset | Length | Type            | Information                    |
