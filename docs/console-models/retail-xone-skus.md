@@ -45,9 +45,9 @@ Use the following guidelines:
 * **Owned by / Contributed by**: Bradman117
 * **Pictures**: 
 
-![X887998-010 Front](../_files/skus/X877750-003/front.jpg)
-![X887998-010 Sticker](../_files/skus/X877750-003/sticker.jpg)
-![X887998-010 Back](../_files/skus/X877750-003/back.jpg)
+[![X884497-001 Front]((../_files/skus/X877750-003/front_thumb.jpg))](../_files/skus/X877750-003/front.jpg)
+[![X884497-001 Sticker](../_files/skus/X877750-003/sticker_thumb.jpg)](../_files/skus/X877750-003/sticker.jpg)
+[![X884497-001 Back](../_files/skus/X877750-003/back_thumb.jpg)](../_files/skus/X877750-003/back.jpg)
 
 
 ---
@@ -57,8 +57,8 @@ Use the following guidelines:
 * **Owned by / Contributed by**: BlueRain-debug
 * **Pictures**: 
 
-![X884498-001 Front](../_files/skus/X877750-003/DDK-X884498-001_Rev._F-2-front.jpg)
-![X884498-001 Sticker](../_files/skus/X877750-003/DDK-X884498-001_Rev._F-2-sticker.jpg)
+[![X884498-001 Front](../_files/skus/X877750-003/DDK-X884498-001_Rev._F-2-front_thumb.jpg)](../_files/skus/X877750-003/DDK-X884498-001_Rev._F-2-front.jpg)
+[![X884498-001 Sticker](../_files/skus/X877750-003/DDK-X884498-001_Rev._F-2-sticker_thumb.jpg)](../_files/skus/X877750-003/DDK-X884498-001_Rev._F-2-sticker.jpg)
 
 
 ---
@@ -68,8 +68,8 @@ Use the following guidelines:
 * **Owned by / Contributed by**: BlueRain-debug
 * **Pictures**: 
 
-![X895857-001 Sticker](../_files/skus/X877750-003/DDK-X895857-001_Rev._C-sticker.jpg)
-![X895857-001 Soldermask Number](../_files/skus/X877750-003/DDK-X895857-001_Rev._C-soldermask_number.jpg)
+[![X895857-001 Sticker](../_files/skus/X877750-003/DDK-X895857-001_Rev._C-sticker_thumb.jpg)](../_files/skus/X877750-003/DDK-X895857-001_Rev._C-sticker.jpg)
+[![X895857-001 Soldermask Number](../_files/skus/X877750-003/DDK-X895857-001_Rev._C-soldermask_number_thumb.jpg)](../_files/skus/X877750-003/DDK-X895857-001_Rev._C-soldermask_number.jpg)
 
 
 ### Silverton Revisions
