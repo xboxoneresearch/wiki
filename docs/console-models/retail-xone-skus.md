@@ -45,7 +45,7 @@ Use the following guidelines:
 * **Owned by / Contributed by**: Bradman117
 * **Pictures**: 
 
-[![X884497-001 Front]((../_files/skus/X877750-003/front_thumb.jpg))](../_files/skus/X877750-003/front.jpg)
+[![X884497-001 Front](../_files/skus/X877750-003/front_thumb.jpg)](../_files/skus/X877750-003/front.jpg)
 [![X884497-001 Sticker](../_files/skus/X877750-003/sticker_thumb.jpg)](../_files/skus/X877750-003/sticker.jpg)
 [![X884497-001 Back](../_files/skus/X877750-003/back_thumb.jpg)](../_files/skus/X877750-003/back.jpg)
 
