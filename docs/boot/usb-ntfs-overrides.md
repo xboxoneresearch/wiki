@@ -13,9 +13,11 @@ storage device to trigger operations during cold boot of the console.
 | --------------------------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | $BootCounters               | Folder | Outputs boot counter logs to the directory.																											   |
 | $ConsoleGen8                | File   | Only available on Chinese Xbox One. Put an empty file $ConsoleGen8 on the flashdrive to disable region lock.											   |
+| $ConsoleGen8Lock            | File   | Only available on Chinese Xbox One. Put an empty file $ConsoleGen8Lock on the flashdrive to enable region lock.								   |
 | $ConsoleGen9                | File   | Only available on Chinese Xbox Series X/S. Put an empty file $ConsoleGen9 on the flashdrive to disable region lock.									   |
-| $ConsoleRegion0             | File   | Only available on Chinese Xbox One. <s>Put an empty file $ConsoleRegion0 on the flashdrive to Disable region lock.</s> __Supersceded by "ConsoleGen#", Depreciated in later firmware.__|
-| $ConsoleRegion1             | File   | Only available on Chinese Xbox One. <s>Put an empty file $ConsoleRegion1 on the flashdrive to Enable region lock.</s> __Depreciated in later firmware.__  |
+| $ConsoleGen9Lock            | File   | Only available on Chinese Xbox Series X/S. Put an empty file $ConsoleGen9Lock on the flashdrive to enable region lock.						   |
+| $ConsoleRegion0             | File   | Only available on Chinese Xbox One. <s>Put an empty file $ConsoleRegion0 on the flashdrive to Disable region lock.</s> __Supersceded by "ConsoleGen#", depreciated in later firmware.__|
+| $ConsoleRegion1             | File   | Only available on Chinese Xbox One. <s>Put an empty file $ConsoleRegion1 on the flashdrive to Enable region lock.</s> __Supersceded by "ConsoleGen#Lock", depreciated in later firmware.__  |
 | $ConsoleRefresh             | Folder | Deletes settings.xvd on the host storage drive during boot. Executes the same operation as a console refresh while keeping games and apps.                |
 | $CopyGpuHix                 | TBD.   | TBD.																																					   |
 | $CopyPfmFile                | Folder | Generates performance monitoring file path.																											   |

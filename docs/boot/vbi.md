@@ -10,11 +10,11 @@ A custom boot image format used to load the critical boot components for the Xbo
 | 0x08   |   0x04 |   uint32        | SizeOfHeaders                  |
 | 0x0C   |   0x04 |   uint32        | ImageSize                      |
 | 0x10   |   0x08 |   uint64        | BasePhysicalAddress            |
-| 0x14   |   0x08 |   uint64        | TrampolineVirtualAddress       |
-| 0x1C   |   0x04 |   uint32        | DataOffset                     |
-| 0x20   |   0x04 |   uint32        | Flags                          |
-| 0x24   |   0x04 |   uint32        | DirectoryEntryCount            |
-| 0x28   |   0xB8 |   VbiDirectory  | Directories                    |
+| 0x18   |   0x08 |   uint64        | TrampolineVirtualAddress       |
+| 0x20   |   0x04 |   uint32        | DataOffset                     |
+| 0x24   |   0x04 |   uint32        | Flags                          |
+| 0x28   |   0x04 |   uint32        | DirectoryEntryCount            |
+| 0x2C   |   0xB8 |   VbiDirectory  | Directories                    |
 
 ### VBI Directory
 | Offset | Length | Type            | Information                    |
@@ -121,12 +121,13 @@ A custom boot image format used to load the critical boot components for the Xbo
     - Example:
         - `` xcrdutil.exe -read_ud F:\system.xvd 0 200 D:\\DevelopmentFiles\\system.vbi ``
 3. Load the output file into your favourite hex editor
-4. Go to offset ``0xC`` (ImageSize) and copy the value as a 32-bit integer
-5. Re-run:
+4. Go to offset ``0x8`` (SizeOfHeaders) and copy the value as a 32-bit integer
+5. Go to offset ``0xC`` (ImageSize), copy the value as a 32-bit integer and add it to SizeOfHeaders to get the actual size
+6. Re-run:
     - `` xcrdutil.exe -read_ud F:\system.xvd 0 <size> <path on console for output> ``
     Example:
         - `` xcrdutil -read_ud F:\system.xvd 0 32071680 D:\\DevelopmentFiles\\system.vbi ``
-6. Viola!
+7. Viola!
 
 #### This can also be applied to gameos.xvd or gamecore.xvd when running within their partitions.
 
