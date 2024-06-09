@@ -34,7 +34,6 @@ A magical capability certificate ([$Diagnosis/debug.bin on a NTFS USB](../boot/u
 Hardware wise, a bunch of different Xbox One and Xbox Series models exist. These are some of them, which mostly correspond to the ERA type mentioned in the previous section:
 
 **Xbox One PHAT game devkit:**
-
 ![](../_files/devkits/xbox_one_phat_xdk.webp)
 
 **Xbox One S game devkit:**
@@ -47,10 +46,11 @@ Hardware wise, a bunch of different Xbox One and Xbox Series models exist. These
 ![Xb1X-ERA](../_files/devkits/xbox_one_x_xdk.jpg)
 
 **Xbox Series S/X game devkit (pre-release):**
-![Series X XDK](../_files/devkits/series_x_xdk.jpg)
+![Series X XDK Prototype](../_files/devkits/series_x_xdk_prototype.jpg)
 
 **Xbox Series X game devkit (release version):**
 ![](../_files/devkits/XboxDevKit2019_FrntTlt_RGB.png)
+![Series X XDK](../_files/devkits/series_x_xdk.jpg)
 
 **Xbox Series S game devkit (release version):**
 ![](../_files/devkits/series_s_release_xdk.png)
