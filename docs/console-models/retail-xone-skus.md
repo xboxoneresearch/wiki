@@ -53,7 +53,7 @@ Use the following guidelines:
 ---
 * **PCB Label Number**: X884498 - 001 Rev F-2
 * **PCB Soldermask Number**: X877750-003
-* **Hardware description / differences**: -
+* **Hardware description / differences**: Currently only found in a DDK unit.
 * **Owned by / Contributed by**: BlueRain-debug
 * **Pictures**: 
 
@@ -64,7 +64,7 @@ Use the following guidelines:
 ---
 * **PCB Label Number**: X895857 - 001 Rev C
 * **PCB Soldermask Number**: X877750-003
-* **Hardware description / differences**: The printed text on the board is thicker.
+* **Hardware description / differences**: Currently only found in a DDK unit. The printed text on the board is thicker.
 * **Owned by / Contributed by**: BlueRain-debug
 * **Pictures**: 
 
