@@ -121,12 +121,13 @@ A custom boot image format used to load the critical boot components for the Xbo
     - Example:
         - `` xcrdutil.exe -read_ud F:\system.xvd 0 200 D:\\DevelopmentFiles\\system.vbi ``
 3. Load the output file into your favourite hex editor
-4. Go to offset ``0xC`` (ImageSize) and copy the value as a 32-bit integer
-5. Re-run:
+4. Go to offset ``0x8`` (SizeOfHeaders) and copy the value as a 32-bit integer
+5. Go to offset ``0xC`` (ImageSize), copy the value as a 32-bit integer and add it to SizeOfHeaders to get the actual size
+6. Re-run:
     - `` xcrdutil.exe -read_ud F:\system.xvd 0 <size> <path on console for output> ``
     Example:
         - `` xcrdutil -read_ud F:\system.xvd 0 32071680 D:\\DevelopmentFiles\\system.vbi ``
-6. Viola!
+7. Viola!
 
 #### This can also be applied to gameos.xvd or gamecore.xvd when running within their partitions.
 
