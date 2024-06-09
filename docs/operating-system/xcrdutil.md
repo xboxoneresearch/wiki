@@ -107,7 +107,7 @@ Command completed successfully.
 Mounted XVD's can be accessed with junctions:
 
 ```
-mklink /j D:\Folder \\?\GLOBALROOT\Device\Harddisk17\Partition1\
+mklink /j T:\Folder \\?\GLOBALROOT\Device\Harddisk17\Partition1\
 ```
 
 Query Info for given XVD:
