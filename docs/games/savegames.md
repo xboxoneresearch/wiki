@@ -9,6 +9,12 @@ XVD Container filepaths:
 - `[XTE:]\ConnectedStorage-retail` (Retail)
 - `[XTE:]\ConnectedStorage` (XDK)
 
+## Mounting
+
+- Unmount container
+- Mount container
+- Make a junction from the DevicePath to a local folder (f.e. on the T drive)
+
 ## File format
 
 ### BLOB_TYPE
