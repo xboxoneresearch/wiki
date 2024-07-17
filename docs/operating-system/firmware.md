@@ -3,7 +3,12 @@
 ## [2024](https://support.xbox.com/en-US/help/hardware-network/settings-updates/whats-new-xbox-one-system-updates)
 | version | GUID | build_tag | date | download (MS) | download (archive) | notes |
 |---------|------|-----------|------|---------------|--------------------|-------|
-| 10\.0.25398.3864 | n/a | xb_flt_2403zn.240306-1700 | 2024-03-13 | [Microsoft](https://download.microsoft.com/download/6/7/9/679356c4-842b-4fdc-aba9-1eb4fb3ea2c0/OSU1.zip) | n/a | March 2024 OS |
+| 10\.0.25398.4910 | d0d8be72-cd9c-4356-8b41-f960b8af14f2 | xb_flt_2406zn.240711-0730 | 2024-07-15 | [Microsoft](https://download.microsoft.com/download/a/7/1/a718f076-9262-4662-8598-0380b8ae0a79/OSU1.zip) | n/a | July 2024 OS, patches Collateral Damage Exploit |
+| 10\.0.25398.4909 | 3d71d447-253b-428e-8fd1-273b74603f8a | xb_flt_2406zn.240612-1410 | 2024-06-17 | [Microsoft](https://download.microsoft.com/download/1/9/0/19033348-f27e-4cf6-b5b2-4bca4bea0549/OSU1.zip) | n/a | June 2024 OS |
+| 10\.0.25398.4908 | 6e56019d-264d-4889-8072-6c2ea7a7671e | xb_flt_2406zn.240606-1530 | 2024-06-12 | [Microsoft](https://download.microsoft.com/download/6/8/7/68756e0f-3c62-40ea-85a1-05dd310d4254/OSU1.zip) | n/a | June 2024 OS |
+| 10\.0.25398.4478 | 6cc733ce-e18e-4d38-9923-c00a712a694c | xb_flt_2405zn.240501-1900 | 2024-05-08 | [Microsoft](https://download.microsoft.com/download/5/a/8/5a8e862a-ec07-45ff-b72c-14d08fb90e41/OSU1.zip) | n/a | May 2024 OS  |
+| 10\.0.25398.4086 | c03d4fbd-4595-4326-bf68-1b7a17f08448 | xb_flt_2404zn.240402-1830 | 2024-04-10 | [Microsoft](https://download.microsoft.com/download/a/f/2/af24936d-b743-4317-bc9a-f0de947c44e9/OSU1.zip) | n/a | April 2024 OS|
+| 10\.0.25398.3864 | aa9c734b-e0a6-4390-abeb-06fdc41a5f58 | xb_flt_2403zn.240306-1700 | 2024-03-13 | [Microsoft](https://download.microsoft.com/download/6/7/9/679356c4-842b-4fdc-aba9-1eb4fb3ea2c0/OSU1.zip) | n/a | March 2024 OS|
 | 10\.0.25398.3491 | n/a | xb_flt_2402zn.240207-1700 | 2024-02-14 | n/a | n/a | February 2024 OS |
 | 10\.0.25398.2923 | n/a | xb_flt_2311zn.240110-1710 | 2024-01-16 | n/a | n/a | January 2024 OS |
 
