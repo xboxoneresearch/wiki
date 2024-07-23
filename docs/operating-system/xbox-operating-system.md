@@ -34,7 +34,7 @@ of the console. This operating system is currently based on Windows
 
 ### SRA Virtual Drives
 
-| File Name          | Mount Point as seen by SystemOS | Dev-Only | Read-Only | Desc                                                           |
+| File Name          | Mount Point as seen by SystemOS | Dev-Only | Read-Only | Desc                                       |
 | ------------------ | ----------- | -------- | --------- | -------------------------------------------------------------- |
 | system.xvd         | C:\\        | false    | true      | System Boot.                                                   |
 | systemaux.xvd      | X:\\        | false    | true      | Inbox apps.                                                    |
@@ -45,6 +45,13 @@ of the console. This operating system is currently based on Windows
 | systemmisc.xvd     | M:\\        | false    | true      | Miscellaneous system boot files.                               |
 | user.xvd           | U:\\        | false    | false     | User and application data.                                     |
 | user-devkit.xvd    | U:\\        | true     | false     | User and application data.                                     |
+
+Other Mount points
+
+| Device                        | Mount Point as seen by SystemOS | Dev-Only | Read-Only | Desc                                              |
+| ----------------------------- | ----------- | -------- | --------- | --------------------------------------------------------------------- |
+| USB Storage                   | D:\\        | false    | false     | 1st USB Storage device, plain NTFS, for media storage only, not Games.|
+| Optical Disc Drive            | O:\\        | false    | true      | Optical Disc Drive (ODD)                                              |
 
 ## Game/Era
 
@@ -59,6 +66,7 @@ smaller and more efficient.
 | ------------ | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ERA.xvd      | C:\\        | GameOS's Windows installation. Packaged with games via the XVC's user data. Attempts to read from this partition will result in the hypervisor terminating the ERA VM.                |
 | Game.XVC     | G:\\        | Running game's binaries/data. The XVC mounted and decrypted.                                                                                                                          |
+| tempXX       | T:\\        | ERA Temporary XVD - Used by ERA-Games for temporary storage, `XX` being a placeholder                                                                                                 |
 | ERATools.xvd | J:\\        | (MS Internal (and ERA Test?) Devkits with XDK recoveries only). Contains tools like ipconfig, telnetd, debug support dlls and dlls needed to connect to the XDK via the XB CLI tools. |
 
 ## GameCore
