@@ -40,6 +40,7 @@
   - [XCRDUtil](operating-system/xcrdutil.md)
   - [DefaultApp](operating-system/default-app.md)
   - [Kiosk](operating-system/kiosk.md)
+  - [Registry](operating-system/registry.md)
   - [Xbox Virtual Drives (XVD)](operating-system/xbox-virtual-drive.md)
   - [Unauthorized Xbox Device Lockout](operating-system/unauthorized-device-lockout.md)
 - Games
