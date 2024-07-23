@@ -58,6 +58,7 @@
   - [XCT](file-formats/xct.md)
 - Development
   - [PC tools](development/pc_tools.md)
+  - [Debugging](development/debugging.md)
   - [Setting up your console](development/setup-dev-mode.md)
   - [Compiling for xbox](development/compiling-for-xbox.md)
   - [Installing Compatible Software](development/installing-compatible-software.md)
