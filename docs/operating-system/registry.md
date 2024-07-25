@@ -132,3 +132,11 @@ cd HKLM:
 ## Native code
 
 You can talk to the Registry via native and managed code.
+
+
+## Tools
+
+To work for dumped registry hives, the following tools are a great help:
+
+- [Registry Spy](https://github.com/andyjsmith/registry-spy)
+- [regdump](https://github.com/adoxa/regdump)
