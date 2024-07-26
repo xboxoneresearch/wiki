@@ -21,7 +21,7 @@ Components:
 
 The RF Unit, compared to Xbox 360, is very simple. It does not contain any RF hardware onboard.
 It only contains an IR Receiver, the Nuvoton Soundcorder Chip (which also handles button presses from the front panel touch buttons) and an internal antenna.
-Actual RF communication is happening via [Wifi module](wifi.md).
+Actual RF communication is happening via a [Wifi module](wifi.md).
 
 Communication from the Nuvotun chip to the Southbridge is done via I2C.
 

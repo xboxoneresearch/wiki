@@ -1,5 +1,5 @@
 # VBI - Virtual Boot Image
-A custom boot image format used to load the critical boot components for the Xbox OS. It contains its own mapped loader block, kernel and/or hypervisor (if host), and more. These files can be located within the user-data section for bootable XVD's or in the boot.bin for the Host OS VBI.
+A custom boot image format used to load the critical boot components for the Xbox OS. It contains its own mapped loader block, kernel and/or hypervisor (if host), and more. These files can be located within the user-data section for bootable XVD's, or in the boot.bin for the Host OS VBI.
 
 ## File format
 ### VBI Header

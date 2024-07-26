@@ -1,6 +1,6 @@
 # Facet
 
-The FACET port is a universal debugging port on all models of the xbox one/series-family.
+The FACET port is a universal debugging port on all models of the Xbox One/Series-family.
 
 Features:
 

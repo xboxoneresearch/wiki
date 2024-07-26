@@ -10,7 +10,7 @@ It should be noted that capability certificates are locked to a particular conso
 A capability certificate defines what capabilities an Xbox One console is allowed to enable (This is regulated via the [PSP](../security/security-processor.md) and to a degree, HostOS.) The capabilities range from enabling Devmode and the respective developer services, ignoring requests to blowing e-fuses, HostOS telnet and Retail debugging, and much more.
 
 ## Devkit types classified by software
-There are different types of devkits
+There are several different types of devkits:
 
 | Name             | Identification | Description                                                                                                                                                                                |
 | ---------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -28,7 +28,7 @@ See [Certificates](../security/certificates.md)
 
 ## Godbox Certificate
 
-A magical capability certificate ([$Diagnosis/debug.bin on a NTFS USB](../boot/usb-ntfs-overrides.md)) that will temporaily activate a retail console as a limited Godbox for 24 hours. Kernel/User-Mode debugging is only possible on SystemOS and GameOS, not HostOS, and the temporary kit requires authentication against Live.
+A magical capability certificate ([$Diagnosis/debug.bin on a NTFS USB](../boot/usb-ntfs-overrides.md)) will temporaily activate a retail console as a limited Godbox for 24 hours. Kernel/User-Mode debugging is only possible on SystemOS and GameOS, not HostOS, and the temporary kit requires authentication against Live.
 
 ## Devkit types classified by hardware
 Hardware wise, a bunch of different Xbox One and Xbox Series models exist. These are some of them, which mostly correspond to the ERA type mentioned in the previous section:

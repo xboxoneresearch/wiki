@@ -1,7 +1,7 @@
 # Wifi
 
 ## Xbox One
-First revision of the Xbox One has both chipsets on the same PCB, a 8-pin connection goes from the PCB to the motherboard.
+The first revision of the Xbox One has both chipsets on the same PCB. An 8-pin connection goes from the PCB to the motherboard.
 
 Communication is via 2x USB data-pairs.
 **IMPORTANT**: The board is operated via 3,3V, standard USB is 5V!

@@ -1,8 +1,8 @@
 # SBFS
 
-The "Series"-era of Xbox consoles has, additional to [XBFS](xbox-boot-file-system.md), a filesystem called SBFS.
+The "Series"-era of Xbox consoles has, in addition to [XBFS](xbox-boot-file-system.md), a filesystem called SBFS.
 
-It is not exposed to the operating itself transparently.
+It is not exposed to the operating system itself transparently.
 
 ## Filesystem sizes
 
@@ -15,8 +15,8 @@ SBFS_HEADER-\>Magic.
 
 Absolute offsets:
 
-- 0x1_0000
-- 0x1_1000
+ - 0x1_0000
+ - 0x1_1000
 
 ## SBFS Structures
 
@@ -70,4 +70,4 @@ Size: 0x10
 
 ## Tools
 
-- [sbfs-tool](https://github.com/RetroTechCorner/sbfs-tool) - (Go) Parsing/extracting a raw SBFS image
+ - [sbfs-tool](https://github.com/RetroTechCorner/sbfs-tool) - (Go) Parsing/extracting a raw SBFS image

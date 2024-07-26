@@ -1,5 +1,5 @@
 # Ethernet
-All console revision utilize a gigabit ethernet connection.
+All console revisions utilize a gigabit ethernet connection.
 
 ## Chipsets
 - Realtek RTL 8151GNM Ethernet Controller (Xbox One)

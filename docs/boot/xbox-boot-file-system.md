@@ -5,7 +5,7 @@
 Xbox Boot File System, or XBFS for short, refers to the console flash
 filesystem.
 
-On Xbox Series-consoles there is also [SBFS](southbridge-file-system.md).
+On Xbox Series-consoles, there is also [SBFS](southbridge-file-system.md).
 
 ## Filesystem sizes
 

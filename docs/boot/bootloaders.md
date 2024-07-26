@@ -22,10 +22,10 @@ rest of the console and then begins booting into the Host VBI.
 
 ## SCP
 (S)treaming (C)rypto (P)rocessor - internal crypto engine on the APU die.
-Data blob thats uploaded to the SCP, for initialization?!
+Data blob that is uploaded to the SCP, for initialization?!
 Initialization phase: Unknown, somewhere in between 2BL and VBI.
 
 ## VBI
 
 Final boot stage which initialises the critical components of the
-operating system and essentially acts as a bootstrap.
+operating system, and essentially acts as a bootstrap.

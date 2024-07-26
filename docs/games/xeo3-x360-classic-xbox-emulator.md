@@ -27,7 +27,7 @@ XEO3 is the Xbox 360 and Original Xbox emulator executable for the Xbox One/Seri
 
 
 ## Discovery
-XEO3, known as emu.exe, was first located by TitleOS who dumped it from a plaintext XVDP of eratools captured from a Xbox Live update before releasing it via Twitter.
+XEO3, known as emu.exe, was first located by TitleOS, who dumped it from a plaintext XVDP of eratools captured from a Xbox Live update before releasing it via Twitter.
 
 ## XEO3 Shaders
 Little is currently known about the XEO3 shader format, for example how the original shaders from Xbox 360 games are converted into the DirectX 11 Durango format. While it is known that that Backwards Compat games' XVCs contain DirectX 11 Durango format shaders in the DLL file format, creation or rendering of these shaders is not currently possible. 
