@@ -5,9 +5,9 @@
 Welcome to the Xbox One Research wiki\!
 
 This is a place where information about the Xbox One console can be
-shared. Things are currently slow but will be adding when we can.
+shared. Progress is currently slow, but we will be adding information when we can.
 
-See [FAQ](faq.md) for frequently asked questions.
+See the [FAQ](faq.md) for frequently asked questions.
 
 ## Contributing
 
@@ -15,7 +15,7 @@ Please check the following page for instructions: <https://github.com/xboxoneres
 
 ## Community
 
-Sou can reach the community at [Matrix Chat](https://matrix.to/#/#xboxoneresearch_space:matrix.org)
+You can reach the community at [Matrix Chat](https://matrix.to/#/#xboxoneresearch_space:matrix.org)
 
 ## Important
 

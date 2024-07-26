@@ -4,7 +4,7 @@ Code integrity is a threat protection feature that checks the drivers and system
 
 ## Overview
 
-Whilst CI (code integrity) is often used for the detection of corrupt system files and malicious code, it can also be used by enterprises to limit or curate a whitelist of binary signatures allowed to execute into memory. The whitelist approach offers maximum protection against third party non-Microsoft signed, and unsigned, binaries unless specifically defined.
+Whilst CI (code integrity) is often used for the detection of corrupt system files and malicious code, it can also be used by enterprises to limit or curate a whitelist of binary signatures allowed to execute into memory. The whitelist approach offers maximum protection against third party non-Microsoft signed and unsigned binaries unless specifically defined.
 
 See the following documentation to learn more:
 
@@ -29,13 +29,13 @@ See the following documentation to learn more:
 
 [VBI](../boot/vbi.md)
 
-Prior to Windows 10/11 thresholds Windows Core 8.1 (Durango) based firmware relied heavily on standard CI protection, Xbox OS 10/11 based firmware now adds the addition of XCI (Xbox Code Integrity) to the existing CI chain to validate Xbox specific virtual images, catalogs, and CAB (Cabinet) files.
+Prior to Windows 10/11 thresholds, Windows Core 8.1 (Durango) based firmware relied heavily on standard CI protection. Xbox OS 10/11 based firmware now adds the addition of XCI (Xbox Code Integrity) to the existing CI chain to validate Xbox specific virtual images, catalogs, and CAB (Cabinet) files.
 
 In addition to Host, System, and GameOS VMs mounting read-only [XVDs](../operating-system/xbox-virtual-drive.md), effectively preventing writes and/or modifications to the file system, each virtual disk also contains the presence of catalog files in the root directory.
 
 ## Xbox Catalog Files
 
-Catalog files are generated in the root of every virtual disk on release build firmware and is checked by code integrity enforcement. The Binary Signatures contained within the Catalog files determine the conditions in which a binary matching the signature can execute into memory.
+Catalog files are generated in the root of every virtual disk on release build firmware, and is checked by code integrity enforcement. The Binary Signatures contained within the Catalog files determine the conditions in which a binary matching the signature can execute into memory.
 
 Conditions are as followed:
 ```

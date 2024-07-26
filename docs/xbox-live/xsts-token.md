@@ -5,13 +5,13 @@ Xbox Live uses security tokens are created by the Xbox Secure Token Service (XST
 
 The token used for Xbox Live is a JSON Web Token (JWT) that uses two JWE encryption types:
 
-* Asymmetric public / private key pair (RFC 7519)
+* Asymmetric public / private key pair (RFC 7519):
  The token is encrypted using a certificate’s public key and is then decrypted on your service with the private key. The token is also digitally signed by Xbox Live to validate its origin. This is the recommended token type, as it is more secure.
 
-* Asymmetric public / private key pair (legacy)
+* Asymmetric public / private key pair (legacy):
  This token configuration does not adhere to RFC 7519. This option is only for titles migrated from the Xbox Developer Portal (XDP) and that require this format for compatibility purposes. This JWT format should not be used for new token configurations.
 
-Partner Center Xbox Live configuration previously also included a Symmetric shared key option that used a shared key between Xbox Live and your service for encryption. This option was deprecated due to security concerns and is not available for new token configurations.
+Partner Center Xbox Live configuration previously also included a Symmetric shared key option that used a shared key between Xbox Live and your service for encryption. This option was deprecated due to security concerns, and is not available for new token configurations.
 
 Tokens are meant for a specific relying party, which represents a set of service endpoints that share the same token configuration, encryption certificate, and signature policy. These are described in more detail below:
 
@@ -27,20 +27,20 @@ The token is broken into sections including a Header and the Payload. There are 
 
 ![XSTS Token Structure](../_files/xsts-token-structure.png)
 
-`Note: For Symmetric X-tokens, the format is similar but there is no Content Encryption Key or XBL Signature. The Payload is encrypted and decrypted directly with the symmetric shared secret key.`
+Note: For Symmetric X-tokens, the format is similar but there is no Content Encryption Key or XBL Signature. The Payload is encrypted and decrypted directly with the symmetric shared secret key.
 
 
 ### Header
 The header has two sections:
 
-Details about how the JWT is encrypted and includes the encryption, algorithm, and content type. 
-The thumbprint of the x509 certificate used for encryption. 
-The thumbprint should match the certificate provided by you during configuration of your relying party and the private key must be installed on the server to enable the token to be decrypted.
+ - Details about how the JWT is encrypted and includes the encryption, algorithm, and content type. 
+ - The thumbprint of the x509 certificate used for encryption. 
+   The thumbprint should match the certificate provided by you during configuration of your relying party and the private key must be installed on the server to enable the token to be decrypted.
 
 For deprecated symmetric X-tokens, the header only has the first section and the encryption algorithm is specified as “alg”: “dir”.
 
 ### Content Encryption Key
-With Asymmetric encryption the private key decrypts this content which then provides you the decryption key needed for the payload.
+With Asymmetric encryption, the private key decrypts this content which then provides you the decryption key needed for the payload.
 
 Not present with deprecated symmetric encryption.
 
@@ -56,11 +56,11 @@ The payload is the encrypted JSON Web Token that contains the claims and informa
 Integrity value for the token.
 
 ## Inner JSON Web Token
-Once the Payload is decrypted you will have a UTF8 array that represents the RFC7516 JSON Web Token. This inner token also has a header that includes information related to generating and validating the signature on the token.
+Once the Payload is decrypted, you will have a UTF8 array that represents the RFC7516 JSON Web Token. This inner token also has a header that includes information related to generating and validating the signature on the token.
 
-The token will be signed with the private key of the Xbox Live signing certificate to validate that the token is from Xbox Live. The header of the inner token contains the thumbprint and a URL to download the public key of the cert so that your service can do a validation of the signature. This means that your server should keep a cache of this public cert that it downloaded at runtime to re-use.
+The token will be signed with the private key of the Xbox Live signing certificate to validate that the token is from Xbox Live. The header of the inner token contains the thumbprint, and a URL to download the public key of the cert so that your service can do a validation of the signature. This means that your server should keep a cache of this public cert that it downloaded at runtime to re-use.
 
-Since the Xbox Live signing cert can expire and needs to be renewed every 18 months, we recommend that your server not hard code the cert nor install it on your servers. You should always check your local cache, if you do not have the cert, download it (validating it is coming from https://xsts.xboxlive.com), and then cache it. If the cert is updated, the tokens will have a new thumbprint and URL in their headers to reflect that. If you follow the logic outlined in the Game Service sample, available for download on XGD Fast Downloads, the signature cert management your service will never have to be updated to handle a new Xbox Live signing cert.
+Since the Xbox Live signing cert can expire and needs to be renewed every 18 months, we recommend that your server not hard code the cert nor install it on your servers. You should always check your local cache, and if you do not have the cert, download it (validating it is coming from https://xsts.xboxlive.com) and then cache it. If the cert is updated, the tokens will have a new thumbprint and URL in their headers to reflect that. If you follow the logic outlined in the Game Service sample, available for download on XGD Fast Downloads, the signature cert management your service will never have to be updated to handle a new Xbox Live signing cert.
 
 The payload of this token contains the claims that were specified during the token configuration for the relying party. Claims that are not configured are not included in the token payload. Claim values can be traditional types (string, integer, GUID, and so on.). They can also be a JSON object representing a more complex structure.
 

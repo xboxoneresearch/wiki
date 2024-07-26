@@ -8,7 +8,7 @@ Xbox One game discs are called [XGD4](../games/xbox-game-disc.md) (Xbox Game Dis
 
 ## Drive models
 
-Following optical disc drive models are known to date:
+The following optical disc drive models are known to date:
 
 ### Xbox One (PHAT)
 

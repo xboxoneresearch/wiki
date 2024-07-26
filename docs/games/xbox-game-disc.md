@@ -37,7 +37,7 @@ XGD4_DISC
 </LicenseRequestResponse>
 ```
 
-Note: All keys have been replaced by bogus data
+Note: All keys have been replaced with bogus data
 
 ## SignedLicense
 The data of **SignedLicense** in License0.xml base64-decodes to something like this:
@@ -55,7 +55,7 @@ The data of **SignedLicense** in License0.xml base64-decodes to something like t
 </SignedLicense>
 ```
 
-Note: All keys have been replaced by bogus data
+Note: All keys have been replaced with bogus data
 
 ### catalog.js
 ```
