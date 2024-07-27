@@ -116,6 +116,7 @@ REG SAVE HKLM\OSDATA D:\DevelopmentFiles\OSDATA.hiv
 
 REG SAVE HKLM\HARDWARE D:\DevelopmentFiles\HARDWARE.hiv
 REG SAVE HKLM\SOFTWARE D:\DevelopmentFiles\SOFTWARE.hiv
+REG SAVE HKLM\SYSTEM D:\DevelopmentFiles\SYSTEM.hiv
 REG SAVE HKLM\SECURITY D:\DevelopmentFiles\SECURITY.hiv
 REG SAVE HKLM\SAM D:\DevelopmentFiles\SAM.hiv
 REG SAVE HKU\ D:\DevelopmentFiles\HKU.hiv
