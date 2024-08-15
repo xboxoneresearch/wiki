@@ -9,9 +9,19 @@ shared. Progress is currently slow, but we will be adding information when we ca
 
 See the [FAQ](faq.md) for frequently asked questions.
 
+Also check out the [Blog](https://xboxoneresearch.github.io/)!
+
 ## Contributing
 
-Please check the following page for instructions: <https://github.com/xboxoneresearch/wiki>
+How can you help?
+
+As we are currently mostly focussing on the software development part to make the retail exploits more user-friendly, we are clearly lacking behind on the wiki...
+
+We appreciate any support!
+
+If you are unsure which topic is up for grabs, contact us on [Matrix chat](#community) or visit the Wiki's [Issue tracker](https://github.com/xboxoneresearch/wiki/issues).
+
+If you are new to (Git)hub and want to learn how the contribution flow works -> [click here](https://github.com/xboxoneresearch/wiki/issues) for the README. 
 
 ## Community
 
