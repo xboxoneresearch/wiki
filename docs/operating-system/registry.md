@@ -77,6 +77,9 @@ Example of some rules
 | XboxSRA-AllJoyn-Router-Out-UDP                     | `v2.33|Action=Allow|Active=TRUE|Dir=Out|Protocol=17|App=%SystemRoot%\system32\svchost.exe|Svc=AJRouter|Name=@FirewallAPI.dll,-37009|Desc=@FirewallAPI.dll,-37010|EmbedCtxt=Xbox SystemOS|` |
 | OneCoreDbgSrv-Out-TCP                              | `v2.33|Action=Allow|Active=TRUE|Dir=Out|Protocol=6|App=%systemroot%\system32\debuggers\dbgsrv.exe|Name=OneCoreDbgSrv-Out|Desc=OneCoreDbgSrv Out|EmbedCtxt=OneCore TSP|` |
 
+
+See also: [Firewall](./firewall.md)
+
 ### OOBE (Out-of-Box-experience)
 
 First-Start-Wizard aka. Out-of-Box-experience.

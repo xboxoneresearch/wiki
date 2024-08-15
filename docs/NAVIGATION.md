@@ -41,6 +41,7 @@
   - [DefaultApp](operating-system/default-app.md)
   - [Kiosk](operating-system/kiosk.md)
   - [Registry](operating-system/registry.md)
+  - [Firewall](operating-system/firewall.md)
   - [Xbox Virtual Drives (XVD)](operating-system/xbox-virtual-drive.md)
   - [Unauthorized Xbox Device Lockout](operating-system/unauthorized-device-lockout.md)
 - Games
@@ -61,6 +62,7 @@
   - [Debugging](development/debugging.md)
   - [Setting up your console](development/setup-dev-mode.md)
   - [Compiling for xbox](development/compiling-for-xbox.md)
+  - [Deploying UWP apps in retail mode](development/deploying-uwp-apps.md)
   - [Installing Compatible Software](development/installing-compatible-software.md)
   - [Creating your own Windows User](development/creating-a-win-user.md)
   - [Xbox Device Portal](development/device-portal.md)
