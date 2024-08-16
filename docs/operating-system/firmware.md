@@ -3,6 +3,7 @@
 ## [2024](https://support.xbox.com/en-US/help/hardware-network/settings-updates/whats-new-xbox-one-system-updates)
 | version | GUID | build_tag | date | download (MS) | download (archive) | notes |
 |---------|------|-----------|------|---------------|--------------------|-------|
+| 10\.0.25398.4911 | 0b019c6f-ca6f-4457-a37d-73aa2c41c417 | xb_flt_2406zn.240805-1410 | 2024-08-13 | n/a | n/a | August 2024 OS |
 | 10\.0.25398.4910 | d0d8be72-cd9c-4356-8b41-f960b8af14f2 | xb_flt_2406zn.240711-0730 | 2024-07-15 | [Microsoft](https://download.microsoft.com/download/a/7/1/a718f076-9262-4662-8598-0380b8ae0a79/OSU1.zip) | n/a | July 2024 OS, patches Collateral Damage Exploit |
 | 10\.0.25398.4909 | 3d71d447-253b-428e-8fd1-273b74603f8a | xb_flt_2406zn.240612-1410 | 2024-06-17 | [Microsoft](https://download.microsoft.com/download/1/9/0/19033348-f27e-4cf6-b5b2-4bca4bea0549/OSU1.zip) | n/a | June 2024 OS |
 | 10\.0.25398.4908 | 6e56019d-264d-4889-8072-6c2ea7a7671e | xb_flt_2406zn.240606-1530 | 2024-06-12 | [Microsoft](https://download.microsoft.com/download/6/8/7/68756e0f-3c62-40ea-85a1-05dd310d4254/OSU1.zip) | n/a | June 2024 OS |
