@@ -77,3 +77,8 @@ Unfortunately this flow mentioned above does not work for the Series-family of X
 Current assumption is that the **global test key** is not supported there anymore.
 
 This is currently being investigated.
+
+
+### References
+
+- [Github - Retail UWP Deployment](https://github.com/xboxoneresearch/retail-uwp-deployment) - Scripts for deploying UWP apps in retail mode
