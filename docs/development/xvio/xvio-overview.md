@@ -1,0 +1,6 @@
+# Overview
+The *XVIO driver* (`xvio.sys`) facilitates all communication between the virtualized partitions. It's APIs share some similarity with the [Hyper-V Inter-Partition Communication](https://github.com/MicrosoftDocs/Virtualization-Documentation/blob/main/tlfs/Hypervisor%20Top%20Level%20Functional%20Specification%20v6.0b.pdf){:target='blank'} APIs. Whether or not this is based on the same code, I am not sure but it seems likely.  
+
+Whilst each partition has it's own version of `xvio.sys`, the differences appear to be minor, as each driver is simply being built using different preprocessor definitions to target different partitions.  
+  
+Interestingly, it appears some of the XVIO's data section acts as a sort of shared memory between the current partition and the hypervisor (and by extension, other partitions... kind of)
