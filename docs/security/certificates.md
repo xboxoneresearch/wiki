@@ -34,6 +34,7 @@ Total Size: 0x400 bytes
 | 0x264  | 0x0C   | byte\[\] | ConsolePartNumber              |
 | 0x270  | 0x10   | byte\[\] | HwSpecificData                 |
 | 0x280  | 0x180  | byte\[\] | RsaSignature                   |
+| 0x400  |        |          | End-of-file                    |
 
 ## Boot Capability Certificate
 
@@ -42,7 +43,7 @@ Stored in **certkeys.bin** inside [XBFS](../boot/xbox-boot-file-system.md).
 Also check out [Devkit types](../console-models/devkit-types.md).
 
 ### Format
-Total Size: 0x180 bytes
+Total Size: 0x400 bytes
 
 | Offset | Length | Type       | Information       |
 | ------ | ------ | ---------- | ----------------- |
@@ -69,6 +70,7 @@ Total Size: 0x180 bytes
 | 0x48   | 0x38   | byte\[\]   | Reserved          |
 | 0x80   | 0x200  | ushort\[\] | Capabilities      |
 | 0x280  | 0x180  | byte\[\]   | RsaSignature      |
+| 0x400  |        |            | End-of-file       |
 
 ### Capabilities
 
