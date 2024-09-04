@@ -70,6 +70,10 @@
     - development/dev-portal-api/**
   - [XTF APIs](development/xtf-apis.md)
     - development/xtf-apis/*.md
+  - [Xbox Virtual Input/Output](development/xvio/xvio-overview.md)
+    - development/xvio/*.md
+    - Ring Buffers
+      - development/xvio/ring-buffers/*.md
 - Misc
   - [Codenames](misc/codenames.md)
 - [FAQ](faq.md)

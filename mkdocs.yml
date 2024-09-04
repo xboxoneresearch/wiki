@@ -48,3 +48,9 @@ plugins:
 
 markdown_extensions:
   - pymdownx.magiclink
+  - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+      use_pygments: true
+      pygments_lang_class: true
+  - pymdownx.superfences 
