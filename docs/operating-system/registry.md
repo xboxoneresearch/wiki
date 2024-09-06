@@ -98,7 +98,7 @@ Set OOBE to *Finished*-state, Hive: `HKLM\SYSTEM\XConfig\OOBEState` Key: `Versio
 | Powershell          |  yes¹                  |
 | Native/Managed code |  yes                   |
 
-**¹**: Powershell currently does not run on [Collateral damage](../exploits/game-script-code-exec.md)
+**¹**: To work with Powershell from [Collateral damage](../exploits/game-script-code-exec.md)/SYSTEM context, use [SharpShell](https://github.com/xboxoneresearch/SharpShell)
 
 ## Remote Registry
 
@@ -140,7 +140,7 @@ You can talk to the Registry via native and managed code.
 
 ## Tools
 
-To work for dumped registry hives, the following tools are a great help:
+To work with dumped registry hives, the following tools are a great help:
 
 - [Registry Spy](https://github.com/andyjsmith/registry-spy)
 - [regdump](https://github.com/adoxa/regdump)
