@@ -115,6 +115,22 @@ Profit!
   :---- | :----
   The system cannot find the file specified | If running your dotnetcore software on an external drive, move it to an internal one such as D: or T:
 
+  ## .NET 8
+
+  - Download the latest preview Windows 64 bit dotnet **runtime** from
+    https://dotnet.microsoft.com/download/dotnet/8.0.
+  - Unzip and copy the binaries to a flash drive or a location of your choice such as
+    D:\\DevelopmentFiles\\Dotnet.
+  - Optionally add the dotnet directory to your system PATH via `setx
+    path "%path%;D:\\DotnetPath"` using SSH.
+  - Execute your dotnet software via "dotnet program.exe" using SSH
+    in the dotnet diectory (or anywhere if you updated your PATH).
+  - Profit
+### Troubleshooting
+  Error | Solution
+  :---- | :----
+  The system cannot find the file specified | If running your dotnetcore software on an external drive, move it to an internal one such as D: or T:
+
 
 ## Java Development Kit
 
