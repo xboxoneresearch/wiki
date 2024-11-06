@@ -34,6 +34,7 @@
   - [Firmware](operating-system/firmware.md)
   - [Hard drive layout](operating-system/harddrive-partitioning.md)
   - [Telemetry](operating-system/telemetry.md)
+  - [Event Tracing (ETW)](operating-system/event-tracing.md)
   - [Protocol URIs (Deep links)](operating-system/protocol-URIs.md)
   - [Xbox Operating System](operating-system/xbox-operating-system.md)
   - [Xbox UI](operating-system/xbox-ui.md)
