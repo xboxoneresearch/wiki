@@ -12,7 +12,7 @@ The following optical disc drive models are known to date:
 
 ### Xbox One (PHAT)
 
-  - Lite-On DG-6M1S-01B/02B (Codename: ELK)
+  - Lite-On DG-6M1S-01B/02B/03B (Codename: ELK)
   - Lite-On DG-6M2S-01B (Codename: CORDOVA)
 
 ### Xbox One S / X
@@ -31,6 +31,7 @@ The following optical disc drive models are known to date:
   - 3253 (July 2013, DG-6M1S-01B)
   - 011V (August 2015, DG-6M2S-01B)
   - 017V (April 2016, DG-6M5S-01B)
+  - 018V (November 2017, DG-6M5S-02B)
 
 ### Known flash chips
 
