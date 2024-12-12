@@ -1,10 +1,10 @@
 # XvioPostMessage function
-Sends a message (asynchronously) to the target partition. The message is then handled by an *XVIO context* within one of the remote partition's drivers. 
+Sends a message (asynchronously) to the target partition. The message is then handled by an *XVIO service* within one of the remote partition's drivers. 
 
 ## Syntax
 ```cpp title='C++'
 NTSTATUS XvioPostMessage(
-    uint32_t TargetContextId,
+    uint32_t TargetServiceId,
     uint64_t TargetPartition,
     uint64_t MessageCode,
     uint16_t DataSize,
@@ -13,8 +13,8 @@ NTSTATUS XvioPostMessage(
 ```
 
 ## Parameters
-`uint32_t TargetContextId`  
-The context ID of the target XVIO instance *(pretty much the target driver)* on the target partition.
+`uint32_t TargetServiceId`  
+The service ID of the target XVIO instance *(pretty much the target driver)* on the target partition.
 
 `uint64_t TargetPartition`  
 Pretty self-explanatory, the partition the message is targeted to, be it HostOS, SystemOS or GameOS. *See [Partition IDs](./xvio-overview.md#partition-identifiers) for more details.*
