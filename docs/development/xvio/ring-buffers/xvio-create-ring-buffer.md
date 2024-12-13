@@ -4,7 +4,7 @@ Creates a ring buffer for passing large amounts of data between partitions. Inte
 ## Syntax
 ```cpp title='C++'
 NTSTATUS XvioCreateRingBuffer(
-    uint32_t ContextId,
+    uint32_t ServiceId,
     uint64_t TargetPartition,
     uint16_t Unk1,
     uint32_t ReceivePageCount,
@@ -14,8 +14,8 @@ NTSTATUS XvioCreateRingBuffer(
 ```
 
 ## Parameters
-`uint32_t ContextId`  
-The *[Context ID](../xvio-overview.md/#context-identifiers)* to communicate to on the remote partition.
+`uint32_t ServiceId`  
+The *[Service ID](../xvio-overview.md/#service-identifiers)* to communicate to on the remote partition.
   
 `uint64_t TargetPartition`  
 Target partition for the ring buffer to be shared with. *See [partition identifiers](../xvio-overview.md/#partition-identifiers) for a list of partitions and their corresponding IDs.*  
