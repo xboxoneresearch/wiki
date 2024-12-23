@@ -53,4 +53,8 @@ markdown_extensions:
       anchor_linenums: true
       use_pygments: true
       pygments_lang_class: true
-  - pymdownx.superfences 
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format

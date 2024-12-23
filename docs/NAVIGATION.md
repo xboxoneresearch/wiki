@@ -46,6 +46,7 @@
   - [Xbox Virtual Drives (XVD)](operating-system/xbox-virtual-drive.md)
   - [Unauthorized Xbox Device Lockout](operating-system/unauthorized-device-lockout.md)
 - Games
+  - [Launching](games/launching.md)
   - [Xbox Game Disc](games/xbox-game-disc.md)
   - [XEO3 Emulator](games/xeo3-x360-classic-xbox-emulator.md)
   - [Savegames](games/savegames.md)

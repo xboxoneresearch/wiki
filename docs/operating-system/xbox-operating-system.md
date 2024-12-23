@@ -58,7 +58,7 @@ Other Mount points
 The Game operating system is used exclusively for games that target the
 XDK due to the higher allocation of console resources. It is built upon
 the same variant of Windows 8 LNM as the Host OS but is essentially
-smaller and more efficient.
+smaller and more efficient.  Information on how GameOS is launched can be found [here](../games/launching.md).
 
 ### ERA Virtual Drives
 
