@@ -94,7 +94,7 @@ Size: 0x10
 XBFS contains the following entries as of firmware version 10.0.10586.1029.
 
 | Index | Name                                | Format | Plaintext | Information                                                                    | Per console |
-|-------|-------------------------------------|--------|-----------|--------------------------------------------------------------------------------|-------------|
+| ----- | ----------------------------------- | ------ | --------- | ------------------------------------------------------------------------------ | ----------- |
 | 00    | 1smcbl_a.bin                        | binary | no        | SMC bootloader (slot A)                                                        | no          |
 | 01    | header.bin                          | binary | yes       | XBFS header                                                                    | no          |
 | 02    | devkit.ini                          | binary | no        | Devkit initialization data                                                     | unknown     |
