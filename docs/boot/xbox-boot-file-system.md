@@ -91,33 +91,43 @@ Size: 0x10
 
 ## File Entries
 
-| Index | Name         | Format | Plaintext | Information                                               | Per console |
-| ----- | ------------ | ------ | --------- | --------------------------------------------------------- | ----------- |
-| 01    | 1smcbl_a.bin | binary | no        | SMC bootloader, slot A                                    | no          |
-| 02    | header.bin   | binary | yes       | XBFS header                                               | no          |
-| 03    | devkit.ini   | binary | no        | devkit ini                                                | unknown     |
-| 04    | mtedata.cfg  | binary | no        | MTE data                                                  | unknown     |
-| 05    | certkeys.bin | binary | yes       | [SP/SMC Bootcap cert](../security/certificates.md)        | yes         |
-| 06    | smcerr.log   | binary | no        | SMC error log                                             | no          |
-| 07    | system.xvd   | xvd    | yes       | SystemOS VM partition                                     | no          |
-| 08    | $sosrst.xvd  | xvd    | yes       | SystemOS restore                                          | no          |
-| 09    | download.xvd | xvd    | yes       | Download     ???                                          | no          |
-| 10    | smc_s.cfg    | binary | no        | SMC config - static                                       | unknown     |
-| 11    | sp_s.cfg     | binary | partially | [SP - static (console cert)](../security/certificates.md) | yes         |
-| 12    | os_s.cfg     | binary | no        | OS config - static                                        | unknown     |
-| 13    | smc_d.cfg    | binary | no        | SMC config - dynamic                                      | unknown     |
-| 14    | sp_d.cfg     | binary | no        | SP config - dynamic                                       | unknown     |
-| 15    | os_d.cfg     | binary | no        | OS config - dynamic                                       | unknown     |
-| 16    | smcfw.bin    | binary | no        | SMC firmware                                              | unknown     |
-| 17    | boot.bin     | binary | no        | [Bootloaders](../boot/bootloaders.md)                     | unknown     |
-| 18    | host.xvd     | xvd    | yes       | HostOS partition                                          | no          |
-| 19    | settings.xvd | xvd    | yes       | Settings                                                  | no          |
-| 20    | 1smcbl_b.bin | binary | no        | SMC bootloader, slot B                                    | no          |
-| 21    | bootanim.dat | binary | yes       | [Bootanimation](../boot/bootanimation.md)                 | no          |
-| 22    | sostmpl.xvd  | xvd    | yes       | SystemOS template                                         | no          |
-| 23    | update.cfg   | binary | yes       | Update config / log?                                      | unknown     |
-| 24    | sosinit.xvd  | xvd    | yes       | SystemOS init                                             | no          |
-| 25    | hwinit.cfg   | binary | no        | Hardware init config                                      | unknown     |
+XBFS contains the following entries as of firmware version 10.0.10586.1029.
+
+| Index | Name                                | Format | Plaintext | Information                                                                                            |
+| ----- | ----------------------------------- | ------ | --------- | ------------------------------------------------------------------------------------------------------ |
+| 00    | 1smcbl_a.bin                        | binary | no        | SMC bootloader (slot A)                                                                                |
+| 01    | header.bin                          | binary | yes       | XBFS header                                                                                            |
+| 02    | devkit.ini                          | binary | no        | Devkit initialization data                                                                             |
+| 03    | mtedata.cfg                         | binary | no        | MTE data                                                                                               |
+| 04    | certkeys.bin                        | binary | yes       | Per-console [SP/SMC Bootcap cert](../security/certificates.md)                                         |
+| 05    | smcerr.log                          | binary | no        | SMC error log (dynamic)                                                                                |
+| 06    | system.xvd                          | xvd    | yes       | SystemOS VM image                                                                                      |
+| 07    | \$sospf.xvd (formerly \$sosrst.xvd) | xvd    | yes       | SystemOS restore image                                                                                 |
+| 08    | download.xvd                        | xvd    | yes       | Unknown                                                                                                |
+| 09    | smc_s.cfg                           | binary | no        | SMC configuration (static)                                                                             |
+| 10    | sp_s.cfg                            | binary | partially | Per-console SP configuration (static) / [console certificate](../security/certificates.md)             |
+| 11    | os_s.cfg                            | binary | no        | OS configuration (static)                                                                              |
+| 12    | smc_d.cfg                           | binary | no        | SMC configuration (dynamic)                                                                            |
+| 13    | sp_d.cfg                            | binary | no        | SP configuration (dynamic)                                                                             |
+| 14    | os_d.cfg                            | binary | no        | XConfig retail mode storage (dynamic)                                                                  |
+| 15    | smcfw.bin                           | binary | no        | SMC firmware                                                                                           |
+| 16    | boot.bin                            | binary | no        | [Bootloaders](../boot/bootloaders.md)                                                                  |
+| 17    | host.xvd                            | xvd    | yes       | HostOS image                                                                                           |
+| 18    | settings.xvd                        | xvd    | yes       | SystemOS settings image                                                                                |
+| 19    | 1smcbl_b.bin                        | binary | no        | SMC bootloader (slot B)                                                                                |
+| 20    | bootanim.dat                        | binary | yes       | [Boot animation](../boot/bootanimation.md)                                                             |
+| 21    | obsolete.001 (formerly sostmpl.xvd) | xvd    | yes       | Obsolete (formerly SystemOS template image)                                                            |
+| 22    | update.cfg                          | binary | yes       | Update configuration / log?                                                                            |
+| 23    | obsolete.002 (formerly sosinit.xvd) | xvd    | yes       | SystemOS initialization image                                                                          |
+| 24    | hwinit.cfg                          | binary | no        | Hardware initialization configuration                                                                  |
+| 25    | qaslt.xvd                           | xvd    | unknown   |                                                                                                        |
+| 26    | sp_s.bak                            | binary | unknown   |                                                                                                        |
+| 27    | update2.cfg                         | binary | unknown   |                                                                                                        |
+| 28    | recovery.dat                        | binary | unknown   |                                                                                                        |
+| 29    | dump.lng                            | binary | unknown   |                                                                                                        |
+| 30    | os_d_dev.cfg                        | binary | unknown   | XConfig dev mode storage (dynamic)                                                                     |
+| 31    | os_glob.cfg                         | binary | unknown   |                                                                                                        |
+| 32    | sp_s.alt                            | binary | unknown   | Alternative per-console SP configuration (static) / [console certificate](../security/certificates.md) |
 
 Note: Only XVD header is plaintext, data portion is encrypted as usual.
 Per Console: Is file encrypted via console specific keys or locked to console by SocId.
