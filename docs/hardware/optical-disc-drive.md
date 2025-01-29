@@ -2,6 +2,31 @@
 <!-- SUBTITLE: Info about the optical disc drives used -->
 
 # Xbox Optical disc drive
+
+## Supported disc types in software
+As of 2023 OS, the following different types of optical media are detected / differentiable by the Xbox:
+```c#
+public enum DetectedContentTypes : uint
+{
+	HasNothing = 0u,
+	HasXboxOneGames = 1u,
+	HasXbox360Games = 2u,
+	HasDVDMovie = 4u,
+	HasAudioTracks = 8u,
+	HasDataTracks = 0x10u,
+	HasAudioTracks_Undetermined = 0x20u,
+	HasDataTracks_Undetermined = 0x40u,
+	HasVideoCDMovie = 0x80u,
+	HasSuperVideoCDMovie = 0x100u,
+	HasDVDAudio = 0x200u,
+	HasDCFPictures = 0x400u,
+	HasBluRayMovie = 0x800u,
+	HasXboxGames = 0x1000u
+}
+```
+
+> This was discovered through inspection of the WinRT WinMetadata `Windows.Xbox.Management.Devices` found in C:\Windows\System32\WinMetadata\Windows.Xbox.winmd
+
 ## Game discs
 
 Xbox One game discs are called [XGD4](../games/xbox-game-disc.md) (Xbox Game Disc Version 4).
