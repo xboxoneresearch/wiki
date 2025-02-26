@@ -37,6 +37,7 @@
   - [Event Tracing (ETW)](operating-system/event-tracing.md)
   - [Protocol URIs (Deep links)](operating-system/protocol-URIs.md)
   - [Xbox Operating System](operating-system/xbox-operating-system.md)
+    - [EraOS/GameCore](operating-system/era-gamecore.md)
   - [Xbox UI](operating-system/xbox-ui.md)
   - [XCRDUtil](operating-system/xcrdutil.md)
   - [DefaultApp](operating-system/default-app.md)
