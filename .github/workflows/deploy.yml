@@ -23,17 +23,17 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@v5
         with:
           python-version: 3.x
       - run: pip install -U -r requirements.txt
       - run: mkdocs build --strict
-      - uses: actions/upload-pages-artifact@v1
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: 'site'
       - id: deployment
         if: github.ref_name == 'master'
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
