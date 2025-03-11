@@ -6,6 +6,7 @@ Features:
 
 - SPI / eMMC
 - I2C
+    - [POST code](./post.md) output
 - Kernel Debugging
 - Southbridge JTAG
 
