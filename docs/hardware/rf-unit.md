@@ -24,6 +24,42 @@ It only contains an IR Receiver, the Nuvoton Soundcorder Chip (which also handle
 Actual RF communication is happening via a [Wifi module](wifi.md).
 
 Communication from the Nuvotun chip to the Southbridge is done via I2C.
+The Nuvoton chip itself also supports ARM SWD!
+
+#### Firmwares
+
+So far, three different firmwares have been seen
+
+(SHA256 hash is over 0x24400 bytes)
+
+```
+# RETAIL
+
+SHA256: abc699513959372faee038c78a1d7509c2020f65cb78ad07ab9c90b21b406a87
+
+ISD-VPE Ver 920.000c 08/05/2013 PV_Prod_Units_Rev5 VERSION:0x10000007
+ISD9160FIMS03 FW Jun 14 2013 at 10:41:12 (C) Nuvoton 2013
+Nuvoton ISD9160MS Boot FW Jun 14 2013 10:40:21 
+Nuvoton ISD9160MS Boot FW Jun 14 2013 10:40:21 
+
+# EV3B
+
+SHA256: 7fd817a51086ba9089ce04168f73fdf753aedcbb2f63a19b3ff7be06e668a8e1
+
+ISD-VPE Ver 920.0008 04/06/2013 EV3B_Prod_Units_Rev1 VERSION:0x10000003 Release 1.0
+ISD9160FIMS03 FW Jun 14 2013 at 10:41:12 (C) Nuvoton 2013
+Nuvoton ISD9160MS Boot FW Jun 14 2013 10:40:21 
+Nuvoton ISD9160MS Boot FW Feb  1 2013 15:17:36
+
+# TACOBELL
+
+SHA256: c39871fcfef69c632955658f8e876d35a35dafb9c88c7fc082dca23d2102289f
+
+ISD-VPE Ver 930.0000 03/19/2018 PV_MASA_V4 VERSION:0x10000007
+ISD9160FIMS05 I2C Jan 12 2015 at 14:09:09 (C) Nuvoton 2015
+Nuvoton ISD9160MS Boot FW Jun 14 2013 10:40:21 
+Nuvoton ISD9160MS Boot FW Jun 14 2013 10:40:21
+```
 
 #### Connector (J8)
 
@@ -91,6 +127,64 @@ This IC has multiple possible pin-configurations, the following are verified sig
 |   9 | Power button (FPC - Pin 1) |
 |  47 | I2C SCL (CLK)              |
 |  46 | I2C SDA (DAT)              |
+
+##### Reading and Writing the chip via SWD
+
+Alternatively to I2C, the ARM SWD protocol can be used to read/write the chip.
+
+Requirements:
+
+Software
+
+- Linux
+- OpenOCD build, patched for ISD9160 support (see https://github.com/xboxoneresearch/DuRFUnitI2C/releases/tag/openocd_build)
+- Debugprobe firmware for PiPico (debugprobe_on_pico/2.uf2) - https://github.com/raspberrypi/debugprobe/releases
+
+Hardware
+
+- Raspberry Pi Pico/2
+- Soldering equipment
+- Sharp tweezers
+
+By default, the required pins on the IC are bridged on the RF Unit PCB. To enable usage of SWD, a trace needs to be cut, using pointy tweezers for example. 
+
+Make sure to use a multimeter to confirm the trace was cut properly.
+
+![RF Unit SWD](../_files/rf-unit/rf_unit_swd.png)
+
+Steps:
+
+- Do the trace-cut mentioned above
+- Flash debugprobe firmware on Pi Pico/2
+- Connect Pi Pico to ISD9160 SWD pins (see https://mcuoneclipse.com/2022/09/17/picoprobe-using-the-raspberry-pi-pico-as-debug-probe/), 3V3 and GND
+- Now extract and start OpenOCD
+
+```
+tar xvf openocd_isd9160.tar.gz
+cd openocd_isd9160/
+./bin/openocd -f ./share/openocd/scripts/interface/cmsis-dap.cfg -f ./share/openocd/scripts/target/numicro.cfg
+```
+
+- In another terminal window connect via telnet
+
+```
+telnet localhost 4444
+```
+
+- First, dump the original `APROM` firmware
+
+```
+flash read_bank 0 aprom_original.bin
+```
+
+- Now, erase the bank and write new `APROM` firmware
+
+```
+flash erase_sector 0 0 last
+flash write_bank 0 aprom_new.bin
+```
+
+- Profit
 
 ##### I2C
 
