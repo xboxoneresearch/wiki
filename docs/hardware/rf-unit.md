@@ -361,11 +361,8 @@ Codename: Cactus
 ## Tools
 
 - [DuRFUnitI2C](https://github.com/xboxoneresearch/DuRFUnitI2C) - (Python) Communicate with the (PHAT) RF Unit and dump its flash
+
 ## Credits
 - [Xbox One PHAT and One S Pictures from ifixit.com](https://www.ifixit.com/Search?c-doctype_namespace=product&doctype=product&query=xbox%20one)
 - Xbox One X Pictures taken by jacksomness
-
-
-## Credits
-
 - @craftbenmine - RF Unit SWD hardware work, photos, testing
