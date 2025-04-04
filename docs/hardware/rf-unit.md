@@ -368,4 +368,4 @@ Codename: Cactus
 
 ## Credits
 
-- @bencraftmine - RF Unit SWD hardware work, photos, testing
+- @craftbenmine - RF Unit SWD hardware work, photos, testing
