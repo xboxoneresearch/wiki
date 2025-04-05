@@ -150,7 +150,7 @@ By default, the required pins on the IC are bridged on the RF Unit PCB. To enabl
 
 Make sure to use a multimeter to confirm the trace was cut properly.
 
-![RF Unit SWD](../_files/rf-unit/rf_unit_swd.png)
+![RF Unit SWD](../_files/rf-unit/rf_unit_swd.jpg)
 
 Steps:
 
