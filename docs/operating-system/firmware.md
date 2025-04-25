@@ -1,10 +1,14 @@
 # List of Known Firmware Versions
 
+Latest OSU is always available through: <https://www.xbox.com/xboxone/osu1>
+
 ## [2025](https://support.xbox.com/en-US/help/hardware-network/settings-updates/whats-new-xbox-one-system-updates)
 | version | GUID | build_tag | date | download (MS) | download (archive) | notes |
 |---------|------|-----------|------|---------------|--------------------|-------|
-| 10\.0.26100.3362 | 23e0b580-95fd-4cf9-a864-c2d17d0924f6 | xb_flt_2502ge.250212-2140 | 2024-02-19 | [Microsoft](https://download.microsoft.com/download/be88e7ef-6660-49ad-ba1a-ae55e52d95c7/OSU1.zip)       | n/a | February 2025 OS |
-| 10\.0.26100.2913 | 166bba6d-4ce7-47a3-8c43-72826e147544 | xb_flt_2411ge.250106-1600 | 2024-01-14 | [Microsoft](https://download.microsoft.com/download/1/f/d/1fdbf697-d904-4032-9619-38b7007f8318/OSU1.zip) | n/a | January 2025 OS  |
+| 10\.0.26100.4020 | 84340f1f-47ba-4afc-b151-3b9a9cbbc094 | xb_flt_2504ge.250410-1100 | 2025-04-16 | [Microsoft](https://download.microsoft.com/download/32e40ecd-b7e1-402e-a000-70a28811e124/OSU1.zip)       | n/a | April 2025 OS |
+| 10\.0.26100.3364 | n/a                                  | xb_flt_2502ge.250226-2215 | 2025-03-04 | n/a                                                                                                      | n/a | March 2025 OS |
+| 10\.0.26100.3362 | 23e0b580-95fd-4cf9-a864-c2d17d0924f6 | xb_flt_2502ge.250212-2140 | 2025-02-19 | [Microsoft](https://download.microsoft.com/download/be88e7ef-6660-49ad-ba1a-ae55e52d95c7/OSU1.zip)       | n/a | February 2025 OS |
+| 10\.0.26100.2913 | 166bba6d-4ce7-47a3-8c43-72826e147544 | xb_flt_2411ge.250106-1600 | 2025-01-14 | [Microsoft](https://download.microsoft.com/download/1/f/d/1fdbf697-d904-4032-9619-38b7007f8318/OSU1.zip) | n/a | January 2025 OS  |
 
 ## [2024](https://support.xbox.com/en-US/help/hardware-network/settings-updates/system-updates-2024)
 | version | GUID | build_tag | date | download (MS) | download (archive) | notes |
