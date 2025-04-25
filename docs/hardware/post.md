@@ -14,7 +14,25 @@ f.e. I2C SDA/SCL pads from [FACET connector](./facet.md) or [RF Unit](./rf-unit.
 
 ## POST Codes
 
-**TBD**
+| Code   | Name         | Description |
+| ------ | ------------ | ----------- |
+| 0x0075 | Boot success |             |
+| 0x14FF | Boot success |             |
+
+## Reading POST codes
+
+There is a minimalistic POST monitor implemented via Raspberry Pi Pico.
+It simulates the MAX6958A I2C Slave and displays the gathered POST-codes via USB serial.
+
+Soldering 3 wires (I2C and GND) is necessary.
+
+See [Tools - PicoDurangoPOST](#tools)
+
+![POST monitor](../_files/post/postmonitor_serial.png)
+
+## Tools
+
+- [PicoDurangoPOST](https://github.com/xboxoneresearch/PicoDurangoPOST)
 
 ## References
 
