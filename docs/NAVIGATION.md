@@ -1,4 +1,5 @@
 - [Home](index.md)
+- [Recent changes](recent-changes.md)
 - Security
   - [General Security Design](security/general-security-design.md)
   - [Security Processor (AMD PSP)](security/security-processor.md)

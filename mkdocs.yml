@@ -37,6 +37,10 @@ plugins:
   - literate-nav:
       nav_file: NAVIGATION.md
       tab_length: 2
+  - git-latest-changes:
+      limit_to_docs_dir: True
+      repo_vendor: github
+      enabled_on_serve: False
   - git-authors:
       enabled: !ENV [CI, false]
       show_email_address: false
