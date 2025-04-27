@@ -3,4 +3,4 @@ mkdocs-literate-nav
 mkdocs-git-authors-plugin
 mkdocs-git-revision-date-localized-plugin
 mkdocs-rss-plugin
-mkdocs-git-latest-changes-plugin
+mkdocs-git-latest-changes-plugin @ git+https://github.com/tuxuser/mkdocs-git-latest-changes-plugin@feat/link_rendered_page

@@ -41,6 +41,7 @@ plugins:
       limit_to_docs_dir: True
       repo_vendor: github
       enabled_on_serve: False
+      link_to_generated_page: True
   - git-authors:
       enabled: !ENV [CI, false]
       show_email_address: false
