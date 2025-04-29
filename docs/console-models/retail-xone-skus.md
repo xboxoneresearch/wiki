@@ -130,7 +130,7 @@ _Your help is needed to complete this page! Fork this repo and make a Pull Reque
 * **PCB Label Number**: /
 * **PCB Soldermask Number**: M1157007 - 001
 * **Hardware description / differences**: -
-* **Owned by / Contributed by**: ma1kc0d3r
+* **Owned by / Contributed by**: ma1k0d3r
 * **Pictures**:
 
 [![M1157007-001 FIOUSB 0](../_files/skus/M1157007-001/fiousb_0_thumb.jpg)](../_files/skus/M1157007-001/fiousb_0.jpg)
