@@ -124,3 +124,38 @@ _Your help is needed to complete this page! Fork this repo and make a Pull Reque
 ![M1037358-004 Front](../_files/skus/M1037358-004/front.jpg)
 ![M1037358-004 Back](../_files/skus/M1037358-004/back.jpg)
 ![M1037358-004 Back](../_files/skus/M1037358-004/sticker.jpg)
+
+## Xbox Series X
+
+* **PCB Label Number**: /
+* **PCB Soldermask Number**: M1157007 - 001
+* **Hardware description / differences**: -
+* **Owned by / Contributed by**: ma1kc0d3r
+* **Pictures**:
+
+[![M1157007-001 FIOUSB 0](../_files/skus/M1157007-001/fiousb_0_thumb.jpg)](../_files/skus/M1157007-001/fiousb_0.jpg)
+[![M1157007-001 FIOUSB 1](../_files/skus/M1157007-001/fiousb_1_thumb.jpg)](../_files/skus/M1157007-001/fiousb_1.jpg)
+[![M1157007-001 NEXUS 0](../_files/skus/M1157007-001/nexus_0_thumb.jpg)](../_files/skus/M1157007-001/nexus_0.jpg)
+[![M1157007-001 NEXUS 1](../_files/skus/M1157007-001/nexus_1_thumb.jpg)](../_files/skus/M1157007-001/nexus_1.jpg)
+[![M1157007-001 RHODIUM 0](../_files/skus/M1157007-001/rhodium_0_thumb.jpg)](../_files/skus/M1157007-001/rhodium_0.jpg)
+[![M1157007-001 RHODIUM 1](../_files/skus/M1157007-001/rhodium_1_thumb.jpg)](../_files/skus/M1157007-001/rhodium_1.jpg)
+[![M1157007-001 SB-MXIC 0](../_files/skus/M1157007-001/sb-mxic_0_thumb.jpg)](../_files/skus/M1157007-001/sb-mxic_0.jpg)
+[![M1157007-001 SB-MXIC 1](../_files/skus/M1157007-001/sb-mxic_1_thumb.jpg)](../_files/skus/M1157007-001/sb-mxic_1.jpg)
+[![M1157007-001 SB-MXIC Side A Details 0](../_files/skus/M1157007-001/sb-mxic_side-a-details_0_thumb.jpg)](../_files/skus/M1157007-001/sb-mxic_side-a-details_0.jpg)
+[![M1157007-001 SB-MXIC Side A Details 1](../_files/skus/M1157007-001/sb-mxic_side-a-details_1_thumb.jpg)](../_files/skus/M1157007-001/sb-mxic_side-a-details_1.jpg)
+[![M1157007-001 SB-MXIC Side A Details 2](../_files/skus/M1157007-001/sb-mxic_side-a-details_2_thumb.jpg)](../_files/skus/M1157007-001/sb-mxic_side-a-details_2.jpg)
+[![M1157007-001 SB-MXIC Side A Details 3](../_files/skus/M1157007-001/sb-mxic_side-a-details_3_thumb.jpg)](../_files/skus/M1157007-001/sb-mxic_side-a-details_3.jpg)
+[![M1157007-001 SB-MXIC Side B Details 0](../_files/skus/M1157007-001/sb-mxic_side-b-details_0_thumb.jpg)](../_files/skus/M1157007-001/sb-mxic_side-b-details_0.jpg)
+[![M1157007-001 SB-MXIC Side B Details 1](../_files/skus/M1157007-001/sb-mxic_side-b-details_1_thumb.jpg)](../_files/skus/M1157007-001/sb-mxic_side-b-details_1.jpg)
+[![M1157007-001 SB-MXIC Side B Details 2](../_files/skus/M1157007-001/sb-mxic_side-b-details_2_thumb.jpg)](../_files/skus/M1157007-001/sb-mxic_side-b-details_2.jpg)
+[![M1157007-001 SB-MXIC Side B Details 3](../_files/skus/M1157007-001/sb-mxic_side-b-details_3_thumb.jpg)](../_files/skus/M1157007-001/sb-mxic_side-b-details_3.jpg)
+[![M1157007-001 SILICA 0](../_files/skus/M1157007-001/silica_0_thumb.jpg)](../_files/skus/M1157007-001/silica_0.jpg)
+[![M1157007-001 SILICA 1](../_files/skus/M1157007-001/silica_1_thumb.jpg)](../_files/skus/M1157007-001/silica_1.jpg)
+[![M1157007-001 SOC SAM 0](../_files/skus/M1157007-001/soc-sam_0_thumb.jpg)](../_files/skus/M1157007-001/soc-sam_0.jpg)
+[![M1157007-001 SOC SAM 1](../_files/skus/M1157007-001/soc-sam_1_thumb.jpg)](../_files/skus/M1157007-001/soc-sam_1.jpg)
+[![M1157007-001 SOC SAM Side A Details 0](../_files/skus/M1157007-001/soc-sam_side-a-details_0_thumb.jpg)](../_files/skus/M1157007-001/soc-sam_side-a-details_0.jpg)
+[![M1157007-001 SOC SAM Side A Details 1](../_files/skus/M1157007-001/soc-sam_side-a-details_1_thumb.jpg)](../_files/skus/M1157007-001/soc-sam_side-a-details_1.jpg)
+[![M1157007-001 SOC SAM Side A Details 2](../_files/skus/M1157007-001/soc-sam_side-a-details_2_thumb.jpg)](../_files/skus/M1157007-001/soc-sam_side-a-details_2.jpg)
+[![M1157007-001 SOC SAM Side B Details 0](../_files/skus/M1157007-001/soc-sam_side-b-details_0_thumb.jpg)](../_files/skus/M1157007-001/soc-sam_side-b-details_0.jpg)
+[![M1157007-001 SOC SAM Side B Details 1](../_files/skus/M1157007-001/soc-sam_side-b-details_1_thumb.jpg)](../_files/skus/M1157007-001/soc-sam_side-b-details_1.jpg)
+[![M1157007-001 SOC SAM Side B Details 2](../_files/skus/M1157007-001/soc-sam_side-b-details_2_thumb.jpg)](../_files/skus/M1157007-001/soc-sam_side-b-details_2.jpg)
