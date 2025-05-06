@@ -5,6 +5,7 @@ Latest OSU is always available through: <https://www.xbox.com/xboxone/osu1>
 ## [2025](https://support.xbox.com/en-US/help/hardware-network/settings-updates/whats-new-xbox-one-system-updates)
 | version | GUID | build_tag | date | download (MS) | download (archive) | notes |
 |---------|------|-----------|------|---------------|--------------------|-------|
+| 10\.0.26100.4026 | b381321f-b355-4bd6-a33d-e01654b79b0a | xb_flt_2504ge.250423-1700 | 2025-04-28 | [Microsoft](https://download.microsoft.com/download/ad1691a8-77fd-4418-b3dc-1d20954c0a08/OSU1.zip)       | n/a | April 2025 OS |
 | 10\.0.26100.4020 | 84340f1f-47ba-4afc-b151-3b9a9cbbc094 | xb_flt_2504ge.250410-1100 | 2025-04-16 | [Microsoft](https://download.microsoft.com/download/32e40ecd-b7e1-402e-a000-70a28811e124/OSU1.zip)       | n/a | April 2025 OS |
 | 10\.0.26100.3364 | n/a                                  | xb_flt_2502ge.250226-2215 | 2025-03-04 | n/a                                                                                                      | n/a | March 2025 OS |
 | 10\.0.26100.3362 | 23e0b580-95fd-4cf9-a864-c2d17d0924f6 | xb_flt_2502ge.250212-2140 | 2025-02-19 | [Microsoft](https://download.microsoft.com/download/be88e7ef-6660-49ad-ba1a-ae55e52d95c7/OSU1.zip)       | n/a | February 2025 OS |
