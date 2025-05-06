@@ -40,8 +40,15 @@ plugins:
   - git-latest-changes:
       limit_to_docs_dir: True
       repo_vendor: github
-      enabled_on_serve: False
-      link_to_generated_page: True
+      enabled_on_serve: True
+      history_limit: -1
+      timestamp_format: "%Y-%m-%d %H:%M"
+      changelog_features:
+        - "page_link_rendered"
+        - "timestamp"
+        - "author"
+        - "message"
+        - "commit_hash_link"
   - git-authors:
       enabled: !ENV [CI, false]
       show_email_address: false
