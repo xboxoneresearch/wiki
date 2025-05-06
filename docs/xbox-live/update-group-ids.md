@@ -17,3 +17,7 @@ Game Devkits are able to switch between the top three update groups listed below
 | Canary2                    | 3bfd33ac-59a5-443f-a800-75fe6e7f8190 | Skip Ahead Canary builds of the current milestone. Team Xbox employees only, nightly builds.              |
 | TakehomeInsider0           | 19fb59b8-2784-402d-9156-6926f7b11371 | Team Xbox employees only.                              |
 | SelfhostInsider0           | 34522eb7-9834-4955-bc94-db6054e80019 | Open to any MS employees.                              |
+| KeystoneNoUpdate           | 1d958d8d-6601-41fa-b991-da708dbf2434 | Keystone No Update Group (`LocalGamePlay: False`)      |
+| LegacyXboxOneXPreview      | 4c7b5690-51f1-46f1-aa3f-56acca3fef14 | Legacy Xbox One X Preview group                        |
+| LegacyScarlettPreview      | 5717a484-ac17-434e-bfe0-13da318c2484 | Legacy Scarlett Preview group                          |
+| DevkitUnknown              | 4bb8a3ee-fd84-46f3-8deb-9616d0f6a0bd | Used when active cert type is `EraDevkit`, `SraDevkit`, or `EraTestkit`. That excludes `NoCert`, `MsDevkit`, `UwaDevkit` and `Other` |
