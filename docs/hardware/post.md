@@ -19,6 +19,15 @@ It simulates the MAX6958A I2C Slave and displays the gathered POST-codes via USB
 
 Soldering 3 wires (I2C and GND) is necessary.
 
+Segments indicate the error-type.
+
+| Mask | Name      |
+| ---- | --------- |
+| 0x10 | CPU       |
+| 0x30 | PSP       |
+| 0x70 | SMC       |
+| 0xF0 | OS        |
+
 See [Tools - PicoDurangoPOST](#tools)
 
 ![POST monitor](../_files/post/postmonitor_serial.png)
