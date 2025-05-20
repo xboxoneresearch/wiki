@@ -3,4 +3,4 @@ mkdocs-literate-nav
 mkdocs-git-authors-plugin
 mkdocs-git-revision-date-localized-plugin
 mkdocs-rss-plugin
-mkdocs-git-latest-changes-plugin @ git+https://github.com/tombreit/mkdocs-git-latest-changes-plugin@3d4daf31ea65f8b589671848c7ef5599c794a09a
+mkdocs-git-latest-changes-plugin

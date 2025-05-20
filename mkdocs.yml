@@ -40,14 +40,14 @@ plugins:
   - git-latest-changes:
       limit_to_docs_dir: True
       repo_vendor: github
-      enabled_on_serve: True
+      enabled_on_serve: False
       history_limit: -1
       timestamp_format: "%Y-%m-%d %H:%M"
       table_features:
-        - "page_link_rendered"
         - "timestamp"
-        - "author"
+        - "page_path_link"
         - "message"
+        - "author"
         - "commit_hash_link"
   - git-authors:
       enabled: !ENV [CI, false]
