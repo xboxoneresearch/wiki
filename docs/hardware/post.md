@@ -8,6 +8,8 @@ f.e. I2C SDA/SCL pads from [FACET connector](./facet.md) or [RF Unit](./rf-unit.
 
 ![7Segment Displays](../_files/post/7_seg_lighted.jpg)
 
+Website with POST / error codes: <https://xboxoneresearch.github.io/errorcodes>
+
 ## Schematic
 
 ![MAX6958 schematic](../_files/post/max6958_7seg_schematic.png)
@@ -35,7 +37,7 @@ See [Tools - PicoDurangoPOST](#tools)
 ## POST Codes
 
 The following sections of POST / Error codes is not complete. It's extended whenever new codes are found.
-Ideally it should be in sync with [Tools](#tools)
+Ideally it should be in sync with the [Errorcodes repository](#references)
 
 ### SMC
 
@@ -377,6 +379,9 @@ f.e.
 
 ## References
 
+- [Error codes website](https://xboxoneresearch.github.io/errorcodes)
+- [POST/Error Codes repository](https://github.com/xboxoneresearch/errorcodes)
+- [Consolemods.org wiki](https://consolemods.org/wiki/Xbox_One:POST_Code_Diagnosis)
 - [MAX6958 Datasheet](https://www.analog.com/en/products/max6958.html)
 - [MAX6958 Display module](https://oshwlab.com/marten_7544/max6958) - Open source design by Martin Feldtmann
 - [AGESA Abl Post-Codes](https://github.com/librecore-org/librecore/blob/be8399c4583ecccbfb3bde53a0b7fd508fa04e9b/src/vendorcode/amd/agesa/f15/Include/Ids.h#L647)

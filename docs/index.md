@@ -11,6 +11,10 @@ See the [FAQ](faq.md) for frequently asked questions.
 
 Also check out the [Blog](https://xboxoneresearch.github.io/)!
 
+## Repair
+
+If you are looking for repair information / failure diagnostics, check out the [POST Code page](./hardware/post.md).
+
 ## Contributing
 
 How can you help?
