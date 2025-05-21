@@ -8,7 +8,7 @@ f.e. I2C SDA/SCL pads from [FACET connector](./facet.md) or [RF Unit](./rf-unit.
 
 ![7Segment Displays](../_files/post/7_seg_lighted.jpg)
 
-Website with POST / error codes: <https://xboxoneresearch.github.io/errorcodes>
+Website with POST / error codes: <https://errors.xboxresearch.com>
 
 ## Schematic
 
@@ -379,7 +379,7 @@ f.e.
 
 ## References
 
-- [Error codes website](https://xboxoneresearch.github.io/errorcodes)
+- [Error codes website](https://errors.xboxresearch.com)
 - [POST/Error Codes repository](https://github.com/xboxoneresearch/errorcodes)
 - [Consolemods.org wiki](https://consolemods.org/wiki/Xbox_One:POST_Code_Diagnosis)
 - [MAX6958 Datasheet](https://www.analog.com/en/products/max6958.html)
