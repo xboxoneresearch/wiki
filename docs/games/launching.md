@@ -164,6 +164,21 @@ This method will:
 1. Creates an instance of `EraAppControl`
 1. Publishes WNF state data via code `0x19890C35A3BD5875`
 
+enum EraLaunchMode : i32
+- 0x0000: Debug
+- 0x0001: Normal
+- 0x0002: Disable Watchdogs
+
+enum GpuPolicy : i32
+- 0x0000: Legacy
+- 0x0001: Fixed
+- 0x0002: Variable
+
+enum CpuPolicy : i32
+- 0x0000: Legacy
+- 0x0001: Extended
+- 0x0002: ExtendedVideoPlayback
+
 Information passed to this method:
 
 * `Locale` (eg `en-US`)
@@ -180,16 +195,16 @@ Information passed to this method:
 * `VmXcrdFileNameWithoutExtension` (eg `era`)
 * `environment` (TODO)
 * `partitionId` (eg `1` for `[XUC:]`)
-* `mode` (TODO)
+* `eraLaunchMode` (see above)
 * `eraProxyAppExe_processId`
-* `gpuPolicy` (eg `VARIABLE`)
-* `titleMemoryPolicy` (eg `FIXED`)
+* `gpuPolicy` (see above)
+* `cpuPolicy` (see above)
 * `TitleId` (eg `0x3C108361`)
 * `titleScratchPath` (TODO)
 * `isFissionApp` (Xbox backwards compatibility engine)
 * `maxTitleMemory` (eg `0x1C00`)
-* `unk58`
-* `unk68` (something related to memory size being enabled)
+* `manifestMd5Hash` (16 bytes)
+* `enableAuxTitleMemory` (i32)
 * `flags` (Xbox Series X console, AnisoBoost, AutoHdr)
 * `unk70`
 * `vSyncMode`
