@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 - [Home](index.md)
 - [Recent changes](recent-changes.md)
 - Security
