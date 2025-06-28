@@ -11,6 +11,8 @@ On Xbox, there are two mechanisms to write out [ETW](https://learn.microsoft.com
 
 To view the logs (*.etl files) on a Desktop Windows, you can use `Windows Performance Analyzer` ([WPA](https://learn.microsoft.com/en-us/windows-hardware/test/wpt/windows-performance-analyzer)).
 
+If you have unsigned code execution in SystemOS, [sealighter](https://github.com/pathtofile/Sealighter) enables you to view the traces in realtime on the cmdline.
+Check this page on [how to configure](https://github.com/pathtofile/Sealighter/blob/main/docs/CONFIGURATION.md) sealighter.
 
 ## xbdiag
 
