@@ -2,7 +2,7 @@
 The Xbox one has a Device portal that enables developers to install apps and recieve other data
 
 ## Managing the Device Portal
-### Stoping the Device Portal
+### Stopping the Device Portal
 `sc stop webmanagement`
 ### Starting the Device Portal
 `sc start webmanagement`
