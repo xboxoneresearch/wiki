@@ -134,10 +134,10 @@ Delete file on Host layer
 xcrdutil -delete_blob [XUC:]\targetPackage.xvd
 ```
 
-Access XVD stored in SystemOS
+Mount an XVD stored in SystemOS
 
 ```
-xcrdutil -read_ud [XSR:]D:\DevelopmentFiles\gamecore.xvd 0 200 gamecore.vbi
+xcrdutil -m [XSR:]D:\DevelopmentFiles\example.xvd
 ```
 
 ## Error Codes
