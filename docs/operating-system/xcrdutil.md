@@ -152,4 +152,4 @@ xcrdutil -m [XSR:]D:\DevelopmentFiles\example.xvd
 
 **NOTE**: It is possible that error codes have changed over time with newer xcrdutil versions, and the table might not be completely accurate.
 
-**NOTE 2**: Xbox error codes are typically HRESULTs. HRESULTs in the form 0x8007XXXX typically come from the `HRESULT_FROM_WIN32` macro, with the last 4 digits corresponding to a Win32 error code. This makes sense for some errors, but not all of them.
+**NOTE 2**: Xbox error codes are typically HRESULTs. HRESULTs in the form 0x8007XXXX typically come from the `HRESULT_FROM_WIN32` macro, with the last 4 digits corresponding to a Win32 error code.
