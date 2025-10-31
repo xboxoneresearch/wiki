@@ -151,4 +151,5 @@ xcrdutil -read_ud [XSR:]D:\DevelopmentFiles\gamecore.xvd 0 200 gamecore.vbi
 | 0x80070490   | Unknown                   | `ERROR_NOT_FOUND` 0x490            | Unknown                                                                                                                    | ```xcrdutil -read_ud [XSR:]D:\DevelopmentFiles\gamecore.xvd 0 200 gamecore.vbi``` (as elevated admin account)             |
 
 **NOTE**: It is possible that error codes have changed over time with newer xcrdutil versions, and the table might not be completely accurate.
+
 **NOTE 2**: Error codes are typically HRESULTs. HRESULTs in the form 0x8007XXXX typically come from the `HRESULT_FROM_WIN32` macro, with the last 4 digits corresponding to a Win32 error code. This makes sense for some errors, but not all of them.
