@@ -134,13 +134,22 @@ Delete file on Host layer
 xcrdutil -delete_blob [XUC:]\targetPackage.xvd
 ```
 
+Mount an XVD stored in SystemOS
+
+```
+xcrdutil -m [XSR:]D:\DevelopmentFiles\example.xvd
+```
+
 ## Error Codes
-| Error Number | Meaning                   | Description                                                                                                                | How to obtain it                                                                                       |
-| ------------ | ------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| 0x80070002   | File/path not found       | This error appears whenever an invalid path to a file is used (either XCRD, native \\??\\ path, or SystemOS path).         | ```xcrdutil -m [XUC:]\idontexist.xvd```                                                                |
-| 0x80070570   | Possible permission error | This error appears when an operation is denied due to insufficient permissions. Examples include trying to mount host.xvd. | ```xcrdutil -m \??\F:\host.xvd``` or ```xcrdutil -QueryInfo \??\F:\host.xvd 3```                       |
-| 0x8007048F   | Path not found            | This error appears when trying to create/access a file in a XCRD path that does not exist.                                 | ```xcrdutil -c [XE0:]\someinvalidpath```                                                               |
-| 0x80070032   | Unknown                   | Possibly meaning the passed XVD does not have region information                                                           | ```xcrdutil -Specifiers [XUC:]\someXvdYouveMounted```                                                  |
-| 0x80070005   | Unknown                   | Unknown                                                                                                                    | ```xcrdutil -read_blob \??\F:\host.xvd D:\DevelopmentFiles\host.xvd.dmp``` (as elevated admin account) |
+| Error Number | Meaning                   | Corresponding Win32 error          | Description                                                                                                                | How to obtain it                                                                                       |
+| ------------ | ------------------------- | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| 0x80070002   | File/path not found       | `ERROR_FILE_NOT_FOUND` 0x2         | This error appears whenever an invalid path to a file is used (either XCRD, native \\??\\ path, or SystemOS path).         | ```xcrdutil -m [XUC:]\idontexist.xvd```                                                                |
+| 0x80070570   | Possible permission error | `ERROR_FILE_CORRUPT` 0x570         | This error appears when an operation is denied due to insufficient permissions. Examples include trying to mount host.xvd. | ```xcrdutil -m \??\F:\host.xvd``` or ```xcrdutil -QueryInfo \??\F:\host.xvd 3```                       |
+| 0x8007048F   | Path not found            | `ERROR_DEVICE_NOT_CONNECTED` 0x48F | This error appears when trying to create/access a file in a XCRD path that does not exist.                                 | ```xcrdutil -c [XE0:]\someinvalidpath```                                                               |
+| 0x80070032   | Unknown                   | `ERROR_REQUEST_NOT_SUPPORTED` 0x32 | The target XVD does not have region information                                                                            | ```xcrdutil -Specifiers [XUC:]\someXvdYouveMounted```                                                  |
+| 0x80070005   | Unknown                   | `ERROR_ACCESS_DENIED` 0x5          | Unknown                                                                                                                    | ```xcrdutil -read_blob \??\F:\host.xvd D:\DevelopmentFiles\host.xvd.dmp``` (as elevated admin account) |
+| 0x80070490   | Unknown                   | `ERROR_NOT_FOUND` 0x490            | This error appears when trying to read user data from an XVD that isn't streaming or mounted                               | ```xcrdutil -read_ud [XSR:]D:\DevelopmentFiles\gamecore.xvd 0 200 gamecore.vbi``` (as elevated admin account)             |
 
 **NOTE**: It is possible that error codes have changed over time with newer xcrdutil versions, and the table might not be completely accurate.
+
+**NOTE 2**: XCRDUtil error codes are HRESULTs. HRESULTs in the form 0x8007XXXX come from the `HRESULT_FROM_WIN32` macro, and the last 4 digits identify the [Win32 error code](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d).
