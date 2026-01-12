@@ -30,6 +30,7 @@ search:
   - [Southbridge](hardware/southbridge.md)
   - [eMMC / Flash](hardware/emmc-flash.md)
   - [Facet](hardware/facet.md)
+  - [AMD HDT (Hardware Debug Tool)](hardware/hdt_amd_hardware_debug_tool.md)
   - [Wifi](hardware/wifi.md)
   - [Ethernet](hardware/ethernet.md)
   - [Optical Disc Drive](hardware/optical-disc-drive.md)
@@ -69,7 +70,6 @@ search:
 - Development
   - [PC tools](development/pc_tools.md)
   - [Debugging](development/debugging.md)
-  - [AMD HDT (Hardware Debug Tool)](development/hdt_amd_hardware_debug_tool.md)
   - [Setting up your console](development/setup-dev-mode.md)
   - [Compiling for xbox](development/compiling-for-xbox.md)
   - [Deploying UWP apps in retail mode](development/deploying-uwp-apps.md)
