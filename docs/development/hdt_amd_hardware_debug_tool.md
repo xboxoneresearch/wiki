@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The AMD HDT (Hardware Debug Tool) is the name of a protocol (and supporting hardware adapters) for using JTAG with AMD SoCs, including the SoC that powers the Xbox One family of consoles, which is based on a 0x13 family Jaguar design.
+The AMD HDT (Hardware Debug Tool) is the name of a protocol (and supporting hardware adapters) for using JTAG with AMD SoCs, including the SoC that powers the Xbox One family of consoles, which is based on a Jaguar family (16h) design.
 
 ## Hardware Setup
 
@@ -12,7 +12,7 @@ The AMD HDT (Hardware Debug Tool) is the name of a protocol (and supporting hard
 
 The front side of the Wombat board contains headers for HDT, HDT+, MPHDT, MPHDT+(Multi Processor? HDT, for systems with multiple cores), CSJTAG (Chip Select signals required for some devices) and SCAN (JTAG chain scanning?). It contains x4 seven-segment LCDs for displaying error codes. The box features 3 LED indicators, ERR (which always powers on briefly on boot), PWR (indicating correct power supply) and CONN (which indicates connection to the host PC).
 
-The device packs a 10/100Gb Ethernet port, an A-B switch which configures the mode of operation of the device, a RST (reset) button, and the barrel connector for the power supply (a 5V, 2A, positive-at-center connector).
+The device packs a 10/100 Mbps Ethernet port, an A-B switch which configures the mode of operation of the device, a RST (reset) button, and the barrel connector for the power supply (a 5V, 2A, positive-at-center connector).
 
 On the rear, the device has two BNC connectors for Trigger A and Trigger B signal inputs, a "USB Wiggler / Raven" header (purpose unknown), and a set of GPIOs that can be used to control relays on the target board, as well as 3.3V and CPU VDDIO power supply rails.
 
@@ -50,7 +50,7 @@ The available HDT 18 software packs the 1.5.0 FPGA update, which can be installe
 
 ![Wombat Firmware Upgrade](../_files/hdt/firmware_upgrade.jpg)
 
-When correctly rebooting from an FPGA update, the Wombat goes through the following code sequence:
+When correctly rebooting from an FPGA update, the Wombat display goes through the following code sequence:
 `b222`
 `b333`
 `b111`
@@ -67,7 +67,7 @@ Because the software is leaked / non publicly distributed, discussion of it is n
 
 The A-B switch on the AMD Wombat configures what the IP address of the device will be.
 - If the Switch is in B position, the IP address will be hardcoded to 192.168.10.1
-- If the Switch is in A position, a DHCP client listens in the device and the IP address must be asigned by a DHCP server in the same network.
+- If the Switch is in A position, a DHCP client listens in the device and the IP address must be assigned by a DHCP server in the same network.
 
 ## Usefulness in Xbox One hacking
 
@@ -88,4 +88,5 @@ It is speculated that a specificly timed boot sequence is required for the SoC t
 The power, WARM, COLD signals can be controlled via the HDT relays, connecting them to the Xbox One's motherboard (see empty WARM, COLD, footprints on retail motherboards) and DBREQ signals can also be toggled from the software manually or in automated ways.
 
 ## Credits
+
 TorusHyperV, craftbenmine, tuxuser.
