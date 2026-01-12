@@ -30,6 +30,7 @@ search:
   - [Southbridge](hardware/southbridge.md)
   - [eMMC / Flash](hardware/emmc-flash.md)
   - [Facet](hardware/facet.md)
+  - [AMD HDT (Hardware Debug Tool)](hardware/hdt_amd_hardware_debug_tool.md)
   - [Wifi](hardware/wifi.md)
   - [Ethernet](hardware/ethernet.md)
   - [Optical Disc Drive](hardware/optical-disc-drive.md)
