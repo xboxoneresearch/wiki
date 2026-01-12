@@ -69,6 +69,7 @@ search:
 - Development
   - [PC tools](development/pc_tools.md)
   - [Debugging](development/debugging.md)
+  - [AMD HDT (Hardware Debug Tool)](development/hdt_amd_hardware_debug_tool.md)
   - [Setting up your console](development/setup-dev-mode.md)
   - [Compiling for xbox](development/compiling-for-xbox.md)
   - [Deploying UWP apps in retail mode](development/deploying-uwp-apps.md)
