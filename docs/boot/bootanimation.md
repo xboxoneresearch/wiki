@@ -14,7 +14,7 @@ If the following data starts with the header magic, an additional section follow
 ### BOOTANIM_SECTION_HEADER
 | Offset | Length | Type     | Information                    |
 | ------ | ------ | -------- | ------------------------------ |
-| 0x00   | 0x04   | uint     | Magic (FSEG)                   |
+| 0x00   | 0x04   | uint     | Magic (FS01)                   |
 | 0x04   | 0x04   | uint     | SectionIndex                   |
 | 0x08   | 0x04   | uint     | SectionSize                    |
 
