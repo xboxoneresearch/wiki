@@ -3,10 +3,10 @@ Bootanimation is the Xbox loading animation showing at bootup of the console.
 
 The file is stored in [XBFS](xbox-boot-file-system.md) as bootanim.dat.
 
-It uses a proprietary format, likely specific to the AMD GPU.
+It uses a proprietary format, likely specific to the AMD GPU used on each console.
 
 ## File format
-The file starts with a section header (BOOTANIM_SECTION_HEADER) and then followed by unknown data of
+The file starts with a section header (BOOTANIM_SECTION_HEADER) and then is followed by unknown data of
 size *Header->SectionSize*.
 
 If the following data starts with the header magic, an additional section follows.
@@ -18,11 +18,11 @@ If the following data starts with the header magic, an additional section follow
 | 0x04   | 0x04   | uint     | SectionIndex                   |
 | 0x08   | 0x04   | uint     | SectionSize                    |
 
-Note: The magic on some revisions may have be FSEG. But on bootanim.dat files from 2022 to 2023 they use FS01.
+Note: The magic on some revisions may be FSEG. But on bootanim.dat files from 2022 to 2023 they use FS01.
 
 ### Different on each model
 
-Other than the above mentioned section header, it seems the file format is different, take this output from radare2
+Other than the above mentioned section header. It seems the file format is different, take this output from radare2
 
 The Series XS bootanim.dat file:
 ```
@@ -38,9 +38,9 @@ The Xbox One S OG bootanim.dat file:
 0x00000010  0x0000000000000000  0x0000000000000000   ................
 ```
 
-As you can see, `PEAKH` is missing on the OG boot animation file, there also seems to be many different ways in which its rendered, and the structure between the two in general .
+As you can see `PEAKH` is missing on the OG boot animation file, there also seems to be many different ways in which its rendered, and the structure between the two in general is different.
 
-The most likely conclusion (though simply conjecture), is that bootanim.dat has a thin wrapper being the section header, then the rest is prerendered for the GPU to execute, or being command buffers, or other GPU specific tasks and commands, explaining why it seems so different on each model, because every model that has a different GPU, has a different bootanim.dat file (and even different models with the same GPU, they may have some differences).
+The most likely conclusion (though simply conjecture), is that bootanim.dat uses a thin wrapper being the section header, then the rest is prerendered for the GPU to execute, or being command buffers, or other GPU specific tasks and commands, explaining why it seems so different on each model, because every model that has a different GPU, has a different bootanim.dat file (and even different models with the same GPU may have some differences though minor).
 
 ### Observable Notes
 
