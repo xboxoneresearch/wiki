@@ -86,8 +86,8 @@ Use the following guidelines:
 ### Silverton Revisions
 
 * **PCB Label Number**: X903308 - 001 Rev. A-1
-* **PCB Soldermask Number**: -
-* **Hardware description / differences**: Reduced eMMC/Southbridge voltage regulator with unknown voltage divider.
+* **PCB Soldermask Number**: X887998-011
+* **Hardware description / notable differences**: Reduced/Smaller eMMC/Southbridge voltage regulator.
 * **Owned by / Contributed by**: TANKI99
 * **Pictures**:
 <details>
@@ -95,6 +95,8 @@ Use the following guidelines:
 <img width="1215" height="1620" alt="imagen" src="https://github.com/user-attachments/assets/de7b8fa1-f45e-47cf-a9dd-abd04a09774d" />
 <img width="1761" height="2160" alt="imagen" src="https://github.com/user-attachments/assets/f350b26d-5634-4f93-8775-63f63980320f" />
 <img width="1215" height="1620" alt="imagen" src="https://github.com/user-attachments/assets/4a6ae63f-4a62-4305-b951-e4b7b7f892de" />
+<img width="1290" height="2796" alt="imagen" src="https://github.com/user-attachments/assets/20a7166a-1f82-4059-8c25-26c718a54aee" />
+
 <img width="1215" height="1620" alt="imagen" src="https://github.com/user-attachments/assets/73857be4-a3f8-4847-8753-797f6d5c0b8a" />
 <img width="2992" height="2160" alt="imagen" src="https://github.com/user-attachments/assets/c1549e70-e4b4-458b-97cf-8f397a60ab5e" />
 
@@ -123,7 +125,7 @@ Use the following guidelines:
 
 * **PCB Label Number**: X940636 - 001 Rev. A
 * **PCB Soldermask Number**: X902472-006
-* **Hardware description / differences**: Reduced eMMC/Southbridge voltage regulator with known voltage divider. Dark green soldermask, instead of light green.
+* **Hardware description / differences**: Reduced/Smaller eMMC/Southbridge voltage regulator. Dark green soldermask, instead of light green.
 * **Owned by / Contributed by**: TorusHyperV
 * **Pictures**:
 
@@ -139,7 +141,7 @@ Use the following guidelines:
 
 * **PCB Label Number**: X933919 - 001 Rev. C
 * **PCB Soldermask Number**: -
-* **Hardware description / differences**: Reduced eMMC/Southbridge voltage regulator with unknown voltage divider.
+* **Hardware description / differences**: Reduced/Smaller eMMC/Southbridge voltage regulator.
 * **Owned by / Contributed by**: Anonymous
 * **Pictures**:
 
