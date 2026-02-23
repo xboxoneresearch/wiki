@@ -6,11 +6,30 @@ Since the Xbox One's System operating system is based on OneCore we can use the 
 
 ## Requirements
 
-  - Recommended: CMake
-  - Visual Studio 2019/2017 w/ the following (depending on version):
-      - MSVC v141 - VS 2017 C++ x64/x86 build tools (v14.16) & MSVC v141
-        - VS 2017 C++ x64/x86 Spectre-mitigated libs
-      - MSVC v142 - VS 2019 C++ x64/x86 build tools (v14.22) & MSVC v142
-        - VS 2019 C++ x64/x86 Spectre-mitigated libs
-      - Windows Universal CRT SDK
-  - Windows 10 SDK (Latest)
+- **Recommended:** [CMake](https://cmake.org)
+- **Visual Studio 2022 Community Edition** (or higher):
+
+### Workloads
+- **WinUI application development**
+- **Desktop development with C++**
+
+### Individual Components
+- **MSVC v143 - VS 2022 C++ x64/x86 build tools (Latest)**
+- **VS 2022 C++ x64/x86 Spectre-mitigated libs (Latest)**
+- **MSVC v142 - VS 2019 C++ x64/x86 build tools (v14.29)** *(optional, for compatibility with older apps)*
+- **VS 2019 C++ x64/x86 Spectre-mitigated libs (v14.29)** *(optional, for compatibility with older apps)*
+- **Windows 11 SDK (Latest)**
+- **Windows Universal CRT SDK**
+- **C++ CMake tools for Windows**
+- **C++ ATL for latest v143 build tools (x86 & x64)**
+- **C++ Modules for v143 build tools (x64/x86 - experimental)** *(optional)*
+
+---
+
+> *The "WinUI application development" workload replaces the older "Universal Windows Platform development" workload and is the correct one for Xbox One/Series builds.*
+
+
+
+
+
+
