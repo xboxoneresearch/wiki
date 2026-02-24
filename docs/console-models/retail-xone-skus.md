@@ -8,7 +8,7 @@ For Xbox One Phat:
 
 - PCB Label Number: This is the number, starting with X, that appears on the motherboard's label, in the front layer.
 
-- PCB Soldermask Number: This is the number, starting with X, that appears on the bottom right corner, in the front layer.
+- PCB Soldermask Number: This is the number, starting with X, that appears on the bottom right or left corner of the motherboard, in the front layer.
 
 - Hardware description / differences: relevant changes in components, etc.
 
@@ -151,7 +151,28 @@ Not available yet
 _Your help is needed to complete this page! Fork this repo and make a Pull Request to contribute_
 
 ## Xbox One S - all digital
-_Your help is needed to complete this page! Fork this repo and make a Pull Request to contribute_
+
+
+* **PCB Label Number**: M1121607-001 Rev. A
+* **PCB Soldermask Number**: M1087066-001
+* **Hardware description / differences**: Smaller silicon! No disc drive + metal case differences
+* **Owned by / Contributed by**: TANKI99
+* **Pictures**:
+
+<details>
+
+![X902472-006 Front](../_files/skus/M1121607-001/digital-front.jpg)
+![X902472-006 Back](../_files/skus/M1121607-001/digital_back.jpg)
+
+![X902472-006 Back](../_files/skus/M1121607-001/digital_sticker.jpg)
+![X902472-006 Back](../_files/skus/M1121607-001/soc.jpg)
+![X902472-006 Back](../_files/skus/M1121607-001/PCB-M1087066-001.jpg)
+
+</details>
+
+---
+---
+
 
 ## Xbox One X
 _Your help is needed to complete this page! Fork this repo and make a Pull Request to contribute_
@@ -168,6 +189,9 @@ _Your help is needed to complete this page! Fork this repo and make a Pull Reque
 ![M1037358-004 Back](../_files/skus/M1037358-004/sticker.jpg)
 
 </details>
+
+---
+---
 
 ## Xbox Series X
 
