@@ -35,4 +35,54 @@ printf("Console Revision: 0x%04X\n", consoleRevId);
 
 ## Physical identification
 
-Not known yet
+Right now we can only be sure about motherboard revision mapping.
+Mapping to actual console revisions is a very welcome contribution!
+
+### XBOX ONE (PHAT)
+
+| Soldermask part num | Motherboard Revision                  | SOC Type          | SB Type           |
+| ------------------- | ------------------------------------- | ----------------- | --------          |
+| X877750-003         | Greybull, Retail (Fab M)              | Kryptos / Panther | Kraken / Orion    |
+| X902472-006         | Carmel, Retail (Fab F)                | Kryptos / Panther | Kraken / Orion    |
+| X887997-001         | Silverton, Retail (Fab M)             | Kryptos / Panther | Kraken / Orion    |
+| X887998-001         | Silverton, Retail (Fab M)             | Kryptos / Panther | Kraken / Orion    |
+
+### XBOX ONE S
+
+| Soldermask part num | Motherboard Revision                  | SOC Type          | SB Type           |
+| ------------------- | ------------------------------------- | ----------------- | --------          |
+| M1087066-001        | Kief, Retail (Fab A)                  | ?                 | ?                 |
+| X947889-001         | Kingston, Retail (Fab G)              | Arlene            | Kraken / Orion    |
+
+### XBOX ONE X
+
+| Soldermask part num | Motherboard Revision                  | SOC Type          | SB Type           |
+| ------------------- | ------------------------------------- | ----------------- | --------          |
+| M1037358-002        | Cactus, Retail (Fab G)                | Anubis            | Kraken / Orion    |
+
+### XBOX SERIES S
+
+| Soldermask part num | Motherboard Revision                  | SOC Type          | SB Type           |
+| ------------------- | ------------------------------------- | ----------------- | --------          |
+| M1111890-001        | Stockton (Fab B)                      | Sparkman          | Santo             |
+
+### XBOX SERIES X
+
+Xbox Series has 2 PCBs. One for SOC and another for SB circuitry.
+
+Southbridge PCB
+
+| Soldermask part num | Motherboard Revision                  | SB Type           |
+| ------------------- | ------------------------------------- | --------          |
+| M1127054-001        | SB PCB: Toledo, Debug (Fab E)         | Santo             |
+| M1126891-002        | SB PCB: Toledo, Retail (Fab E)        | Santo             |
+| M1128162-002        | SB PCB: Toledo, Retail, No RF (Fab E) | Santo             |
+
+SOC PCB
+
+| Soldermask part num | Motherboard Revision                   | SOC Type          |
+| ------------------- | -------------------------------------- | ----------------- |
+| M1090324-006        | SOC PCB: Toledo, Debug (Fab E)         | Arden             |
+| M1125041-002        | SOC PCB: Toledo, Debug (Fab E)         | Arden             |
+| M1128163-001        | SOC PCB: Toledo, Retail (Fab E)        | Arden             |
+| M1128164-001        | SOC PCB: Toledo, Retail, No RF (Fab E) | Arden             |
