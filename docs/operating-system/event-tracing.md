@@ -18,6 +18,8 @@ Check this page on [how to configure](https://github.com/pathtofile/Sealighter/b
 
 `xbdiagcap` will capture the system-predefined providers and write them out to `T:\\Windows\Temp\XBDiagPackage`.
 
+NOTE: Some time in ~mid 2025 the destination path for the tracefiles got changed. Before the change it was: `T:\\xbdiag_capture`
+
 The console output looks like this
 
 ```text
