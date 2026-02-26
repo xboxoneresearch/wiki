@@ -91,15 +91,13 @@ Use the following guidelines:
 * **Owned by / Contributed by**: TANKI99
 * **Pictures**:
 <details>
-  
-<img width="1215" height="1620" alt="imagen" src="https://github.com/user-attachments/assets/de7b8fa1-f45e-47cf-a9dd-abd04a09774d" />
-<img width="1761" height="2160" alt="imagen" src="https://github.com/user-attachments/assets/f350b26d-5634-4f93-8775-63f63980320f" />
-<img width="1215" height="1620" alt="imagen" src="https://github.com/user-attachments/assets/4a6ae63f-4a62-4305-b951-e4b7b7f892de" />
-<img width="1290" height="2796" alt="imagen" src="https://github.com/user-attachments/assets/20a7166a-1f82-4059-8c25-26c718a54aee" />
 
-<img width="1215" height="1620" alt="imagen" src="https://github.com/user-attachments/assets/73857be4-a3f8-4847-8753-797f6d5c0b8a" />
-<img width="2992" height="2160" alt="imagen" src="https://github.com/user-attachments/assets/c1549e70-e4b4-458b-97cf-8f397a60ab5e" />
-
+![X887998-011 Soldermask number](../_files/skus/X887998-011/soldermask_part_num.jpg)
+![X887998-011 Label partnum](../_files/skus/X887998-011/label_part_num.jpg)
+![X887998-011 BDROM label](../_files/skus/X887998-011/bdrom_label.jpg)
+![X887998-011 APU](../_files/skus/X887998-011/api.jpg)
+![X887998-011 PCB top](../_files/skus/X887998-011/pcb_top.jpg)
+![X887998-011 PCB bottom](../_files/skus/X887998-011/pcb_bottom.jpg)
 
 </details>
 
