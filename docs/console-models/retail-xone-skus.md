@@ -8,7 +8,7 @@ For Xbox One Phat:
 
 - PCB Label Number: This is the number, starting with X, that appears on the motherboard's label, in the front layer.
 
-- PCB Soldermask Number: This is the number, starting with X, that appears on the bottom right corner, in the front layer.
+- PCB Soldermask Number: This is the number, starting with X, that appears on the bottom right or left corner of the motherboard, in the front layer.
 
 - Hardware description / differences: relevant changes in components, etc.
 
@@ -45,85 +45,156 @@ Use the following guidelines:
 * **Owned by / Contributed by**: Bradman117
 * **Pictures**: 
 
+<details>
+  
 [![X884497-001 Front](../_files/skus/X877750-003/front_thumb.jpg)](../_files/skus/X877750-003/front.jpg)
 [![X884497-001 Sticker](../_files/skus/X877750-003/sticker_thumb.jpg)](../_files/skus/X877750-003/sticker.jpg)
 [![X884497-001 Back](../_files/skus/X877750-003/back_thumb.jpg)](../_files/skus/X877750-003/back.jpg)
 
+</details>
 
 ---
+---
+
 * **PCB Label Number**: X884498 - 001 Rev F-2
 * **PCB Soldermask Number**: X877750-003
 * **Hardware description / differences**: Currently only found in a DDK unit.
 * **Owned by / Contributed by**: BlueRain-debug
 * **Pictures**: 
-
+<details>
+  
 [![X884498-001 Front](../_files/skus/X877750-003/DDK-X884498-001_Rev._F-2-front_thumb.jpg)](../_files/skus/X877750-003/DDK-X884498-001_Rev._F-2-front.jpg)
 [![X884498-001 Sticker](../_files/skus/X877750-003/DDK-X884498-001_Rev._F-2-sticker_thumb.jpg)](../_files/skus/X877750-003/DDK-X884498-001_Rev._F-2-sticker.jpg)
 
+</details>
 
 ---
+---
+
 * **PCB Label Number**: X895857 - 001 Rev C
 * **PCB Soldermask Number**: X877750-003
 * **Hardware description / differences**: Currently only found in a DDK unit. The printed text on the board is thicker.
 * **Owned by / Contributed by**: BlueRain-debug
 * **Pictures**: 
-
+<details>
+  
 [![X895857-001 Sticker](../_files/skus/X877750-003/DDK-X895857-001_Rev._C-sticker_thumb.jpg)](../_files/skus/X877750-003/DDK-X895857-001_Rev._C-sticker.jpg)
 [![X895857-001 Soldermask Number](../_files/skus/X877750-003/DDK-X895857-001_Rev._C-soldermask_number_thumb.jpg)](../_files/skus/X877750-003/DDK-X895857-001_Rev._C-soldermask_number.jpg)
 
+</details>
 
 ### Silverton Revisions
 
-
-* **PCB Label Number**: X933919 - 001 Rev. C
-* **PCB Soldermask Number**: -
-* **Hardware description / differences**: Reduced eMMC/Southbridge voltage regulator with unknown voltage divider.
-* **Owned by / Contributed by**: Anonymous
+* **PCB Label Number**: X903308 - 001 Rev. A-1
+* **PCB Soldermask Number**: X887998-011
+* **Hardware description / notable differences**: Reduced/Smaller eMMC/Southbridge voltage regulator.
+* **Owned by / Contributed by**: TANKI99
 * **Pictures**:
+<details>
 
-Not available yet
+![X887998-011 Soldermask number](../_files/skus/X887998-011/soldermask_part_num.jpg)
+![X887998-011 Label partnum](../_files/skus/X887998-011/label_part_num.jpg)
+![X887998-011 BDROM label](../_files/skus/X887998-011/bdrom_label.jpg)
+![X887998-011 APU](../_files/skus/X887998-011/api.jpg)
+![X887998-011 PCB top](../_files/skus/X887998-011/pcb_top.jpg)
+![X887998-011 PCB bottom](../_files/skus/X887998-011/pcb_bottom.jpg)
+
+</details>
 
 
 ---
+---
+
 * **PCB Label Number**: X900499 - 001 Rev. C
 * **PCB Soldermask Number**: X887998-010
 * **Hardware description / differences**: Reduced eMMC/Southbridge voltage regulator with unknown voltage divider. Does not contain data lines on the bottom layer of the PCB, under the HDMI ports.
 * **Owned by / Contributed by**: TorusHyperV
 * **Pictures**:
+
+<details>
   
 ![X887998-010 Front](../_files/skus/X887998-010/front.jpeg)
 ![X887998-010 Back](../_files/skus/X887998-010/back.jpeg)
 
+</details>
 
 ---
+---
+
 * **PCB Label Number**: X940636 - 001 Rev. A
 * **PCB Soldermask Number**: X902472-006
-* **Hardware description / differences**: Reduced eMMC/Southbridge voltage regulator with known voltage divider. Dark green soldermask, instead of light green.
+* **Hardware description / differences**: Reduced/Smaller eMMC/Southbridge voltage regulator. Dark green soldermask, instead of light green.
 * **Owned by / Contributed by**: TorusHyperV
 * **Pictures**:
 
+<details>
+  
 ![X902472-006 Front](../_files/skus/X902472-006/front.jpeg)
 ![X902472-006 Back](../_files/skus/X902472-006/back.jpeg)
 
+</details>
+
+---
+---
+
+* **PCB Label Number**: X933919 - 001 Rev. C
+* **PCB Soldermask Number**: -
+* **Hardware description / differences**: Reduced/Smaller eMMC/Southbridge voltage regulator.
+* **Owned by / Contributed by**: Anonymous
+* **Pictures**:
+
+Not available yet
 
 ## Xbox One S
 _Your help is needed to complete this page! Fork this repo and make a Pull Request to contribute_
 
 ## Xbox One S - all digital
-_Your help is needed to complete this page! Fork this repo and make a Pull Request to contribute_
+
+
+* **PCB Label Number**: M1121607-001 Rev. A
+* **PCB Soldermask Number**: M1087066-001
+* **Hardware description / differences**: Smaller silicon! No disc drive + metal case differences
+* **Owned by / Contributed by**: TANKI99
+* **Pictures**:
+
+<details>
+
+![X902472-006 Front](../_files/skus/M1121607-001/digital-front.jpg)
+![X902472-006 Back](../_files/skus/M1121607-001/digital_back.jpg)
+
+![X902472-006 Back](../_files/skus/M1121607-001/digital_sticker.jpg)
+![X902472-006 Back](../_files/skus/M1121607-001/soc.jpg)
+![X902472-006 Back](../_files/skus/M1121607-001/PCB-M1087066-001.jpg)
+
+</details>
+
+---
+---
+
 
 ## Xbox One X
-_Your help is needed to complete this page! Fork this repo and make a Pull Request to contribute_
 
 * **PCB Label Number**: M1069869 - 001
 * **PCB Soldermask Number**: M1037358-004
 * **Hardware description / differences**: -
 * **Owned by / Contributed by**: Bradman117
 * **Pictures**:
-
+<details>
+  
 ![M1037358-004 Front](../_files/skus/M1037358-004/front.jpg)
 ![M1037358-004 Back](../_files/skus/M1037358-004/back.jpg)
 ![M1037358-004 Back](../_files/skus/M1037358-004/sticker.jpg)
+
+</details>
+
+<center>
+  
+# Series Family
+
+</center>
+
+## Xbox Series S
+_Your help is needed to complete this page! Fork this repo and make a Pull Request to contribute_
 
 ## Xbox Series X
 
@@ -132,6 +203,8 @@ _Your help is needed to complete this page! Fork this repo and make a Pull Reque
 * **Hardware description / differences**: -
 * **Owned by / Contributed by**: ma1k0d3r
 * **Pictures**:
+
+<details>
 
 [![M1157007-001 FIOUSB 0](../_files/skus/M1157007-001/fiousb_0_thumb.jpg)](../_files/skus/M1157007-001/fiousb_0.jpg)
 [![M1157007-001 FIOUSB 1](../_files/skus/M1157007-001/fiousb_1_thumb.jpg)](../_files/skus/M1157007-001/fiousb_1.jpg)
@@ -159,3 +232,6 @@ _Your help is needed to complete this page! Fork this repo and make a Pull Reque
 [![M1157007-001 SOC SAM Side B Details 0](../_files/skus/M1157007-001/soc-sam_side-b-details_0_thumb.jpg)](../_files/skus/M1157007-001/soc-sam_side-b-details_0.jpg)
 [![M1157007-001 SOC SAM Side B Details 1](../_files/skus/M1157007-001/soc-sam_side-b-details_1_thumb.jpg)](../_files/skus/M1157007-001/soc-sam_side-b-details_1.jpg)
 [![M1157007-001 SOC SAM Side B Details 2](../_files/skus/M1157007-001/soc-sam_side-b-details_2_thumb.jpg)](../_files/skus/M1157007-001/soc-sam_side-b-details_2.jpg)
+
+
+</details>
