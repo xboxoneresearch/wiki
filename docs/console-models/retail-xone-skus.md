@@ -141,7 +141,25 @@ Use the following guidelines:
 Not available yet
 
 ## Xbox One S
-_Your help is needed to complete this page! Fork this repo and make a Pull Request to contribute_
+
+* **PCB Label Number**: M1096336-001 Rev. D
+* **PCB Soldermask Number**: M1087066-001
+* **Hardware description / differences**: Smaller silicon!
+* **Owned by / Contributed by**: TANKI99
+* **Pictures**:
+
+/// info | Details
+
+![A](../_files/skus/M1096336-001/IMG_1606.jpg)
+![B](../_files/skus/M1096336-001/IMG_1607.jpg)
+![C](../_files/skus/M1096336-001/IMG_1608.jpg)
+![D](../_files/skus/M1096336-001/IMG_1609.jpg)
+![E](../_files/skus/M1096336-001/IMG_1610.jpg)
+![F](../_files/skus/M1096336-001/IMG_1611.jpg)
+![G](../_files/skus/M1096336-001/IMG_1612.jpg)
+
+///
+
 
 ## Xbox One S - all digital
 
