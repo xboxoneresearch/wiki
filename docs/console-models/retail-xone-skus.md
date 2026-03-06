@@ -218,7 +218,24 @@ Not available yet
 ## Series Family
 
 ### Xbox Series S
-_Your help is needed to complete this page! Fork this repo and make a Pull Request to contribute_
+
+* **PCB Label Number**: M1190725-001
+* **PCB Soldermask Number**: M1170616-005
+* **Hardware description / differences**: none
+* **Owned by / Contributed by**: TANKI99
+* **Pictures**:
+
+/// info | Details
+
+![G](../_files/skus/M1190725-001/IMG_1576.jpg)
+![G](../_files/skus/M1190725-001/IMG_1577.jpg)
+![G](../_files/skus/M1190725-001/IMG_1578.jpg)
+![G](../_files/skus/M1190725-001/IMG_1581.jpg)
+![G](../_files/skus/M1190725-001/IMG_1583.jpg)
+![G](../_files/skus/M1190725-001/IMG_1585.jpg)
+
+
+///
 
 ### Xbox Series X
 
