@@ -160,6 +160,23 @@ Not available yet
 
 ///
 
+---
+
+* **PCB Label Number**: M1006461-001 Rev. C
+* **PCB Soldermask Number**: unknown
+* **Hardware description / differences**: unknown
+* **Owned by / Contributed by**: Mr. Kronos1 (and TANKI99)
+* **Pictures**:
+
+/// info | Details
+
+![A](../_files/skus/M1096336-001/front.jpg)
+![A](../_files/skus/M1096336-001/mobo.jpg)
+![A](../_files/skus/M1096336-001/soc.jpg)
+
+
+///
+
 
 ## Xbox One S - all digital
 
