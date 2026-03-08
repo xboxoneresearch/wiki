@@ -170,9 +170,9 @@ Not available yet
 
 /// info | Details
 
-![A](../_files/skus/M1096336-001/front.jpg)
-![A](../_files/skus/M1096336-001/mobo.jpg)
-![A](../_files/skus/M1096336-001/soc.jpg)
+![A](../_files/skus/M1006461-001/front.jpg)
+![A](../_files/skus/M1006461-001/mobo.jpg)
+![A](../_files/skus/M1006461-001/soc.jpg)
 
 
 ///
