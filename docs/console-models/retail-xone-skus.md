@@ -182,6 +182,28 @@ Not available.
 
 ---
 
+## Xbox One S
+
+* **PCB Label Number**: M1096336-001 Rev. D
+* **PCB Soldermask Number**: M1087066-001
+* **Hardware description / differences**: Smaller silicon!
+* **Owned by / Contributed by**: TANKI99
+* **Pictures**:
+
+/// info | Details
+
+![A](../_files/skus/M1096336-001/IMG_1606.jpg)
+![B](../_files/skus/M1096336-001/IMG_1607.jpg)
+![C](../_files/skus/M1096336-001/IMG_1608.jpg)
+![D](../_files/skus/M1096336-001/IMG_1609.jpg)
+![E](../_files/skus/M1096336-001/IMG_1610.jpg)
+![F](../_files/skus/M1096336-001/IMG_1611.jpg)
+![G](../_files/skus/M1096336-001/IMG_1612.jpg)
+
+///
+
+---
+
 * **PCB Label Number**: M1006461-001 Rev. C
 * **PCB Soldermask Number**: unknown
 * **Hardware description / differences**: unknown
@@ -190,9 +212,9 @@ Not available.
 
 /// info | Details
 
-![A](../_files/skus/M1096336-001/front.jpg)
-![A](../_files/skus/M1096336-001/mobo.jpg)
-![A](../_files/skus/M1096336-001/soc.jpg)
+![A](../_files/skus/M1006461-001/front.jpg)
+![A](../_files/skus/M1006461-001/mobo.jpg)
+![A](../_files/skus/M1006461-001/soc.jpg)
 
 
 ///
