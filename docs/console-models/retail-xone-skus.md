@@ -234,6 +234,25 @@ Not available.
 ![M1037358-004 Back](../_files/skus/M1037358-004/sticker.jpg)
 
 ///
+
+---
+
+* **PCB Label Number**: M1118252-001
+* **PCB Soldermask Number**: M1037358-005
+* **Hardware description / differences**: Cyberpunk 2077 special edition, contains a speaker for the custom boot sounds
+* **Owned by / Contributed by**: TANKI99
+* **Pictures**:
+
+/// info | Details
+
+![Picture](../_files/skus/M1037358-005/IMG_1766.jpg)
+![Picture](../_files/skus/M1037358-005/IMG_1767.jpg)
+![Picture](../_files/skus/M1037358-005/IMG_1768.jpg)
+![Picture](../_files/skus/M1037358-005/IMG_1769.jpg)
+![Picture](../_files/skus/M1037358-005/IMG_1771.jpg)
+![Picture](../_files/skus/M1037358-005/IMG_1773.jpg)
+
+///
   
 ## Series Family
 
