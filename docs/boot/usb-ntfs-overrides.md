@@ -36,6 +36,7 @@ storage device to trigger operations during cold boot of the console.
 | $SystemUpdate\\consoles.txt | File   | When present on the external USB storage device during boot, the console will output its current system update build version to the file.                  |
 | $SystemUpdate\\hwinit.cfg   | File   | Sets motherboard traces, voltages, header behavior, and IC clock speed overrides. Read, flashed, and executed during the console's cold boot routine.     |
 | $SystemUpdate\\devkit.ini	  | File   | Sets default primary debug output interface, connecting host network address, and protocol. Read, flashed, and executed during the console's cold boot routine.|
+| $SystemUpdate\\UpdAzure.cfg | File   | Allows the overriding of the Azure blob storage location for the next Network Emergancy Update. The file is parsed for `rooturl`, `account`, `container`, `blob`, and `sas`, after being copied to the Flash's override section, and called during a NEU. Maybe Gen 9 or higher only.|
 | MSXB_Kiosk                  | File   | XVDs with this title (No extension) and Kiosk type will temporarily boot the console in Kiosk mode when present on the root of the USB external storage.  |
 | $NoSurface                  | Folder | Mounts external storage to HostOS as opposed to SystemOS. External Host volumes are assigned a drive letter that can only be accessed from HostOS and Xcrdutil under SystemOS.|
 | $Throttle                   | Folder | Initiate logging of NVMe speed throttling.																												   |
@@ -48,6 +49,7 @@ storage device to trigger operations during cold boot of the console.
 | LastConsole				  | File   | When present on the external USB storage, the console will write a true or false boolean inside the file indicating if disk was last used with this console.|
 | ThrottleInfo.txt			  | File   | TBD.
 | TitleHmbInfo.txt			  | File   | TBD.
+
 
 Note:
 
