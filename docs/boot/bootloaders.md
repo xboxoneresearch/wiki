@@ -73,9 +73,9 @@ systemos->>hostos: Request VM Start
 
 critical Game XVC
     note over hostos: ERA / GameCore VBI<br>(HDD)
-    hostos->>titleos: Load Host VBI
+    hostos->>titleos: Load ERA/GameCore VBI
     note over hostos: ERA / GameCore XVD<br>(HDD)
-    hostos->>titleos: Load host.xvd
+    hostos->>titleos: Load era.xvd/gamecore.xvd
 end
 ```
 
@@ -90,6 +90,8 @@ and more. This sequence is split into 3 boot stages.
   - 2SP : Patched into boot.bin
 
 ## SMC
+
+[System management controller](smc.md) firmware, loaded by the southbridge.
 
   - 0SMCBL: Stored in SB ROM (factory)
   - 1SMCBL: In Flash, named `1smcbl_{a,b}.bin`

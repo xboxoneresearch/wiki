@@ -25,6 +25,7 @@ Pinout
 - SB_JTAG -> Southbridge JTAG
 - SMC_DBG -> SMC SWO Debug
 - KER_DBG -> Kernel Debugging
+- SMC UART -> SMC Logging
 - SMBUS -> I2C
 
 | Pin | Description      | Description | Pin |
@@ -39,14 +40,22 @@ Pinout
 | 15  | SMC_DBG_LED0_SWO | KER_DBG_CTS | 16  |
 | 17  | KER_DBG_TXD      | KER_DBG_RTS | 18  |
 | 19  | KER_DBG_RXD      | SMC_CTS     | 20  |
-| 21  | SMC_TXD          | SMC_RTS     | 22  |
-| 23  | SMC_RXD          | 3,3V STBY   | 24  |
+| 21  | SMC_TXD*         | SMC_RTS     | 22  |
+| 23  | SMC_RXD*         | 3,3V STBY   | 24  |
 | 25  | SMBUS_CLK        | SMBUS_DATA  | 26  |
 
 ### Xbox One PHAT
 
 ![PHAT FACET Connector unpopulated](../_files/facet/facet_conn.png)
 ![PHAT FACET Connector populated](../_files/facet/facet_conn_populated.png)
+
+### SMC UART
+
+These signals are not actually routed through to the FACET header. Manual jumperwires are required, see picture:
+
+![SMC UART bridges](../_files/facet/smc_uart_jumperwires.png)
+
+For more info about SMC: [CLICK](../boot/smc.md)
 
 ### Xbox One S
 

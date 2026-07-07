@@ -1,6 +1,11 @@
 # Southbridge
 The custom southbridge is only slightly changed between console revisions, judging from its part number.
 
+Codenames:
+
+- Orion (Xbox One)
+- Santo (Xbox Series aka. Scarlett)
+
 ## Models
 - X861949-005 T6WD5XBG-0003 (Xbox One/Xbox One S)
 - X861949-007 T6WD5XBG-0003 (Xbox One X)
