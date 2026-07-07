@@ -81,6 +81,22 @@ Use the following guidelines:
 
 ///
 
+---
+
+* **PCB Label Number**: X895857 - 050 Rev. A
+* **PCB Soldermask Number**: X877750 - 003 (interestingly, same as some other consoles above)
+* **Hardware description / differences**: Advanced Warfare Special Edition console from Sept 5th 2014. Durango Motherboard.
+* **Owned by / Contributed by**: Mr. Kronos1
+* **Pictures**: 
+/// info | Details
+  
+
+![X895857 front](../_files/skus/X895857-050/mfront.jpg)
+![X895857 sticker](../_files/skus/X895857-050/sticker.jpg)
+![X895857 APU](../_files/skus/X895857-050/apu.jpg)
+
+///
+
 ### Silverton Revisions
 
 * **PCB Label Number**: X903308 - 001 Rev. A-1
@@ -96,22 +112,6 @@ Use the following guidelines:
 ![X887998-011 APU](../_files/skus/X887998-011/apu.jpg)
 ![X887998-011 PCB top](../_files/skus/X887998-011/pcb_top.jpg)
 ![X887998-011 PCB bottom](../_files/skus/X887998-011/pcb_bottom.jpg)
-
-///
-
-
----
-
-* **PCB Label Number**: X900499 - 001 Rev. C
-* **PCB Soldermask Number**: X887998-010
-* **Hardware description / differences**: Reduced eMMC/Southbridge voltage regulator with unknown voltage divider. Does not contain data lines on the bottom layer of the PCB, under the HDMI ports.
-* **Owned by / Contributed by**: TorusHyperV
-* **Pictures**:
-
-/// info | Details
-  
-![X887998-010 Front](../_files/skus/X887998-010/front.jpeg)
-![X887998-010 Back](../_files/skus/X887998-010/back.jpeg)
 
 ///
 
@@ -138,7 +138,49 @@ Use the following guidelines:
 * **Owned by / Contributed by**: Anonymous
 * **Pictures**:
 
-Not available yet
+/// info | Details
+
+Not available.
+
+///
+
+### Carmel Revisions
+
+
+* **PCB Label Number**: X900499 - 001 Rev. C
+* **PCB Soldermask Number**: X887998-010
+* **Hardware description / differences**: Reduced eMMC/Southbridge voltage regulator with unknown voltage divider. Does not contain data lines on the bottom layer of the PCB, under the HDMI ports.
+* **Owned by / Contributed by**: TorusHyperV
+* **Pictures**:
+
+/// info | Details
+  
+![X887998-010 Front](../_files/skus/X887998-010/front.jpeg)
+![X887998-010 Back](../_files/skus/X887998-010/back.jpeg)
+
+///
+
+## Xbox One S
+
+* **PCB Label Number**: M1096336-001 Rev. D
+* **PCB Soldermask Number**: M1087066-001
+* **Hardware description / differences**: Smaller silicon!
+* **Owned by / Contributed by**: TANKI99
+* **Pictures**:
+
+/// info | Details
+
+![A](../_files/skus/M1096336-001/IMG_1606.jpg)
+![B](../_files/skus/M1096336-001/IMG_1607.jpg)
+![C](../_files/skus/M1096336-001/IMG_1608.jpg)
+![D](../_files/skus/M1096336-001/IMG_1609.jpg)
+![E](../_files/skus/M1096336-001/IMG_1610.jpg)
+![F](../_files/skus/M1096336-001/IMG_1611.jpg)
+![G](../_files/skus/M1096336-001/IMG_1612.jpg)
+
+///
+
+---
 
 ## Xbox One S
 
@@ -212,6 +254,25 @@ Not available yet
 ![M1037358-004 Front](../_files/skus/M1037358-004/front.jpg)
 ![M1037358-004 Back](../_files/skus/M1037358-004/back.jpg)
 ![M1037358-004 Back](../_files/skus/M1037358-004/sticker.jpg)
+
+///
+
+---
+
+* **PCB Label Number**: M1118252-001
+* **PCB Soldermask Number**: M1037358-005
+* **Hardware description / differences**: Cyberpunk 2077 special edition, contains a speaker for the custom boot sounds
+* **Owned by / Contributed by**: TANKI99
+* **Pictures**:
+
+/// info | Details
+
+![Picture](../_files/skus/M1037358-005/IMG_1766.jpg)
+![Picture](../_files/skus/M1037358-005/IMG_1767.jpg)
+![Picture](../_files/skus/M1037358-005/IMG_1768.jpg)
+![Picture](../_files/skus/M1037358-005/IMG_1769.jpg)
+![Picture](../_files/skus/M1037358-005/IMG_1771.jpg)
+![Picture](../_files/skus/M1037358-005/IMG_1773.jpg)
 
 ///
   
