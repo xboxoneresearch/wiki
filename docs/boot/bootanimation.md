@@ -84,3 +84,7 @@ havecode false
 bits     0
 ```
 This heavily implies if not outright disproves any form of crypto signing on the bootanim.dat file format, meaning if there are any checks they are built into the OS in the form of checking the hash. Though we cannot rule out the fact that the OS may not check hashes.
+
+## References
+
+- [Bootanim decoder by @yubie-re](https://github.com/yubie-re/xbox-bootanim-decoder)
