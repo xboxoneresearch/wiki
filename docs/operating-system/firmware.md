@@ -2,9 +2,28 @@
 
 Latest OSU is always available through: <https://www.xbox.com/xboxone/osu1>
 
-## [2025](https://support.xbox.com/en-US/help/hardware-network/settings-updates/whats-new-xbox-one-system-updates)
+## [2026](https://support.xbox.com/en-US/help/hardware-network/settings-updates/whats-new-xbox-one-system-updates)
 | version | GUID | build_tag | date | download (MS) | download (archive) | notes |
 |---------|------|-----------|------|---------------|--------------------|-------|
+| 10\.0.26100.8569 | 05f64db7-6529-477d-a55b-be484ff87443 | xb_flt_2606ge.260626-1430 | 2026-06-30 | [Microsoft](https://download.microsoft.com/download/83eef2b2-79b7-4667-a897-7ba046ce0ef5/OSU1.zip) | n/a | July 2026 OS |
+| 10\.0.26100.8561 | 05f64db7-6529-477d-a55b-be484ff87443 | xb_flt_2606ge.260609-2200 | 2026-06-12 | [Microsoft](https://download.microsoft.com/download/528854b0-710d-41ba-a186-3cfc1356b2ba/OSU1.zip) | n/a | June 2026 OS |
+| 10\.0.26100.8556 | e28e4244-a710-4d46-ba72-44717b7dee6b | xb_flt_2606ge.260604-2200 | 2026-06-10 | [Microsoft](https://download.microsoft.com/download/bbbd3c5e-f4ca-42ec-a88b-d6680ef2058b/OSU1.zip) | n/a | June 2026 OS |
+| 10\.0.26100.8064 | d77e5fff-2fd0-4827-8526-a7edab49737d | xb_flt_2605ge.260429-2200 | 2026-05-06 | [Microsoft](https://download.microsoft.com/download/2ca5fdb5-8a0b-4054-af13-3b9aea0ca3b3/OSU1.zip) | n/a | May 2026 OS |
+| 10\.0.26100.7815 | n/A | xb_flt_2604ge.260414-2200 | 2026-04-21 | [Microsoft](https://download.microsoft.com/download/99f89310-4a4f-42a0-9c5e-2287d8435fc6/OSU1.zip) | n/a | April 2026 OS |
+| 10\.0.26100.7807 | n/A | xb_flt_2604ge.260406-2200 | 2026-04-15 | [Microsoft](https://download.microsoft.com/download/a38bc834-5cfe-4601-aefe-0f55cdc01bd5/OSU1.zip) | n/a | April 2026 OS |
+| 10\.0.26100.7018 | 4906d51b-6d8b-480c-ad81-49b7d6eb637f | xb_flt_2602ge.260318-1945 | 2026-03-24 | [Microsoft](https://download.microsoft.com/download/e3b50dbc-bc0f-4295-9521-6ce163307115/OSU1.zip) | n/a | March 2026 OS |
+| 10\.0.26100.7010 | c77d810b-3852-4653-9faf-70f0c2b04764 | xb_flt_2602ge.260212-1010 | 2026-02-18 | [Microsoft](https://download.microsoft.com/download/b96c4b48-e2b5-44d8-9438-c09bc0ed5340/OSU1.zip) | n/a | February 2026 OS |
+
+## [2025](https://support.xbox.com/en-US/help/hardware-network/settings-updates/system-updates-2025)
+| version | GUID | build_tag | date | download (MS) | download (archive) | notes |
+|---------|------|-----------|------|---------------|--------------------|-------|
+| 10\.0.26100.6214 | n/a | xb_flt_2510ge.251125-1545 | 2025-12-03 | n/a | n/a | December 2025 OS  |
+| 10\.0.26100.6194 | n/a | xb_flt_2510ge.251105-2200 | 2025-11-12 | n/a | n/a | November 2025 OS  |
+| 10\.0.26100.6171 | n/a | xb_flt_2510ge.251016-1435 | 2025-10-22 | n/a | n/a | October 2025 OS  |
+| 10\.0.26100.5735 | n/a | xb_flt_2509ge.250930-2000 | 2025-10-09 | n/a | n/a | October 2025 OS  |
+| 10\.0.26100.5730 | n/a | xb_flt_2509ge.250918-1615 | 2025-09-23 | n/a | n/a | September 2025 OS  |
+| 10\.0.26100.5362 | n/a | xb_flt_2508ge.250807-1745 | 2025-08-13 | n/a | n/a | August 2025 OS  |
+| 10\.0.26100.4857 | n/a | xb_flt_2506ge.250702-1500 | 2025-07-07 | n/a | n/a | July 2025 OS  |
 | 10\.0.26100.4855 | 18955c3f-2a13-41f1-b1fd-be53767b8e37 | xb_flt_2506ge.250612-1215 | 2025-06-19 | [Microsoft](https://download.microsoft.com/download/0be2ee12-ca7f-4849-9f96-9555136ee5d9/OSU1.zip)       | n/a | June 2025 OS  |
 | 10\.0.26100.4026 | b381321f-b355-4bd6-a33d-e01654b79b0a | xb_flt_2504ge.250423-1700 | 2025-04-28 | [Microsoft](https://download.microsoft.com/download/ad1691a8-77fd-4418-b3dc-1d20954c0a08/OSU1.zip)       | n/a | April 2025 OS |
 | 10\.0.26100.4020 | 84340f1f-47ba-4afc-b151-3b9a9cbbc094 | xb_flt_2504ge.250410-1100 | 2025-04-16 | [Microsoft](https://download.microsoft.com/download/32e40ecd-b7e1-402e-a000-70a28811e124/OSU1.zip)       | n/a | April 2025 OS |

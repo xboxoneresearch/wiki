@@ -14,6 +14,7 @@ search:
     - exploits/*.md
 - Boot
   - [Bootloaders / Bootchain](boot/bootloaders.md)
+  - [SMC](boot/smc.md)
   - [Soutbridge filesystem (SBFS)](boot/southbridge-file-system.md)
   - [Boot filesystem (XBFS)](boot/xbox-boot-file-system.md)
   - [VBI (Virtual boot image)](boot/vbi.md)
