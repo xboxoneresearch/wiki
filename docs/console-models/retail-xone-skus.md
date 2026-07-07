@@ -91,9 +91,9 @@ Use the following guidelines:
 /// info | Details
   
 
-![X895857 front](../_files/skus/X895857/mfront.jpg)
-![X895857 sticker](../_files/skus/X895857/sticker.jpg)
-![X895857 APU](../_files/skus/X895857/apu.jpg)
+![X895857 front](../_files/skus/X895857-050/mfront.jpg)
+![X895857 sticker](../_files/skus/X895857-050/sticker.jpg)
+![X895857 APU](../_files/skus/X895857-050/apu.jpg)
 
 ///
 
