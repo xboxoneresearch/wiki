@@ -5,6 +5,7 @@ Latest OSU is always available through: <https://www.xbox.com/xboxone/osu1>
 ## [2026](https://support.xbox.com/en-US/help/hardware-network/settings-updates/whats-new-xbox-one-system-updates)
 | version | GUID | build_tag | date | download (MS) | download (archive) | notes |
 |---------|------|-----------|------|---------------|--------------------|-------|
+| 10\.0.26100.8866 | 768374b8-9ea3-4098-93ee-9e5ef01d7c6a | xb_flt_2607ge.260630-2200 | 2026-07-15 | [Microsoft](https://download.microsoft.com/download/3c8e3aec-d059-44a2-9525-326a20e33bf2/OSU1.zip) | n/a | July 2026 OS, SystemOS Privilege Escalation  |
 | 10\.0.26100.8569 | 05f64db7-6529-477d-a55b-be484ff87443 | xb_flt_2606ge.260626-1430 | 2026-06-30 | [Microsoft](https://download.microsoft.com/download/83eef2b2-79b7-4667-a897-7ba046ce0ef5/OSU1.zip) | n/a | July 2026 OS |
 | 10\.0.26100.8561 | 05f64db7-6529-477d-a55b-be484ff87443 | xb_flt_2606ge.260609-2200 | 2026-06-12 | [Microsoft](https://download.microsoft.com/download/528854b0-710d-41ba-a186-3cfc1356b2ba/OSU1.zip) | n/a | June 2026 OS |
 | 10\.0.26100.8556 | e28e4244-a710-4d46-ba72-44717b7dee6b | xb_flt_2606ge.260604-2200 | 2026-06-10 | [Microsoft](https://download.microsoft.com/download/bbbd3c5e-f4ca-42ec-a88b-d6680ef2058b/OSU1.zip) | n/a | June 2026 OS |
