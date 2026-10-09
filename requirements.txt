@@ -2,4 +2,3 @@ properdocs
 mkdocs-materialx
 mkdocs-literate-nav
 mkdocs-rss-plugin
-mkdocs-git-latest-changes-plugin

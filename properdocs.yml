@@ -36,21 +36,15 @@ plugins:
   - literate-nav:
       nav_file: NAVIGATION.md
       tab_length: 2
-  - git-latest-changes:
-      limit_to_docs_dir: True
-      repo_vendor: github
-      enabled_on_serve: False
-      history_limit: -1
-      timestamp_format: "%Y-%m-%d %H:%M"
-      table_features:
-        - "timestamp"
-        - "page_path_link"
-        - "message"
-        - "author"
-        - "commit_hash_link"
   - document-dates:
       exclude:
-        - '*/index.md'
+        - 'index.md'
+      recently-updated:
+        limit: 20
+        exclude:
+          - 'index.md'
+          - 'NAVIGATION.md'
+          - 'recent-changes.md'
 
 markdown_extensions:
   - pymdownx.tilde
