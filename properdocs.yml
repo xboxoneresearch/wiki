@@ -5,7 +5,6 @@ repo_url: https://github.com/xboxoneresearch/wiki
 
 theme:
   name: materialx
-  custom_dir: overrides
   icon:
     repo: fontawesome/brands/github
   features:
@@ -49,14 +48,9 @@ plugins:
         - "message"
         - "author"
         - "commit_hash_link"
-  - git-authors:
-      enabled: !ENV [CI, false]
-      show_email_address: false
-      strict: false
-  - git-revision-date-localized:
-      enabled: !ENV [CI, false]
-      strict: false
-      enable_creation_date: true
+  - document-dates:
+      exclude:
+        - '*/index.md'
 
 markdown_extensions:
   - pymdownx.tilde
