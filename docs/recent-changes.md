@@ -3,4 +3,4 @@ search:
   exclude: true
 ---
 
-{{ latest_changes }}
+<!-- RECENTLY_UPDATED_DOCS -->

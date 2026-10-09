@@ -8,7 +8,7 @@ Thumbs.db
 # Obsidian
 docs/.obsidian
 
-# mkdocs build dir
+# properdocs build dir
 .cache/
 site/
 

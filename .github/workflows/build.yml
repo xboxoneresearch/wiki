@@ -5,17 +5,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
           ref: ${{ github.sha }}
       - name: Create temporary branch
         run: git checkout -b tmp/pr-branch
       - name: Install python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: 3.x
       - name: Install deps
-        run: pip install -U -r requirements.txt
+        run: pip install -r requirements.txt
       - name: Build
-        run: mkdocs build --strict
+        run: properdocs build --strict
