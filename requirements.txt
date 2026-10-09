@@ -1,4 +1,5 @@
-mkdocs-material
+properdocs
+mkdocs-materialx
 mkdocs-literate-nav
 mkdocs-git-authors-plugin
 mkdocs-git-revision-date-localized-plugin

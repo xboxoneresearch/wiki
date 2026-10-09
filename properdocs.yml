@@ -4,7 +4,7 @@ site_url: https://xboxoneresearch.github.io/wiki
 repo_url: https://github.com/xboxoneresearch/wiki
 
 theme:
-  name: material
+  name: materialx
   custom_dir: overrides
   icon:
     repo: fontawesome/brands/github
