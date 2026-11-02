@@ -1,4 +1,4 @@
-# Controller API reference   
+# Controller API reference
 You can get the number of attached physical controllers and turn them off using this REST API.
 
 ## Determine the number of attached physical controllers
@@ -7,10 +7,9 @@ You can get the number of attached physical controllers and turn them off using 
 
 You can check the number of attached physical controllers on the device using the following request.
 
-Method      | Request URI
-:------     | :-----
-GET | /ext/remoteinput/controllers
-<br />
+| Method | Request URI                  |
+| :----- | :--------------------------- |
+| GET    | /ext/remoteinput/controllers |
 
 **URI parameters**
 
@@ -20,11 +19,11 @@ GET | /ext/remoteinput/controllers
 
 - None
 
-**Request body**   
+**Request body**
 
 - None
 
-**Response**   
+**Response**
 
 - JSON number property ConnectedControllerCount which specifies the number of attached physical controllers.
 
@@ -32,11 +31,11 @@ GET | /ext/remoteinput/controllers
 
 This API has the following expected status codes.
 
-HTTP status code      | Description
-:------     | :-----
-200 | Success
-4XX | Error codes
-5XX | Error codes
+| HTTP status code | Description |
+| :--------------- | :---------- |
+| 200              | Success     |
+| 4XX              | Error codes |
+| 5XX              | Error codes |
 
 ## Disconnect all physical controllers on the devkit
 
@@ -44,10 +43,10 @@ HTTP status code      | Description
 
 You can disconnect all physical controllers on the device using the following request.
 
-Method      | Request URI
-:------     | :-----
-DELETE | /ext/remoteinput/controllers
-<br />
+| Method | Request URI                  |
+| :----- | :--------------------------- |
+| DELETE | /ext/remoteinput/controllers |
+
 **URI parameters**
 
 - None
@@ -56,28 +55,27 @@ DELETE | /ext/remoteinput/controllers
 
 - None
 
-**Request body**   
+**Request body**
 
 - None
 
-**Response**   
+**Response**
 
-- None 
+- None
 
 **Status code**
 
 This API has the following expected status codes.
 
-HTTP status code      | Description
-:------     | :-----
-204 | The request to disconnect controllers was successful.
-4XX | Error codes
-5XX | Error codes
-
+| HTTP status code | Description                                           |
+| :--------------- | :---------------------------------------------------- |
+| 204              | The request to disconnect controllers was successful. |
+| 4XX              | Error codes                                           |
+| 5XX              | Error codes                                           |
 
 **Available device families**
 
-* Windows Xbox
+* Xbox
 
 **Credits**
 Microsoft

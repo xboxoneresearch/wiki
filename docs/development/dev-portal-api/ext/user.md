@@ -4,11 +4,10 @@
 
 You can get the list of users on the console, or update the list--adding, removing, signing in, signing out, or modifying existing users.
 
-| Method        | Request URI     | 
-| ------------- |-----------------|
-| GET           | /ext/user |
-| PUT           | /ext/user |
-
+| Method | Request URI |
+| :----- | :---------- |
+| GET    | /ext/user   |
+| PUT    | /ext/user   |
 
 **URI parameters**
 
@@ -45,17 +44,17 @@ Calls to GET will return a JSON array with the following properties:
   * UserId
   * XboxUserId
   * SponsoredUser (optional)
-  
+
 **Status code**
 
 This API has the following expected status codes.
 
-| HTTP status code   | Description     | 
-| ------------------ |-----------------|
-| 200                | Call to GET was successful and JSON array of users returned in the response body |
-| 204                | Call to PUT was successful and the users on the console have been updated |
-| 4XX                | Various errors for invalid request data or format |
-| 5XX                | Error codes for unexpected failures |
+| HTTP status code | Description                                                                      |
+| :--------------- | :------------------------------------------------------------------------------- |
+| 200              | Call to GET was successful and JSON array of users returned in the response body |
+| 204              | Call to PUT was successful and the users on the console have been updated        |
+| 4XX              | Various errors for invalid request data or format                                |
+| 5XX              | Error codes for unexpected failures                                              |
 
 **Credits**
 Microsoft

@@ -7,10 +7,9 @@ You can add, remove, or update stored network credentials on your devkit using t
 
 You can get a list of the stored shares along with the username of the user who has credentials for that network share.
 
-Method      | Request URI
-:------     | :-----
-GET | /ext/networkcredential
-<br />
+| Method | Request URI            |
+| :----- | :--------------------- |
+| GET    | /ext/networkcredential |
 
 **URI parameters**
 
@@ -20,11 +19,11 @@ GET | /ext/networkcredential
 
 - None
 
-**Request body**   
+**Request body**
 
 - None
 
-**Response**   
+**Response**
 
 - JSON array in the following format:
 * Credentials
@@ -35,28 +34,27 @@ GET | /ext/networkcredential
 
 This API has the following expected status codes.
 
-HTTP status code      | Description
-:------     | :-----
-200 | Success
-4XX | Error codes
-5XX | Error codes
+| HTTP status code | Description |
+| :--------------- | :---------- |
+| 200              | Success     |
+| 4XX              | Error codes |
+| 5XX              | Error codes |
 
 ## Add or update stored credentials for a user
 
 **Request**
 
-Method      | Request URI
-:------     | :-----
-POST | /ext/networkcredential
-<br />
+| Method | Request URI            |
+| :----- | :--------------------- |
+| POST   | /ext/networkcredential |
+
 **URI parameters**
 
 You can specify the following additional parameters on the request URI:
 
-| URI parameter      | Description     | 
-| ------------------ |-----------------|
-| NetworkPath        | The network path to the share you are adding credentials to access. |
-<br>
+| URI parameter | Description                                                         |
+| :------------ | :------------------------------------------------------------------ |
+| NetworkPath   | The network path to the share you are adding credentials to access. |
 
 **Request headers**
 
@@ -69,65 +67,61 @@ You can specify the following additional parameters on the request URI:
 * Username - The username to store the credentials under.
 * Password - The new or updated password for this user.
 
-**Response**   
+**Response**
 
-- None  
+- None
 
 **Status code**
 
 This API has the following expected status codes.
 
-HTTP status code      | Description
-:------     | :-----
-204 | Success
-4XX | Error codes
-5XX | Error codes
+| HTTP status code | Description |
+| :--------------- | :---------- |
+| 204              | Success     |
+| 4XX              | Error codes |
+| 5XX              | Error codes |
 
 ## Remove stored credentials for a share.
 
 **Request**
 
-Method      | Request URI
-:------     | :-----
-DELETE | /ext/networkcredential
-<br />
+| Method | Request URI            |
+| :----- | :--------------------- |
+| DELETE | /ext/networkcredential |
 
 **URI parameters**
 
 You can specify the following additional parameters on the request URI:
 
-| URI parameter      | Description     | 
-| ------------------ |-----------------|
-| NetworkPath        | The network path to the share from which you are removing stored credentials. |
-<br>
+| URI parameter | Description                                                                   |
+| :------------ | :---------------------------------------------------------------------------- |
+| NetworkPath   | The network path to the share from which you are removing stored credentials. |
 
 **Request headers**
 
 - None
 
-**Request body**   
+**Request body**
 
 - None
 
-**Response**   
+**Response**
 
-- None 
+- None
 
 **Status code**
 
 This API has the following expected status codes.
 
-HTTP status code      | Description
-:------     | :-----
-204 | The request to the credentials was successful.
-4XX | Error codes
-5XX | Error codes
-
+| HTTP status code | Description                                    |
+| :--------------- | :--------------------------------------------- |
+| 204              | The request to the credentials was successful. |
+| 4XX              | Error codes                                    |
+| 5XX              | Error codes                                    |
 
 **Available device families**
 
-* Windows Xbox
+* Xbox
 
 **Credits**
 Microsoft
-

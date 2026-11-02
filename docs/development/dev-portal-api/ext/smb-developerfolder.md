@@ -10,9 +10,9 @@ You can access the developer folder using the following request. The request wil
 * The username to access the file share.
 * The password to access the file share.
 
-Method      | Request URI
-:------     | :-----
-GET | /ext/smb/developerfolder
+| Method | Request URI              |
+| :----- | :----------------------- |
+| GET    | /ext/smb/developerfolder |
 
 **URI parameters**
 
@@ -26,20 +26,20 @@ GET | /ext/smb/developerfolder
 
 - None
 
-**Response**   
-Path - the path to the file developer files share.   
-Username - the username needed to access the developer files share.   
-Password - the password needed to access the developer files share.   
+**Response**
+Path - the path to the file developer files share.
+Username - the username needed to access the developer files share.
+Password - the password needed to access the developer files share.
 
 **Status code**
 
 This API has the following expected status codes.
 
-HTTP status code      | Description
-:------     | :-----
-200 | The request to access the credentials for the file share was granted.
-4XX | Error codes
-5XX | Error codes
+| HTTP status code | Description                                                           |
+| :--------------- | :-------------------------------------------------------------------- |
+| 200              | The request to access the credentials for the file share was granted. |
+| 4XX              | Error codes                                                           |
+| 5XX              | Error codes                                                           |
 
 **Notes**
 
@@ -47,7 +47,7 @@ The returned credentials also provide access to the DevToolsUser account over ss
 
 **Available device families**
 
-* Windows Xbox
+* Xbox
 
 **Credits**
 Microsoft

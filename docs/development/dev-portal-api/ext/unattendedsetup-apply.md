@@ -1,12 +1,10 @@
 # Sets a script to the boot script for the target Xbox One development console.
 
-
 **Request**
 
-Method      | Request URI
-:------     | :------
-POST | /ext/unattendedsetup/apply
-<br />
+| Method | Request URI                |
+| :----- | :------------------------- |
+| POST   | /ext/unattendedsetup/apply |
 
 **URI parameters**
 
@@ -20,7 +18,7 @@ POST | /ext/unattendedsetup/apply
 
 Multi-part conforming HTTP body that contains the script file to apply.
 
-###Response
+### Response
 
 **Response body**
 
@@ -30,16 +28,15 @@ Multi-part conforming HTTP body that contains the script file to apply.
 
 This API has the following expected status codes.
 
-HTTP status code      | Description
-:------     | :-----
-200 | Success
-4XX | Error codes
-5XX | Error codes
-
+| HTTP status code | Description |
+| :--------------- | :---------- |
+| 200              | Success     |
+| 4XX              | Error codes |
+| 5XX              | Error codes |
 
 **Available device families**
 
-* Windows Xbox
+* Xbox
 
 **Credits**
 Microsoft

@@ -78,8 +78,8 @@ search:
   - [Installing Compatible Software](development/installing-compatible-software.md)
   - [Creating your own Windows User](development/creating-a-win-user.md)
   - [Xbox Device Portal](development/device-portal.md)
-  - [Xbox WinRT](development/winmd.md)
     - development/dev-portal-api/**
+  - [Xbox WinRT](development/winmd.md)
   - [XTF APIs](development/xtf-apis.md)
     - development/xtf-apis/*.md
   - [Xbox Virtual Input/Output](development/xvio/xvio-overview.md)

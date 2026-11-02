@@ -1,4 +1,4 @@
-# HTTP Monitor API reference   
+# HTTP Monitor API reference
 You can access real-time HTTP traffic for the focused app using this API if the HTTP monitor has been enabled on the Xbox console by checking the box in Dev Home.
 
 ## Get if the HTTP Monitor is enabled
@@ -7,9 +7,9 @@ You can access real-time HTTP traffic for the focused app using this API if the 
 
 You can get whether the HTTP monitor has been enabled in Dev Home.
 
-Method      | Request URI
-:------     | :-----
-GET | /ext/httpmonitor/sessions
+| Method | Request URI               |
+| :----- | :------------------------ |
+| GET    | /ext/httpmonitor/sessions |
 
 **URI parameters**
 
@@ -23,7 +23,7 @@ GET | /ext/httpmonitor/sessions
 
 - None
 
-**Response**   
+**Response**
 A JSON object with the following fields:
 
 * Enabled - (Bool) Whether the HTTP monitor has been enabled on the Xbox console by checking the box in Dev Home.
@@ -32,11 +32,11 @@ A JSON object with the following fields:
 
 This API has the following expected status codes.
 
-HTTP status code      | Description
-:------     | :-----
-200 | Request was successful
-4XX | Error codes
-5XX | Error codes
+| HTTP status code | Description            |
+| :--------------- | :--------------------- |
+| 200              | Request was successful |
+| 4XX              | Error codes            |
+| 5XX              | Error codes            |
 
 ## Get HTTP traffic from the focused app
 
@@ -44,9 +44,9 @@ HTTP status code      | Description
 
 Get HTTP traffic from the focused app on the Xbox, as long as it is not a system app, in real-time, if the HTTP monitor has been enabled from Dev Home.
 
-Method      | Request URI
-:------     | :-----
-Websocket | /ext/httpmonitor/sessions
+| Method    | Request URI               |
+| :-------- | :------------------------ |
+| Websocket | /ext/httpmonitor/sessions |
 
 **URI parameters**
 
@@ -60,7 +60,7 @@ Websocket | /ext/httpmonitor/sessions
 
 - None
 
-**Response**   
+**Response**
 A JSON object with the following fields:
 
 * Sessions
@@ -79,17 +79,16 @@ A JSON object with the following fields:
 
 This API has the following expected status codes.
 
-HTTP status code      | Description
-:------     | :-----
-200 | Request was successful
-4XX | Error codes
-403 | HTTP Monitor disabled, must be enabled in Dev Home
-5XX | Error codes
-
+| HTTP status code | Description                                        |
+| :--------------- | :------------------------------------------------- |
+| 200              | Request was successful                             |
+| 4XX              | Error codes                                        |
+| 403              | HTTP Monitor disabled, must be enabled in Dev Home |
+| 5XX              | Error codes                                        |
 
 **Available device families**
 
-* Windows Xbox
+* Xbox
 
 **Credits**
 Microsoft

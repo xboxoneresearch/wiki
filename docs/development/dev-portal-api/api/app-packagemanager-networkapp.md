@@ -4,9 +4,9 @@
 
 You can register an app in a loose folder by using the following request format.
 
-| Method      | Request URI |
-| :------     | :----- |
-| POST | /api/app/packagemanager/networkapp |
+| Method | Request URI                        |
+| :----- | :--------------------------------- |
+| POST   | /api/app/packagemanager/networkapp |
 
 **URI parameters**
 
@@ -35,11 +35,11 @@ You can register an app in a loose folder by using the following request format.
 
 This API has the following expected status codes.
 
-|  HTTP status code      | Description | 
-| :------     | :----- |
-| 200 | Deploy request accepted and being processed |
-| 4XX | Error codes |
-| 5XX | Error codes |
+| HTTP status code | Description                                 |
+| :--------------- | :------------------------------------------ |
+| 200              | Deploy request accepted and being processed |
+| 4XX              | Error codes                                 |
+| 5XX              | Error codes                                 |
 
 **Available device families**
 
@@ -56,9 +56,9 @@ This API has the following expected status codes.
 
 You can register a [related set](https://blogs.msdn.microsoft.com/appinstaller/2017/05/12/tooling-to-create-a-related-set/) in loose folders by using the following request format.
 
-| Method      | Request URI |
-| :------     | :----- |
-| POST | /api/app/packagemanager/networkapp |
+| Method | Request URI                        |
+| :----- | :--------------------------------- |
+| POST   | /api/app/packagemanager/networkapp |
 
 **URI parameters**
 
@@ -96,11 +96,11 @@ You can register a [related set](https://blogs.msdn.microsoft.com/appinstaller/2
 
 This API has the following expected status codes.
 
-|  HTTP status code      | Description | 
-| :------     | :----- |
-| 200 | Deploy request accepted and being processed |
-| 4XX | Error codes |
-| 5XX | Error codes |
+| HTTP status code | Description                                 |
+| :--------------- | :------------------------------------------ |
+| 200              | Deploy request accepted and being processed |
+| 4XX              | Error codes                                 |
+| 5XX              | Error codes                                 |
 
 **Available device families**
 
@@ -108,5 +108,6 @@ This API has the following expected status codes.
 * Xbox
 * HoloLens
 * IoT
+
 **Credits**
 Microsoft

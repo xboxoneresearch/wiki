@@ -2,12 +2,11 @@
 
 **Request**
 
-You can get the name of a machine by using the following request format.
- 
-| Method      | Request URI |
-| :------     | :----- |
-| GET | /api/os/machinename |
+Gets the machine name.
 
+| Method | Request URI         |
+| :----- | :------------------ |
+| GET    | /api/os/machinename |
 
 **URI parameters**
 
@@ -23,7 +22,7 @@ You can get the name of a machine by using the following request format.
 
 **Response**
 
-The response includes the computer name in the following format. 
+The response includes the computer name in the following format:
 
 ```json
 {"ComputerName": string}
@@ -31,13 +30,60 @@ The response includes the computer name in the following format.
 
 **Status code**
 
-This API has the following expected status codes.
+| HTTP status code | Description |
+| :--------------- | :---------- |
+| 200              | OK          |
+| 4XX              | Error codes |
+| 5XX              | Error codes |
 
-| HTTP status code      | Description |
-| :------     | :----- |
-| 200 | OK |
-| 4XX | Error codes |
-| 5XX | Error codes |
+**Available device families**
+
+* Windows Mobile
+* Windows Desktop
+* Xbox
+* HoloLens
+* IoT
+
+**Credits**
+Microsoft
+
+<hr>
+
+### Set machine name
+
+**Request**
+
+Sets the machine name.
+
+| Method | Request URI         |
+| :----- | :------------------ |
+| POST   | /api/os/machinename |
+
+**URI parameters**
+
+| URI parameter | Description                                |
+| :------------ | :----------------------------------------- |
+| name          | (**required**) New machine name to set to. |
+
+**Request headers**
+
+- None
+
+**Request body**
+
+- None
+
+**Response**
+
+- None
+
+**Status code**
+
+| HTTP status code | Description |
+| :--------------- | :---------- |
+| 200              | OK          |
+| 4XX              | Error codes |
+| 5XX              | Error codes |
 
 **Available device families**
 

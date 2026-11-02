@@ -4,17 +4,17 @@
 
 You can install an app by using the following request format.
 
-| Method      | Request URI |
-| :------     | :----- |
-| POST | /api/appx/packagemanager/package |
+| Method | Request URI                      |
+| :----- | :------------------------------- |
+| POST   | /api/appx/packagemanager/package |
 
 **URI parameters**
 
 You can specify the following additional parameters on the request URI:
 
-| URI parameter | Description |
-| :------          | :------ |
-| package   | (**required**) The file name of the package to be installed. |
+| URI parameter | Description                                                  |
+| :------------ | :----------------------------------------------------------- |
+| package       | (**required**) The file name of the package to be installed. |
 
 **Request headers**
 
@@ -22,8 +22,8 @@ You can specify the following additional parameters on the request URI:
 
 **Request body**
 
-- The .appx or .appxbundle file, as well as any dependencies the app requires. 
-- The certificate used to sign the app, if the device is IoT or Windows Desktop. Other platforms do not require the certificate. 
+- The .appx or .appxbundle file, as well as any dependencies the app requires.
+- The certificate used to sign the app, if the device is IoT or Windows Desktop. Other platforms do not require the certificate.
 
 **Response**
 
@@ -31,11 +31,11 @@ You can specify the following additional parameters on the request URI:
 
 This API has the following expected status codes.
 
-|  HTTP status code      | Description | 
-| :------     | :----- |
-| 200 | Deploy request accepted and being processed |
-| 4XX | Error codes |
-| 5XX | Error codes |
+| HTTP status code | Description                                 |
+| :--------------- | :------------------------------------------ |
+| 200              | Deploy request accepted and being processed |
+| 4XX              | Error codes                                 |
+| 5XX              | Error codes                                 |
 
 **Available device families**
 
@@ -53,26 +53,26 @@ This API has the following expected status codes.
 
 You can install a [related set](https://blogs.msdn.microsoft.com/appinstaller/2017/05/12/tooling-to-create-a-related-set/) by using the following request format.
 
-| Method      | Request URI |
-| :------     | :------ |
-| POST | /api/appx/packagemanager/package |
+| Method | Request URI                      |
+| :----- | :------------------------------- |
+| POST   | /api/appx/packagemanager/package |
 
 **URI parameters**
 
 You can specify the following additional parameters on the request URI:
 
-| URI parameter | Description |
-| :------          | :------ |
-| package   | (**required**) The file names of the packages to be installed. |
+| URI parameter | Description                                                    |
+| :------------ | :------------------------------------------------------------- |
+| package       | (**required**) The file names of the packages to be installed. |
 
 **Request headers**
 
 - None
 
-**Request body** 
-- Add ".opt" to the optional package file names when specifying them as a parameter, like so: "foo.appx.opt" or "bar.appxbundle.opt". 
-- The .appx or .appxbundle file, as well as any dependencies the app requires. 
-- The certificate used to sign the app, if the device is IoT or Windows Desktop. Other platforms do not require the certificate. 
+**Request body**
+- Add ".opt" to the optional package file names when specifying them as a parameter, like so: "foo.appx.opt" or "bar.appxbundle.opt".
+- The .appx or .appxbundle file, as well as any dependencies the app requires.
+- The certificate used to sign the app, if the device is IoT or Windows Desktop. Other platforms do not require the certificate.
 
 **Response**
 
@@ -80,11 +80,11 @@ You can specify the following additional parameters on the request URI:
 
 This API has the following expected status codes.
 
-|  HTTP status code      | Description | 
-| :------     | :----- |
-| 200 | Deploy request accepted and being processed |
-| 4XX | Error codes |
-| 5XX | Error codes |
+| HTTP status code | Description                                 |
+| :--------------- | :------------------------------------------ |
+| 200              | Deploy request accepted and being processed |
+| 4XX              | Error codes                                 |
+| 5XX              | Error codes                                 |
 
 **Available device families**
 
@@ -101,16 +101,16 @@ This API has the following expected status codes.
 **Request**
 
 You can uninstall an app by using the following request format.
- 
-| Method      | Request URI |
-| :------     | :----- |
+
+| Method | Request URI                      |
+| :----- | :------------------------------- |
 | DELETE | /api/appx/packagemanager/package |
 
 **URI parameters**
 
-| URI parameter | Description |
-| :------          | :------ |
-| package   | (**required**) The PackageFullName (from GET /api/app/packagemanager/packages) of the target app |
+| URI parameter | Description                                                                                      |
+| :------------ | :----------------------------------------------------------------------------------------------- |
+| package       | (**required**) The PackageFullName (from GET /api/app/packagemanager/packages) of the target app |
 
 **Request headers**
 
@@ -126,11 +126,11 @@ You can uninstall an app by using the following request format.
 
 This API has the following expected status codes.
 
-|  HTTP status code      | Description | 
-| :------     | :----- |
-|  200 | OK | 
-| 4XX | Error codes |
-| 5XX | Error codes |
+| HTTP status code | Description |
+| :--------------- | :---------- |
+| 200              | OK          |
+| 4XX              | Error codes |
+| 5XX              | Error codes |
 
 **Available device families**
 

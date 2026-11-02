@@ -1,4 +1,4 @@
-# Xbox Info API reference   
+# Xbox Info API reference
 You can access Xbox One device information using this API.
 
 ## Get Xbox One device information
@@ -7,9 +7,9 @@ You can access Xbox One device information using this API.
 
 You can get device information about your Xbox One.
 
-Method      | Request URI
-:------     | :-----
-GET | /ext/xbox/info
+| Method | Request URI    |
+| :----- | :------------- |
+| GET    | /ext/xbox/info |
 
 **URI parameters**
 
@@ -39,15 +39,15 @@ A JSON object with the following fields:
 
 This API has the following expected status codes.
 
-HTTP status code      | Description
-:------     | :-----
-200 | Request was successful
-4XX | Error codes
-5XX | Error codes
+| HTTP status code | Description            |
+| :--------------- | :--------------------- |
+| 200              | Request was successful |
+| 4XX              | Error codes            |
+| 5XX              | Error codes            |
 
 **Available device families**
 
-* Windows Xbox
+* Xbox
 
 **Credits**
 Microsoft

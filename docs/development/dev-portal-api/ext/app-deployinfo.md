@@ -2,10 +2,9 @@
 
 **Request**
 
-Method      | Request URI
-:------     | :------
-POST | /ext/app/deployinfo
-<br />
+| Method | Request URI         |
+| :----- | :------------------ |
+| POST   | /ext/app/deployinfo |
 
 **URI parameters**
 
@@ -23,7 +22,7 @@ A JSON array in the following format:
   * PackageFullName - Name of the package that we are requesting information about.
   * OverlayFolder - Optional path to an overlay folder path if using this feature.
 
-###Response
+### Response
 
 **Response body**
 
@@ -41,16 +40,15 @@ A JSON array in the following format (some fields are optional):
 
 This API has the following expected status codes.
 
-HTTP status code      | Description
-:------     | :-----
-200 | Success
-4XX | Error codes
-5XX | Error codes
-
+| HTTP status code | Description |
+| :--------------- | :---------- |
+| 200              | Success     |
+| 4XX              | Error codes |
+| 5XX              | Error codes |
 
 **Available device families**
 
-* Windows Xbox
+* Xbox
 
 **Credits**
 Microsoft

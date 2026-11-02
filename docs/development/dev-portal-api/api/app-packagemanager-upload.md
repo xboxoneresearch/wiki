@@ -4,18 +4,17 @@
 
 You can upload an entire folder at once to the Known Folder Id for the DevelopmentFiles (or to a subfolder within that folder).
 
-Method      | Request URI
-:------     | :------
-POST | /api/app/packagemanager/upload 
+| Method | Request URI                    |
+| :----- | :----------------------------- |
+| POST   | /api/app/packagemanager/upload |
 
 **URI parameters**
 
 You can specify the following additional parameters on the request URI:
 
-URI Parameter      | Description
-:------     | :-----
-destinationFolder  (required) | The destination folder name of the folder to be uploaded. This folder will be placed under d:\developmentfiles\LooseApps on the console. This folder name should be base64 encoded as it may contain path separators if the folder is a subfolder under LooseApps.
-
+| URI parameter                 | Description                                                                                                                                                                                                                                                        |
+| :---------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| destinationFolder  (required) | The destination folder name of the folder to be uploaded. This folder will be placed under d:\developmentfiles\LooseApps on the console. This folder name should be base64 encoded as it may contain path separators if the folder is a subfolder under LooseApps. |
 
 **Request headers**
 
@@ -31,17 +30,15 @@ destinationFolder  (required) | The destination folder name of the folder to be 
 
 This API has the following expected status codes.
 
-HTTP status code      | Description
-:------     | :-----
-200 | Success
-4XX | Error codes
-5XX | Error codes
+| HTTP status code | Description |
+| :--------------- | :---------- |
+| 200              | Success     |
+| 4XX              | Error codes |
+| 5XX              | Error codes |
 
 **Available device families**
 
-* Windows Xbox
+* Xbox
 
-**Credits**
-Microsoft
 **Credits**
 Microsoft

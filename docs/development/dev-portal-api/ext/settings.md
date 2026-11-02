@@ -8,9 +8,9 @@ You can access Xbox One settings that are useful for development using this API.
 
 You can use the following request to get all developer settings in a single request.
 
-Method      | Request URI
-:------     | :-----
-GET | /ext/settings
+| Method | Request URI   |
+| :----- | :------------ |
+| GET    | /ext/settings |
 
 **URI parameters**
 
@@ -24,7 +24,7 @@ GET | /ext/settings
 
 - None
 
-**Response**   
+**Response**
 The response is a Settings JSON array containing all the settings. Each settings object contains the following fields:
 
 * Name - (String) The name of the setting.
@@ -48,11 +48,11 @@ If the setting is select:
 
 This API has the following expected status codes.
 
-HTTP status code      | Description
-:------     | :-----
-200 | Request was successful
-4XX | Error codes
-5XX | Error codes
+| HTTP status code | Description            |
+| :--------------- | :--------------------- |
+| 200              | Request was successful |
+| 4XX              | Error codes            |
+| 5XX              | Error codes            |
 
 ## Get settings one at a time
 
@@ -62,9 +62,9 @@ Settings can also be retrieved individually.
 
 You can use the following request to get information about an individual setting.
 
-Method      | Request URI
-:------     | :-----
-GET | /ext/settings/\<setting name\>
+| Method | Request URI                    |
+| :----- | :----------------------------- |
+| GET    | /ext/settings/\<setting name\> |
 
 **URI parameters**
 
@@ -78,7 +78,7 @@ GET | /ext/settings/\<setting name\>
 
 - None
 
-**Response**   
+**Response**
 The response is a JSON object with following fields:
 
 * Name - (String) The name of the setting.
@@ -102,11 +102,11 @@ If the setting is select:
 
 This API has the following expected status codes.
 
-HTTP status code      | Description
-:------     | :-----
-200 | Request was successful
-4XX | Error codes
-5XX | Error codes
+| HTTP status code | Description            |
+| :--------------- | :--------------------- |
+| 200              | Request was successful |
+| 4XX              | Error codes            |
+| 5XX              | Error codes            |
 
 ## Set the value of a setting
 
@@ -116,9 +116,9 @@ You can set the value of a setting.
 
 You can use the following request to set the value for a setting.
 
-Method      | Request URI
-:------     | :-----
-PUT | /ext/settings/\<setting name\>
+| Method | Request URI                    |
+| :----- | :----------------------------- |
+| PUT    | /ext/settings/\<setting name\> |
 
 **URI parameters**
 
@@ -128,11 +128,11 @@ PUT | /ext/settings/\<setting name\>
 
 - None
 
-**Request body**   
-The request body is JSON object containing the following field:   
+**Request body**
+The request body is JSON object containing the following field:
 Value - (String) The new value for the setting.
 
-**Response**   
+**Response**
 
 - None
 
@@ -140,15 +140,15 @@ Value - (String) The new value for the setting.
 
 This API has the following expected status codes.
 
-HTTP status code      | Description
-:------     | :-----
-200 | Request was successful
-4XX | Error codes
-5XX | Error codes
+| HTTP status code | Description            |
+| :--------------- | :--------------------- |
+| 200              | Request was successful |
+| 4XX              | Error codes            |
+| 5XX              | Error codes            |
 
 **Available device families**
 
-* Windows Xbox
+* Xbox
 
 **Credits**
 Microsoft

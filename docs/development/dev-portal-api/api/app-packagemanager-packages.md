@@ -3,16 +3,16 @@
 **Request**
 
 You can uninstall an app by using the following request format.
- 
-| Method      | Request URI |
-| :------     | :----- |
+
+| Method | Request URI                     |
+| :----- | :------------------------------ |
 | DELETE | /api/app/packagemanager/package |
 
 **URI parameters**
 
-| URI parameter | Description |
-| :------          | :------ |
-| package   | (**required**) The PackageFullName (from GET /api/app/packagemanager/packages) of the target app |
+| URI parameter | Description                                                                                      |
+| :------------ | :----------------------------------------------------------------------------------------------- |
+| package       | (**required**) The PackageFullName (from GET /api/app/packagemanager/packages) of the target app |
 
 **Request headers**
 
@@ -28,11 +28,11 @@ You can uninstall an app by using the following request format.
 
 This API has the following expected status codes.
 
-|  HTTP status code      | Description | 
-| :------     | :----- |
-|  200 | OK | 
-| 4XX | Error codes |
-| 5XX | Error codes |
+| HTTP status code | Description |
+| :--------------- | :---------- |
+| 200              | OK          |
+| 4XX              | Error codes |
+| 5XX              | Error codes |
 
 **Available device families**
 
@@ -49,11 +49,10 @@ This API has the following expected status codes.
 **Request**
 
 You can get a list of apps installed on the system by using the following request format.
- 
-| Method      | Request URI |
-| :------     | :----- |
-| GET | /api/app/packagemanager/packages |
 
+| Method | Request URI                      |
+| :----- | :------------------------------- |
+| GET    | /api/app/packagemanager/packages |
 
 **URI parameters**
 
@@ -98,11 +97,11 @@ The response includes a list of installed packages with associated details. The 
 
 This API has the following expected status codes.
 
-|  HTTP status code      | Description | 
-| :------     | :----- |
-|  200 | OK | 
-| 4XX | Error codes |
-| 5XX | Error codes |
+| HTTP status code | Description |
+| :--------------- | :---------- |
+| 200              | OK          |
+| 4XX              | Error codes |
+| 5XX              | Error codes |
 
 **Available device families**
 
