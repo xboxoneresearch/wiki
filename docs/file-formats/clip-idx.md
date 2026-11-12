@@ -6,7 +6,7 @@ Total size: `0x4 (COUNT) + (0x54 * COUNT) + 0x20 (HASH)`
 
 | Offset | Length | Type                   | Information                    |
 | ------ | ------ | ---------------------- | ------------------------------ |
-| 0x00   | 0x04   | uint32                 | Magic (crdi-xvc)               |
+| 0x00   | 0x04   | uint32                 | Count                          |
 | 0x04   | 0x54+  | StoredLicenseRecord[]  | License Data                   |
 | 0x58+  | 0x20   | byte[]                 | Content Hash                   |
 
