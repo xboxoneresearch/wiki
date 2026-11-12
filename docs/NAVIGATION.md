@@ -67,6 +67,7 @@ search:
   - [JWT Token Relying Parties](xbox-live/jwt-token-relyingparties.md)
 - File formats
   - [Update.cfg](file-formats/update-cfg.md)
+  - [Clip.idx](file-formats/clip-idx.md)
   - [XVI](file-formats/xvi.md)
   - [XCT](file-formats/xct.md)
 - Development
