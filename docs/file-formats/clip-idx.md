@@ -1,5 +1,5 @@
 # Clip.idx
-Stores metadata and info on licenses/keys. It's not entirely clear what purpose it has, as it does not store the actual license `.xml` files. 
+Stores metadata and info on licenses/keys. It's not entirely clear what purpose it has, as it does not store the actual license data (`<SPLicenseBlock>`) from the `.xml` files. 
 
 ## File Format
 Total size: `0x4 (COUNT) + (0x54 * COUNT) + 0x20 (HASH)`
@@ -34,4 +34,4 @@ Total size: `0x4 (COUNT) + (0x54 * COUNT) + 0x20 (HASH)`
 
 ## Location
 
-Created by `MicrosoftXboxSecurityClip.exe` and stored at `S:/Clip/clip.idx`
+Created by [MicrosoftXboxSecurityClip.exe](../software/system-os/microsoftXboxSecurityClip.exe.md) and stored at `S:/Clip/clip.idx`

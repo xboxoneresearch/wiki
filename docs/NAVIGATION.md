@@ -54,6 +54,9 @@ search:
   - [Firewall](operating-system/firewall.md)
   - [Xbox Virtual Drives (XVD)](operating-system/xbox-virtual-drive.md)
   - [Unauthorized Xbox Device Lockout](operating-system/unauthorized-device-lockout.md)
+- [Software](software/software.md)
+  - System OS
+    - software/system-os/*.md
 - Games
   - [Launching](games/launching.md)
   - [Xbox Game Disc](games/xbox-game-disc.md)
