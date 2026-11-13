@@ -16,3 +16,6 @@ site/
 venv/
 .venv/
 .env/
+
+# IntelliJ
+.idea/
