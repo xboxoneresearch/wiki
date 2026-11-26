@@ -68,6 +68,7 @@ search:
   - [Update Groups](xbox-live/update-group-ids.md)
   - [Update CDN APIs and Downloads](xbox-live/update-cdn.md)
   - [JWT Token Relying Parties](xbox-live/jwt-token-relyingparties.md)
+  - [Disc to Digital](games/disc-to-digital.md)
 - File formats
   - [Update.cfg](file-formats/update-cfg.md)
   - [Clip.idx](file-formats/clip-idx.md)
