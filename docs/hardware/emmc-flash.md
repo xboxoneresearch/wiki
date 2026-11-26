@@ -68,7 +68,19 @@ Source: [Team Xecuter / xpgamesaves](https://www.xpgamesaves.com/threads/how-to-
 Follow [this tutorial](https://gbatemp.net/threads/tutorial-hardmod-xbox-one-silverton-and-dump-nand-memory.607875/) by @TorusHyperV
 
 ### Xbox One S
-Coming soon to an eMMC near you
+#### Photographed X947889-002 board
+
+A project-owner photograph shows a board marked **X947889-002** and an eMMC package at **U3D1** marked **SK hynix H26M41204HPR**. Underside photographs show the **R7R2** designator and an apparently populated component, with **C7R2** above it and **R7R3** to its right. These are visual observations from one photographed board; they do not establish electrical values or signal behavior.
+
+![X947889-002 PCB marking](https://raw.githubusercontent.com/stoltzie000/xbox-one-s-research/main/images/x947889-002-board-marking.jpg)
+
+![SK hynix eMMC marking at U3D1](https://raw.githubusercontent.com/stoltzie000/xbox-one-s-research/main/images/u3d1-hynix-emmc.jpg)
+
+![R7R2 underside location](https://raw.githubusercontent.com/stoltzie000/xbox-one-s-research/main/images/r7r2-closeup.jpg)
+
+The photographed placement around U3D1 and R7R2 is consistent with the [Edmonton GenCAD boardview listing](https://archive.org/details/xbox-one-x-cactus-boardview). That boardview does not identify its exact PCB revision. Its records assign R7R2 between V_1P8STBY and VREG_1P8STBY_ADJ; R4E5 to the CLK path; R4E7 to CMD; R4E23 to DAT0; and R4E1 to RESET. These are boardview-only assignments, not verified connectivity on X947889-002. The [Kingston Fab G schematic](https://consolemods.org/wiki/images/3/32/Kingston_FabG_RetailOne_S.pdf) is labeled X947889-001; electrical equivalence to X947889-002 has not been established.
+
+No eMMC read or electrical measurement has been performed on this board, and no acquisition wiring is validated here. Firmware access alone would not demonstrate that unsigned code can pass the console's secure-boot chain. See the project’s [hardware evidence](https://github.com/stoltzie000/xbox-one-s-research/blob/main/docs/hardware-evidence.md), [electrical status](https://github.com/stoltzie000/xbox-one-s-research/blob/main/docs/electrical-status.md), and [boot feasibility assessment](https://github.com/stoltzie000/xbox-one-s-research/blob/main/docs/boot-feasibility.md) for evidence and limitations. The project-owner photographs are released under CC BY 4.0; the boardview itself is not redistributed.
 
 ## References
 [SK Hynix H26M42003GMR](https://www.electronicsdatasheets.com/manufacturers/sk-hynix/parts/h26m42003gmr)
